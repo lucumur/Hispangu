@@ -55,6 +55,22 @@
           "tags": [],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-madernu",
+          "form": "madernu",
+          "gloss": "materno",
+          "analysis_html": "MAT-R",
+          "analysis_text": "MAT-R",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "adjetivo U-A"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     }
