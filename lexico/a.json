@@ -107,27 +107,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "root-avuncl",
-      "form": "*AVUNCL-",
-      "gloss": "tío materno",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        },
-        {
-          "class": "latin",
-          "label": "Latin"
-        }
-      ],
-      "letter": "A",
-      "section": "sec-a",
-      "etymology": "< Lat. avunculus",
-      "notes": [],
-      "row_class": "",
-      "words": []
     }
   ]
 }
