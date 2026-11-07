@@ -44,6 +44,17 @@
             "mārre, mārres (acusativo)",
             "mārri, mārrus (genitivo, dativo, ablativo)"
           ]
+        },
+        {
+          "id": "lexeme-marrimoinu",
+          "form": "marrimóinu",
+          "gloss": "matrimonio",
+          "analysis_html": "MAT-R",
+          "analysis_text": "MAT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     }
