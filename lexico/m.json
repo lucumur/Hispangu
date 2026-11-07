@@ -20,7 +20,9 @@
       "letter": "M",
       "section": "sec-m",
       "etymology": "< Lat. māter, mātris",
-      "notes": [],
+      "notes": [
+        "El guion marca dónde puede insertarse una e: MAT-R → MATER- (madranta)."
+      ],
       "row_class": "",
       "words": [
         {
@@ -91,35 +93,13 @@
           "notes": [
             "Hipocorístico de mair."
           ]
-        }
-      ]
-    },
-    {
-      "id": "root-matert",
-      "form": "*MATERT-",
-      "gloss": "tía materna",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
         },
-        {
-          "class": "latin",
-          "label": "Latin"
-        }
-      ],
-      "letter": "M",
-      "section": "sec-m",
-      "etymology": "< Lat. mātertera",
-      "notes": [],
-      "row_class": "",
-      "words": [
         {
           "id": "lexeme-madranta",
           "form": "madranta",
           "gloss": "tía materna",
-          "analysis_html": "MATERT + AMT",
-          "analysis_text": "MATERT + AMT",
+          "analysis_html": "MAT-R + AMT",
+          "analysis_text": "MAT-R + AMT",
           "refs": [],
           "tags": [],
           "semantic_fields": [
