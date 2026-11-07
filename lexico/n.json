@@ -40,6 +40,70 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-nep-t",
+      "form": "*NEP-T",
+      "gloss": "sobrino, nieto",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nepōs, nepōtis; neptis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nebos",
+          "form": "nebos",
+          "gloss": "sobrino (hijo del hermano)",
+          "analysis_html": "NEP-T",
+          "analysis_text": "NEP-T",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Preservado"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "nebos, nebode",
+            "Raro en las lenguas romances modernas, frecuente en las antiguas: nevod, nevodo, nebot, nepot, neputi."
+          ]
+        },
+        {
+          "id": "lexeme-nebdis",
+          "form": "nebdis",
+          "gloss": "nieto, nieta",
+          "analysis_html": "NEP-T",
+          "analysis_text": "NEP-T",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Innovador necesario"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "nebdis, nebdes",
+            "Lat. neptis era solo «nieta»; la forma en -is, epicena, admite ambos géneros, más aún dada la polisemia sobrino/nieto del término. Sin partículas nuevas."
+          ]
+        }
+      ]
     }
   ]
 }

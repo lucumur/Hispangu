@@ -57,6 +57,26 @@
           "notes": [
             "Hipocorístico de frair."
           ]
+        },
+        {
+          "id": "lexeme-frarolla",
+          "form": "frarolla",
+          "gloss": "sobrina (hija del hermano)",
+          "analysis_html": "FRAT-R",
+          "analysis_text": "FRAT-R",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Analógico innovativo"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "-olla por analogía (cf. sorolla). Término poco común en romance."
+          ]
         }
       ]
     }

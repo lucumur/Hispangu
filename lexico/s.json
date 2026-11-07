@@ -61,7 +61,7 @@
         {
           "id": "lexeme-sorinu",
           "form": "sôrinu",
-          "gloss": "sobrino",
+          "gloss": "sobrino (hijo de la hermana)",
           "analysis_html": "SOR",
           "analysis_text": "SOR",
           "refs": [],
@@ -74,7 +74,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Femenino: sôrina."
+          ]
         }
       ]
     }
