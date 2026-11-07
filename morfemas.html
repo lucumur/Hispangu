@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Morfemas · Hispangu</title>
+  <meta name="description" content="Inventario canónico de morfemas del hispangu">
+  <link rel="stylesheet" href="styles.css?v=20261031indigena">
+  <script src="refresh.js?v=20261103cache"></script>
+  <script src="editor.js?v=20261103cache"></script>
+  <style>
+    .view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
+    .card-view .lex-table thead{display:none}.card-view .lex-table{display:block;width:100%;border:0;background:transparent}.card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:12px;width:100%}.card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:12px 14px}.card-view .lex-table tbody td{display:block;width:100%!important;max-width:none;border:0!important;padding:4px 0!important;white-space:normal}.card-view .lex-table tbody td[data-label]:not(:empty)::before{content:attr(data-label);display:block;margin:2px 0 2px;color:var(--muted);font-size:.66rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase}.card-view .table-wrap{overflow:visible;border:0;background:transparent}
+    .card-view .lex-table td.form code{font-size:1.12rem}
+    .morph-more{margin-top:6px}
+    .morph-more summary{cursor:pointer;color:var(--accent);font-size:.83rem;font-weight:700;width:fit-content}
+    .morph-more summary:hover{text-decoration:underline}
+    .morph-more[open] .morph-expand,.morph-more:not([open]) .morph-collapse{display:none}
+    .morph-more .morph-notes{margin-top:7px}
+  </style>
+</head>
+<body>
+<header class="page-header">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">HISPANGU</a></div>
+    <nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="textos.html">Textos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero compact">
+    <p class="eyebrow">Morfología derivativa y flexiva</p>
+    <h1>Morfemas</h1>
+    <p>Inventario generado directamente desde <code>lexico/morphemes.json</code>. Los repertorios enlazan a las palabras del léxico que usan cada morfema.</p>
+  </section>
+
+  <div class="tool-row">
+    <input id="morph-search" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar morfema, glosa, etiqueta o nota">
+    <span id="morph-count" class="tool-count"></span>
+  </div>
+
+  <div class="view-toggle" role="group" aria-label="Modo de visualización"><span class="view-label">Vista</span><button id="view-table" type="button" aria-pressed="true">Tabla</button><button id="view-cards" type="button" aria-pressed="false">Tarjetas</button></div>
+  <section class="lex-section">
+    <div class="table-wrap">
+      <table class="lex-table">
+        <thead><tr><th>Forma</th><th>Glosa y notas</th><th>Etiquetas / repertorio</th></tr></thead>
+        <tbody id="morph-body"><tr><td colspan="3">Cargando…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+<footer class="page-footer"><div class="wrap">Fuente canónica: lexico/morphemes.json</div></footer>
+<script>
+  (()=>{const KEY='hispangu-morph-view',t=document.getElementById('view-table'),c=document.getElementById('view-cards');let v=(()=>{try{return localStorage.getItem(KEY)}catch(e){return null}})()||'table';
+    const apply=()=>{document.body.classList.toggle('card-view',v==='cards');t.setAttribute('aria-pressed',String(v==='table'));c.setAttribute('aria-pressed',String(v==='cards'))};
+    const set=x=>{v=x;try{localStorage.setItem(KEY,v)}catch(e){}apply()};t.onclick=()=>set('table');c.onclick=()=>set('cards');apply()})();
+(()=>{
+  const search=document.getElementById('morph-search');
+  const body=document.getElementById('morph-body');
+  const count=document.getElementById('morph-count');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm=s=>String(s??'').toLocaleLowerCase('es').trim();
+  let morphs=[],index={words:[]};
+
+  function tagHTML(tags){return(tags||[]).map(t=>'<span class="tag '+esc(t.class||'generic')+'">'+esc(t.label)+'</span>').join('')}
+  function repertoire(m){
+    const words=(index.words||[]).filter(w=>(w.refs||[]).includes(m.id));
+    if(!words.length)return'<span class="meta-extra">Sin repertorio indexado</span>';
+    const link=w=>'<a href="vocablo.html?id='+encodeURIComponent(w.id)+'">'+(w.emoji?'<span aria-hidden="true">'+esc(w.emoji)+'</span> ':'')+esc(w.form)+'</a>';
+    const first=words.slice(0,30).map(link).join(' · ');
+    const remaining=words.slice(30);
+    const more=remaining.length
+      ? '<details class="morph-more"><summary><span class="morph-expand">Ver más…</span><span class="morph-collapse">Ver menos…</span> ('+remaining.length+' restantes)</summary><div class="morph-notes">'+remaining.map(link).join(' · ')+'</div></details>'
+      : '';
+    return '<div class="morph-notes">'+first+'</div>'+more;
+  }
+  function row(m){
+    const notes=(m.notes||[]).map(n=>'<div class="morph-notes">'+esc(n)+'</div>').join('');
+    return '<tr id="'+esc(m.id)+'"><td class="form"><a class="morph-page" href="morfema.html?id='+encodeURIComponent(m.id)+'" title="Abrir la ficha del morfema" style="text-decoration:none"><code>'+esc(m.form)+'</code></a></td><td class="gloss">'+esc(m.gloss)+notes+'</td><td class="tags" data-label="Etiquetas / repertorio">'+tagHTML(m.tags)+repertoire(m)+'</td></tr>';
+  }
+  function render(){
+    const q=norm(search.value);
+    const items=morphs.filter(m=>!q||norm([m.form,m.gloss,...(m.tags||[]).map(t=>t.label),...(m.notes||[])].join(' ')).includes(q));
+    body.innerHTML=items.length?items.map(row).join(''):'<tr><td colspan="3">Sin morfemas coincidentes.</td></tr>';
+    count.textContent=items.length+' morfema'+(items.length===1?'':'s');
+  }
+  Promise.all([
+    fetch('lexico/morphemes.json').then(r=>r.json()),
+    fetch('lexico/index.json').then(r=>r.json())
+  ]).then(([m,i])=>{morphs=m.morphemes||[];index=i;render();const h=location.hash.slice(1);if(h)document.getElementById(h)?.scrollIntoView()})
+    .catch(()=>{body.innerHTML='<tr><td colspan="3">No se pudo cargar el inventario.</td></tr>'});
+  search.addEventListener('input',render);
+})();
+</script>
+</body>
+</html>

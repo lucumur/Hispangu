@@ -1,0 +1,39 @@
+name: Build lexicon index
+on:
+  push:
+    paths:
+      - 'lexico/*.json'
+      - '!lexico/index.json'
+      - '!lexico/history.json'
+      - '!lexico/history-items.json'
+      - 'scripts/build_lexicon_index.py'
+      - 'scripts/build_root_history.py'
+      - 'alfabeto.json'
+      - '.github/workflows/build-lexicon-index.yml'
+permissions:
+  contents: write
+concurrency:
+  group: lexicon-index
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rebuild generated lexicon data
+        run: |
+          python scripts/build_lexicon_index.py
+          python scripts/build_root_history.py
+      - name: Commit generated files if changed
+        run: |
+          if [ -z "$(git status --porcelain -- lexico/index.json lexico/history.json lexico/history-items.json)" ]; then
+            exit 0
+          fi
+          git config user.name "ChatGPT"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lexico/index.json lexico/history.json lexico/history-items.json
+          git commit -m "Regenerar datos léxicos"
+          git pull --rebase origin main
+          git push

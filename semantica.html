@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Semántica · Hispangu</title>
+  <meta name="description" content="Campos semánticos del vocabulario del hispangu">
+  <link rel="stylesheet" href="styles.css?v=20261031indigena">
+  <script src="refresh.js?v=20261103cache"></script>
+  <script src="editor.js?v=20261103cache"></script>
+</head>
+<body>
+<header class="page-header">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">HISPANGU</a></div>
+    <nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="textos.html">Textos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero compact">
+    <p class="eyebrow">Organización conceptual</p>
+    <h1>Semántica</h1>
+    <p>Índice de campos semánticos generado desde los vocablos documentados. Cada campo abre la pestaña Vocablos filtrada por ese tema.</p>
+  </section>
+
+  <section class="lex-section">
+    <h2>Criterio de acciones corporales</h2>
+    <p><strong>Canónico.</strong> Cuando una acción dependa de forma relevante de una parte concreta del cuerpo, puede recibir un campo semántico del tipo <code>acciones de X</code>. Estos campos describen el órgano o región corporal principal de la acción, no simplemente una relación anatómica.</p>
+    <p>Se admiten, entre otros, <code>acciones de mano</code>, <code>acciones de brazo</code>, <code>acciones de hombro</code>, <code>acciones de pecho</code>, <code>acciones de pierna</code>, <code>acciones de cuello</code> y <code>acciones de ojo</code>. La lista no es cerrada y solo se añade el campo cuando resulte semánticamente útil.</p>
+    <p>No se exige un número fijo de campos semánticos por palabra: se usarán únicamente los necesarios.</p>
+  </section>
+
+  <div class="tool-row">
+    <input id="semantic-search" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar campo semántico">
+    <span id="semantic-count" class="tool-count"></span>
+  </div>
+
+  <section class="lex-section">
+    <div id="semantic-grid" class="semantic-grid"><div class="card">Cargando…</div></div>
+  </section>
+</main>
+<footer class="page-footer"><div class="wrap">Campos derivados de los vocablos en lexico/index.json</div></footer>
+<script>
+(()=>{
+  const search=document.getElementById('semantic-search');
+  const grid=document.getElementById('semantic-grid');
+  const count=document.getElementById('semantic-count');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm=s=>String(s??'').toLocaleLowerCase('es').trim();
+  let fields=[];
+
+  function render(){
+    const q=norm(search.value);
+    const items=fields.filter(x=>!q||norm(x.name).includes(q));
+    grid.innerHTML=items.length?items.map(x=>'<a class="semantic-card" href="vocablos.html?q='+encodeURIComponent(x.name)+'"><strong>'+esc(x.name)+'</strong><span>'+x.count+' palabra'+(x.count===1?'':'s')+'</span></a>').join(''):'<div class="card">Sin campos coincidentes.</div>';
+    count.textContent=items.length+' campo'+(items.length===1?'':'s');
+  }
+
+  fetch('lexico/index.json').then(r=>r.json()).then(idx=>{
+    const map=new Map();
+    for(const w of (idx.words||[]))for(const f of (w.semantic_fields||[]))map.set(f,(map.get(f)||0)+1);
+    fields=[...map.entries()].map(([name,count])=>({name,count})).sort((a,b)=>a.name.localeCompare(b.name,'es'));
+    render();
+  }).catch(()=>{grid.innerHTML='<div class="card">No se pudo cargar el índice semántico.</div>'});
+  search.addEventListener('input',render);
+})();
+</script>
+</body>
+</html>

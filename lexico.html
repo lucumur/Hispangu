@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Raíces · Hispangu</title>
+  <meta name="description" content="Inventario canónico de raíces del hispangu">
+  <link rel="stylesheet" href="styles.css?v=20261031indigena">
+  <script src="refresh.js?v=20261103cache"></script>
+  <script src="editor.js?v=20261103cache"></script>
+  <style>
+    .lex-search-box{margin:0 0 18px}.lex-search-box label{display:block;margin:0 0 7px;font-size:.8rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.lex-search-row{display:flex;align-items:center;gap:12px}.lex-search-row input{width:min(680px,100%);padding:12px 15px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);font:inherit;outline:none}.lex-search-row input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(67,56,202,.12)}#lex-search-count{color:var(--muted);font-size:.86rem;white-space:nowrap}.lex-search-help{margin-top:7px;color:var(--muted);font-size:.82rem}
+    .lex-view-toggle{display:flex;justify-content:flex-end;align-items:center;gap:6px;margin:0 0 14px}.lex-view-toggle .view-label{margin-right:4px;color:var(--muted);font-size:.82rem;font-weight:700}.lex-view-toggle button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:8px 11px;border-radius:10px;font:inherit;font-size:.86rem;font-weight:700;cursor:pointer}.lex-view-toggle button[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10)}
+    .alphabet a[aria-current="true"]{border-color:var(--accent);box-shadow:0 0 0 2px rgba(67,56,202,.10);color:var(--accent)}#lex-letter-all{font-size:1.08rem;line-height:1}
+    .lex-card-view .lex-table thead{display:none}.lex-card-view .lex-table{display:block;width:100%;border:0;background:transparent}.lex-card-view .lex-table tbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:12px;width:100%}.lex-card-view .lex-table tbody tr{display:block;border:1px solid var(--line);border-radius:14px;background:var(--paper);padding:10px 12px}.lex-card-view .lex-table tbody td{display:grid;grid-template-columns:76px minmax(0,1fr);column-gap:10px;align-items:start;border:0;padding:5px 0;width:100%;max-width:none}.lex-card-view .lex-table tbody td.form,.lex-card-view .lex-table tbody td.gloss,.lex-card-view .lex-table tbody td.tags{width:100%}.lex-card-view .lex-table tbody td::before{grid-column:1;display:block;margin:2px 0 0;color:var(--muted);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}.lex-card-view .lex-table tbody td>.cell-value{grid-column:2;min-width:0}.lex-card-view .lex-table tbody td.tags>.cell-value{display:flex;flex-wrap:wrap;align-items:center;gap:5px 6px;width:100%}.lex-card-view .lex-table tbody td.tags>.cell-value .tag{white-space:nowrap;flex:0 0 auto}.lex-card-view .entry-note.etymology{white-space:normal;overflow-wrap:normal;word-break:normal}.lex-card-view .lex-table tbody td.form::before{content:"Forma"}.lex-card-view .lex-table tbody td.gloss::before{content:"Glosa"}.lex-card-view .lex-table tbody td.tags::before{content:"Etiquetas"}.lex-card-view .table-wrap{overflow:visible}
+    /* En tarjetas, el repertorio ocupa todo el ancho: no queda restringido a la columna Glosa. */
+    .lex-card-view .lex-table tbody td.gloss>.cell-value>.derived-panel,
+    .lex-card-view .lex-table tbody td.gloss>.cell-value>.suffix-repertoire{margin-left:-86px;width:calc(100% + 86px);max-width:none}
+    .lex-card-view .derived-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+    .lex-card-view .derived-entry{min-width:0;overflow-wrap:anywhere}
+    /* Fondo = etimología externa; franja izquierda = relación nativa. */
+    .lex-table tbody tr.root-relation>td{background:var(--etym-bg,var(--paper))!important}
+    .lex-table tbody tr.root-relation>td:first-child{border-left:6px solid var(--relation-accent)}
+    .lex-card-view .lex-table tbody tr.root-relation{background:var(--etym-bg,var(--paper))!important;border-color:var(--line)!important;border-left:6px solid var(--relation-accent)!important}
+    .lex-card-view .lex-table tbody tr.root-relation>td:first-child{border-left:0}
+    .lex-table tbody tr.relation-conflict>td:first-child{border-left-style:dashed}
+    .lex-card-view .lex-table tbody tr.relation-conflict{border-left-style:dashed!important}
+
+    .etym-filter-bar{gap:7px 9px;margin-bottom:22px}.etym-filter-bar .etym-filter{display:inline-flex;align-items:center;margin:0;padding:6px 11px;border-radius:999px;font-weight:700;font-size:.78rem;line-height:1.3;font-family:inherit;cursor:pointer;transition:box-shadow .12s,transform .12s}.etym-filter-bar .etym-filter:hover{transform:translateY(-1px);box-shadow:0 2px 7px rgba(37,35,31,.12)}.etym-filter-bar .etym-filter[aria-pressed="true"]{outline:2px solid var(--ink);outline-offset:2px}.etym-filter-bar button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.etym-filter-reset{border:1px solid var(--line);border-radius:999px;background:var(--paper);color:var(--ink);padding:6px 11px;font-weight:700;font-size:.78rem;line-height:1.3;font-family:inherit;cursor:pointer}.etym-filter-reset:hover{border-color:var(--accent);color:var(--accent)}
+    .derived-panel{margin-top:8px;border-top:1px dashed var(--line);padding-top:7px}.derived-panel summary{cursor:pointer;font-weight:800;color:var(--accent);font-size:.86rem;user-select:none}.derived-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:10px}.derived-entry{border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:10px 12px}.derived-word code{font-size:1rem;font-weight:800}.word-emoji{display:inline-block;margin-right:6px;font-size:1.12rem;vertical-align:middle}.derived-gloss{margin-top:4px}.derived-analysis{margin-top:7px;color:var(--muted);font-size:.8rem}.derived-note{margin-top:7px;color:var(--muted);font-size:.8rem;font-style:italic}.derived-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:7px}.derived-semantics{display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-top:7px}.semantic-label{color:var(--muted);font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em}.semantic-field{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:var(--paper);color:inherit;font:inherit;font-size:.76rem;white-space:nowrap;cursor:pointer;text-decoration:none}.semantic-field:hover,.semantic-field:focus-visible{border-color:var(--accent);color:var(--accent);outline:none;text-decoration:none}.morph-link{display:inline-block;padding:1px 6px;border-radius:999px;border:1px solid var(--line);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.78rem;background:#fff}.morph-link:hover{border-color:var(--accent)}
+    .suffix-repertoire{margin-top:7px;padding-top:6px;border-top:1px dashed var(--line)}.suffix-repertoire summary{cursor:pointer;color:var(--accent);font-size:.82rem;font-weight:800;user-select:none}.suffix-word-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}.word-link{display:inline-block;padding:2px 7px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:.8rem}.word-link:hover{border-color:var(--accent)}
+    .root-entry-link{display:inline-block;text-decoration:none;cursor:pointer;border-radius:7px;padding:2px 4px;margin:-2px -4px}.root-entry-link code{pointer-events:none}.root-entry-link:hover,.root-entry-link:focus-visible{background:rgba(67,56,202,.08);outline:none}.root-entry-link:hover code,.root-entry-link:focus-visible code{color:var(--accent);text-decoration:underline}.loading-note,.empty-note{padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--muted)}#morpheme-focus{margin:28px 0}#morpheme-focus:empty{display:none}
+    @media(max-width:600px){.lex-search-row{align-items:flex-start;flex-direction:column}.lex-view-toggle{justify-content:flex-start}}
+  </style>
+</head>
+<body>
+<header class="page-header"><div class="wrap"><div class="brand"><a href="index.html">HISPANGU</a></div><nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="textos.html">Textos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav></div></header>
+<main class="wrap">
+  <section class="hero compact"><p class="eyebrow">Fuente léxica</p><h1>Raíces</h1><p>Inventario de raíces y sus familias derivadas, con morfemas, etimologías y etiquetas. Los datos canónicos siguen almacenados en <code>lexico/*.json</code>.</p></section>
+  <div class="lex-search-box"><label for="lex-search">Buscar raíces</label><div class="lex-search-row"><input id="lex-search" type="search" autocomplete="off" spellcheck="false" placeholder="Ej.: griego AND animal · nat-red OR nova"><span id="lex-search-count" aria-live="polite"></span></div><div class="lex-search-help">La búsqueda recorre raíces, sus vocablos y morfemas. Usa <strong>AND</strong> para exigir términos y <strong>OR</strong> para aceptar alternativas.</div></div>
+  <div class="lex-view-toggle" role="group" aria-label="Modo de visualización"><span class="view-label">Vista</span><button id="lex-view-table" type="button" aria-pressed="true">Tabla</button><button id="lex-view-cards" type="button" aria-pressed="false">Tarjetas</button></div>
+  <div class="root-legend etym-filter-bar" role="group" aria-label="Filtrar raíces por etimología externa">
+    <span class="root-legend-label">Etimología externa</span>
+    <button type="button" class="tag etym-filter latin" data-etym="latin" aria-pressed="false" title="Filtrar raíces de origen Latin">Latin</button>
+    <button type="button" class="tag etym-filter griego" data-etym="griego" aria-pressed="false" title="Filtrar raíces de origen Griego">Griego</button>
+    <button type="button" class="tag etym-filter germanico" data-etym="germanico" aria-pressed="false" title="Filtrar raíces de origen Germanico">Germanico</button>
+    <button type="button" class="tag etym-filter frances" data-etym="frances" aria-pressed="false" title="Filtrar raíces de origen Frances">Frances</button>
+    <button type="button" class="tag etym-filter anglo" data-etym="anglo" aria-pressed="false" title="Filtrar raíces de origen Anglo">Anglo</button>
+    <button type="button" class="tag etym-filter italico" data-etym="italico" aria-pressed="false" title="Filtrar raíces de origen Italico">Italico</button>
+    <button type="button" class="tag etym-filter iberico" data-etym="iberico" aria-pressed="false" title="Filtrar raíces de origen Iberico">Iberico</button>
+    <button type="button" class="tag etym-filter eslavo" data-etym="eslavo" aria-pressed="false" title="Filtrar raíces de origen Eslavo">Eslavo</button>
+    <button type="button" class="tag etym-filter arabe" data-etym="arabe" aria-pressed="false" title="Filtrar raíces de origen Arabe">Arabe</button>
+    <button type="button" class="tag etym-filter celta" data-etym="celta" aria-pressed="false" title="Filtrar raíces de origen Celta">Celta</button>
+    <button type="button" class="tag etym-filter indopersa" data-etym="indopersa" aria-pressed="false" title="Filtrar raíces de origen Indopersa">Indopersa</button>
+    <button type="button" class="tag etym-filter turquico" data-etym="turquico" aria-pressed="false" title="Filtrar raíces de origen Turquico">Turquico</button>
+    <button type="button" class="tag etym-filter sinico" data-etym="sinico" aria-pressed="false" title="Filtrar raíces de origen Sinico">Sinico</button>
+    <button type="button" class="tag etym-filter esperide" data-etym="esperide" aria-pressed="false" title="Filtrar raíces de origen Esperide">Esperide</button>
+    <button type="button" class="tag etym-filter indigena" data-etym="indigena" aria-pressed="false" title="Filtrar raíces de origen Indigena">Indigena</button>
+    <button type="button" class="tag etym-filter sin-tag" data-etym="sin-tag" aria-pressed="false" title="Filtrar raíces sin etiqueta de etimología externa">Sin tag</button>
+    <button type="button" class="etym-filter-reset" id="etym-filter-all" title="Quitar el filtro etimológico">Todas</button>
+  </div>
+  <nav class="alphabet" aria-label="Índice alfabético"><a href="#sec-a" data-key="a">A</a><a href="#sec-b" data-key="b">B</a><a href="#sec-c" data-key="c">C</a><a href="#sec-d" data-key="d">D</a><a href="#sec-e" data-key="e">E</a><a href="#sec-f" data-key="f">F</a><a href="#sec-g" data-key="g">G</a><a href="#sec-h" data-key="h">H</a><a href="#sec-i" data-key="i">I</a><a href="#sec-j" data-key="j">J</a><a href="#sec-k" data-key="k">K</a><a href="#sec-l" data-key="l">L</a><a href="#sec-m" data-key="m">M</a><a href="#sec-n" data-key="n">N</a><a href="#sec-enye" data-key="enye">Ñ</a><a href="#sec-o" data-key="o">O</a><a href="#sec-p" data-key="p">P</a><a href="#sec-q" data-key="q">Q</a><a href="#sec-r" data-key="r">R</a><a href="#sec-s" data-key="s">S</a><a href="#sec-t" data-key="t">T</a><a href="#sec-u" data-key="u">U</a><a href="#sec-v" data-key="v">V</a><a href="#sec-w" data-key="w">W</a><a href="#sec-x" data-key="x">X</a><a href="#sec-y" data-key="y">Y</a><a href="#sec-z" data-key="z">Z</a><a href="#lex-all" id="lex-letter-all" title="Mostrar todas las letras" aria-label="Mostrar todas las raíces">∞</a></nav>
+  <div id="morpheme-focus"></div>
+  <div id="lex-content" aria-live="polite"><div class="loading-note">Cargando A…</div></div>
+</main>
+<footer class="page-footer"><div class="wrap">Hispangu · documentación viva</div></footer>
+<script>
+(()=>{
+  const LETTERS=[{"letter": "A", "key": "a", "file": "lexico/a.json"}, {"letter": "B", "key": "b", "file": "lexico/b.json"}, {"letter": "C", "key": "c", "file": "lexico/c.json"}, {"letter": "D", "key": "d", "file": "lexico/d.json"}, {"letter": "E", "key": "e", "file": "lexico/e.json"}, {"letter": "F", "key": "f", "file": "lexico/f.json"}, {"letter": "G", "key": "g", "file": "lexico/g.json"}, {"letter": "H", "key": "h", "file": "lexico/h.json"}, {"letter": "I", "key": "i", "file": "lexico/i.json"}, {"letter": "J", "key": "j", "file": "lexico/j.json"}, {"letter": "K", "key": "k", "file": "lexico/k.json"}, {"letter": "L", "key": "l", "file": "lexico/l.json"}, {"letter": "M", "key": "m", "file": "lexico/m.json"}, {"letter": "N", "key": "n", "file": "lexico/n.json"}, {"letter": "Ñ", "key": "enye", "file": "lexico/enye.json"}, {"letter": "O", "key": "o", "file": "lexico/o.json"}, {"letter": "P", "key": "p", "file": "lexico/p.json"}, {"letter": "Q", "key": "q", "file": "lexico/q.json"}, {"letter": "R", "key": "r", "file": "lexico/r.json"}, {"letter": "S", "key": "s", "file": "lexico/s.json"}, {"letter": "T", "key": "t", "file": "lexico/t.json"}, {"letter": "U", "key": "u", "file": "lexico/u.json"}, {"letter": "V", "key": "v", "file": "lexico/v.json"}, {"letter": "W", "key": "w", "file": "lexico/w.json"}, {"letter": "X", "key": "x", "file": "lexico/x.json"}, {"letter": "Y", "key": "y", "file": "lexico/y.json"}, {"letter": "Z", "key": "z", "file": "lexico/z.json"}];
+  const content=document.getElementById('lex-content'),search=document.getElementById('lex-search'),count=document.getElementById('lex-search-count'),morphFocus=document.getElementById('morpheme-focus');
+  const cache=new Map();let indexPromise=null,morphPromise=null,mode='letter',activeKey='a',activeEtym=null,view=(()=>{try{return localStorage.getItem('hispangu-lexicon-view')}catch(e){return null}})()||'table';
+  const norm=s=>(s||'').toLocaleLowerCase('es').trim();
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function parseQuery(raw){const q=norm(raw);if(!q)return[];return q.split(/\s+or\s+/i).map(g=>g.split(/\s+and\s+/i).map(norm).filter(Boolean)).filter(g=>g.length)}
+  function matches(text,groups){const t=norm(text);return !groups.length||groups.some(g=>g.every(term=>t.includes(term)))}
+  async function loadIndex(){if(!indexPromise)indexPromise=fetch('lexico/index.json').then(r=>{if(!r.ok)throw Error('index');return r.json()});return indexPromise}
+  async function loadMorphs(){if(!morphPromise)morphPromise=fetch('lexico/morphemes.json').then(r=>{if(!r.ok)throw Error('morphemes');return r.json()});return morphPromise}
+  async function loadLetter(key){if(cache.has(key))return cache.get(key);const meta=LETTERS.find(x=>x.key===key);if(!meta)throw Error('letter');const p=fetch(meta.file).then(r=>{if(!r.ok)throw Error(meta.file);return r.json()});cache.set(key,p);return p}
+  const RELATION_CLASSES=new Set(['nat-plen','nat-mod','nat-red','nat-refor','nat-tek','nat-nom','nat-insp','nova']);
+  const RELATION_NAMES={'nat-plen':'Original','nat-tek':'Tecnica','nat-nom':'Nominal','nat-insp':'Inspirada','nat-mod':'Modificada','nat-red':'Reducida','nat-refor':'Reformada','nova':'Nova'};
+  const ETYMOLOGY_CLASSES=new Set(['latin','griego','germanico','frances','anglo','italico','iberico','eslavo','arabe','celta','indopersa','turquico','sinico','esperide','indigena']);
+  function relationClass(e){
+    const relations=(e.tags||[]).filter(t=>RELATION_CLASSES.has(t.class));
+    return relations.length>1?'relation-conflict':relations.length===1?'relation-'+relations[0].class:'';
+  }
+  function etymologyClass(e){const tag=(e.tags||[]).find(t=>ETYMOLOGY_CLASSES.has(t.class));return tag?'etym-'+tag.class:'';}
+  const NOTE_LABELS={'Bas':'note-bas','Part.':'note-part','Sono':'note-sono','formal':'note-formal','Mundial':'note-mundial','arcaico':'note-arcaico','onomato':'note-onomato','nom':'note-nom'};
+  function tagHTML(tags){return(tags||[]).map(t=>`<span class="tag ${esc(t.class||'generic')} ${esc(NOTE_LABELS[t.label]||'')}">${esc(RELATION_NAMES[t.class]||t.label)}</span>`).join('')}
+  function rootTagsHTML(tags){
+    const groups=[
+      ['Relación nativa',(tags||[]).filter(t=>RELATION_CLASSES.has(t.class))],
+      ['Etimología externa',(tags||[]).filter(t=>ETYMOLOGY_CLASSES.has(t.class))],
+      ['Otras etiquetas',(tags||[]).filter(t=>!RELATION_CLASSES.has(t.class)&&!ETYMOLOGY_CLASSES.has(t.class))]
+    ];
+    return '<div class="root-tag-groups">'+groups.filter(([,arr])=>arr.length).map(([label,arr])=>
+      '<span class="root-tag-set"><span class="root-tag-set-label">'+esc(label)+'</span>'+tagHTML(arr)+'</span>'
+    ).join('')+'</div>';
+  }
+  function repertoireHTML(targetId,idx,currentRootId=null){const words=(idx?.words||[]).filter(w=>w.refs?.includes(targetId)&&(!currentRootId||w.root_id!==currentRootId));if(!words.length)return'';return`<details class="suffix-repertoire"><summary>Repertorio (${words.length})</summary><div class="suffix-word-list">${words.map(w=>`<a class="word-link" href="#${esc(w.id)}" data-word-id="${esc(w.id)}">${w.emoji?esc(w.emoji)+' ':''}${esc(w.form)}</a>`).join('')}</div></details>`}
+  function wordHTML(w,root=null){
+    const emoji=w.emoji?'<span class="word-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'';
+    const sem=w.semantic_fields?.length?`<div class="derived-semantics"><span class="semantic-label">Campos</span>${w.semantic_fields.map(x=>`<a class="semantic-field" href="?q=${encodeURIComponent(x)}" data-semantic-field="${esc(x)}" title="Filtrar por ${esc(x)}">${esc(x)}</a>`).join('')}</div>`:'';
+    const notes=(w.notes||[]).map(n=>`<div class="derived-note">${esc(n)}</div>`).join('');
+    const rootLine=root?`<div class="derived-analysis">Raíz: <a class="morph-link" href="raiz.html?id=${encodeURIComponent(root.id)}">${esc(root.form)}</a></div>`:'';
+    return`<article class="derived-entry" id="${esc(w.id)}"><div class="derived-word">${emoji}<code>${esc(w.form)}</code></div><div class="derived-gloss">${esc(w.gloss)}</div>${rootLine}${w.analysis_html?`<div class="derived-analysis">${w.analysis_html}</div>`:''}${notes}${sem}${w.tags?.length?`<div class="derived-tags">${tagHTML(w.tags)}</div>`:''}</article>`;
+  }
+  function wordSectionHTML(items,title='Palabras'){return`<section class="lex-section"><h2>${esc(title)}</h2><div class="derived-grid">${items.map(x=>wordHTML(x.word,x.root)).join('')}</div></section>`}
+  function entryRow(e,idx){const et=e.etymology?`<div class="entry-note etymology">${esc(e.etymology)}</div>`:'';const notes=(e.notes||[]).map(n=>`<div class="entry-note">${esc(n)}</div>`).join('');const words=e.words||[];const derived=words.length?`<details class="derived-panel"><summary>Repertorio (${words.length})</summary><div class="derived-grid">${words.map(w=>wordHTML(w)).join('')}</div></details>`:'';const rep=e.kind==='other'?'':repertoireHTML(e.id,idx,e.id);const rel=relationClass(e),etym=etymologyClass(e);const rowClass=(e.kind==='other'?(e.row_class||''):((e.row_class||'')+' root-relation '+rel+' '+etym)).trim();return`<tr class="${esc(rowClass)}" data-entry-id="${esc(e.id)}"><td class="form"><div class="cell-value"><a class="root-entry-link" href="raiz.html?id=${encodeURIComponent(e.id)}" data-root-id="${esc(e.id)}" title="Abrir ficha de ${esc(e.form)}"><code id="${esc(e.id)}">${esc(e.form)}</code></a></div></td><td class="gloss"><div class="cell-value"><span class="root-gloss">${esc(e.gloss)}</span>${et}${notes}${rep}${derived}</div></td><td class="tags"><div class="cell-value">${rootTagsHTML(e.tags)}</div></td></tr>`}
+  function sectionHTML(letter,entries,idx,title=null){return`<section class="lex-section"><h2>${esc(title||letter)}</h2><div class="table-wrap"><table class="lex-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead><tbody>${entries.map(e=>entryRow(e,idx)).join('')}</tbody></table></div></section>`}
+  function morphemeRow(m,idx){if(!m)return'';return`<tr><td class="form"><div class="cell-value"><code id="${esc(m.id)}">${esc(m.form)}</code></div></td><td class="gloss"><div class="cell-value">${esc(m.gloss)}${repertoireHTML(m.id,idx)}</div></td><td class="tags"><div class="cell-value">${tagHTML(m.tags)}</div></td></tr>`}
+  function setNav(){document.querySelectorAll('.alphabet a[data-key]').forEach(a=>a.toggleAttribute('aria-current',!search.value.trim()&&mode==='letter'&&a.dataset.key===activeKey));document.getElementById('lex-letter-all').toggleAttribute('aria-current',!search.value.trim()&&mode==='all');document.querySelectorAll('.etym-filter').forEach(b=>b.setAttribute('aria-pressed',String(mode==='etymology'&&activeEtym===b.dataset.etym)))}
+  function applyView(){document.body.classList.toggle('lex-card-view',view==='cards');document.getElementById('lex-view-table').setAttribute('aria-pressed',String(view==='table'));document.getElementById('lex-view-cards').setAttribute('aria-pressed',String(view==='cards'))}
+  async function renderLetter(key){content.innerHTML='<div class="loading-note">Cargando…</div>';morphFocus.innerHTML='';const[data,idx]=await Promise.all([loadLetter(key),loadIndex()]);content.innerHTML=sectionHTML(data.letter,data.entries,idx);applyView();setNav()}
+  async function renderAll(){content.innerHTML='<div class="loading-note">Cargando todo el léxico…</div>';morphFocus.innerHTML='';const idx=await loadIndex();const datas=await Promise.all(LETTERS.map(x=>loadLetter(x.key)));content.innerHTML=datas.map(d=>sectionHTML(d.letter,d.entries,idx)).join('');applyView();setNav()}
+
+  async function renderEtymology(etym){
+    content.innerHTML='<div class="loading-note">Filtrando raíces…</div>';morphFocus.innerHTML='';
+    const idx=await loadIndex();
+    const meta=(idx.roots||[]).filter(r=>etym==='sin-tag'?!(r.tags||[]).some(tag=>ETYMOLOGY_CLASSES.has(norm(tag))):(r.tags||[]).some(tag=>norm(tag)===etym));
+    const keys=[...new Set(meta.map(r=>r.key))];
+    const datas=await Promise.all(keys.map(loadLetter));
+    if(mode!=='etymology'||activeEtym!==etym)return;
+    const rootMap=new Map(datas.flatMap(d=>(d.entries||[]).map(e=>[e.id,e])));
+    const roots=meta.map(r=>rootMap.get(r.id)).filter(Boolean);
+    const label=document.querySelector('.etym-filter[data-etym="'+etym+'"]')?.textContent||etym;
+    content.innerHTML=roots.length?sectionHTML(label,roots,idx,'Raíces · '+label):'<div class="empty-note">'+(etym==='sin-tag'?'Todas las raíces tienen una etiqueta de etimología externa.':'Sin raíces clasificadas como '+esc(label)+'.')+'</div>';
+    count.textContent=roots.length+(roots.length===1?' raíz':' raíces');applyView();setNav();
+  }
+  function clearEtymology(){
+    activeEtym=null;search.value='';count.textContent='';mode='all';
+    history.replaceState(null,'',location.pathname+'#lex-all');setNav();renderAll().catch(showError);
+  }
+  document.querySelectorAll('.etym-filter').forEach(b=>b.addEventListener('click',()=>{
+    const etym=b.dataset.etym;
+    if(activeEtym===etym){clearEtymology();return}
+    activeEtym=etym;mode='etymology';search.value='';view='cards';
+    history.replaceState(null,'',location.pathname+'?etym='+encodeURIComponent(etym));
+    setNav();renderEtymology(etym).catch(showError);
+  }));
+  document.getElementById('etym-filter-all').addEventListener('click',clearEtymology);
+  document.getElementById('lex-view-table').onclick=()=>{view='table';try{localStorage.setItem('hispangu-lexicon-view',view)}catch(e){}applyView()};
+  document.getElementById('lex-view-cards').onclick=()=>{view='cards';try{localStorage.setItem('hispangu-lexicon-view',view)}catch(e){}applyView()};
+  document.querySelectorAll('.alphabet a[data-key]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();search.value='';activeEtym=null;count.textContent='';mode='letter';activeKey=a.dataset.key;history.replaceState(null,'','#sec-'+activeKey);renderLetter(activeKey).catch(showError)}));
+  document.getElementById('lex-letter-all').addEventListener('click',e=>{e.preventDefault();search.value='';activeEtym=null;count.textContent='';mode='all';history.replaceState(null,'','#lex-all');renderAll().catch(showError)});
+  async function doSearch(){
+    const raw=search.value.trim();
+    if(!raw){count.textContent='';return mode==='all'?renderAll():renderLetter(activeKey)}
+    const groups=parseQuery(raw),idx=await loadIndex();
+    const rootText=r=>[r.form,r.gloss,r.etymology||'',...(r.tags||[])].join(' ');
+    const roots=idx.roots.filter(r=>matches(rootText(r),groups));
+    const words=idx.words.filter(w=>matches(w.search,groups));
+    const morphs=idx.morphemes.filter(m=>matches(m.search,groups));
+    const keys=[...new Set([...roots.map(r=>r.key),...words.map(w=>w.key)])];
+    const datas=await Promise.all(keys.map(loadLetter));
+    const rootMap=new Map(datas.flatMap(d=>d.entries.map(e=>[e.id,e])));
+    const entries=roots.map(r=>rootMap.get(r.id)).filter(Boolean);
+    const wordItems=words.map(w=>{const root=rootMap.get(w.root_id),word=root?.words?.find(x=>x.id===w.id);return word?{word,root}:null}).filter(Boolean);
+    const sections=[];
+    if(entries.length)sections.push(sectionHTML('Raíces',entries,idx,'Raíces'));
+    if(wordItems.length)sections.push(wordSectionHTML(wordItems,'Palabras'));
+    content.innerHTML=sections.length?sections.join(''):'<div class="empty-note">Sin raíces ni palabras coincidentes.</div>';
+    if(morphs.length){const md=await loadMorphs();const mm=new Map(md.morphemes.map(m=>[m.id,m]));morphFocus.innerHTML='<section class="lex-section"><h2>Morfemas</h2><div class="table-wrap"><table class="lex-table"><thead><tr><th>Forma</th><th>Glosa</th><th>Etiquetas</th></tr></thead><tbody>'+morphs.map(mi=>morphemeRow(mm.get(mi.id),idx)).join('')+'</tbody></table></div></section>'}else morphFocus.innerHTML='';
+    const total=roots.length+words.length+morphs.length;count.textContent=total+' resultado'+(total===1?'':'s');applyView();setNav()
+  }
+  let timer;search.addEventListener('input',()=>{clearTimeout(timer);if(activeEtym){activeEtym=null;mode='letter';history.replaceState(null,'',location.pathname);setNav()}timer=setTimeout(()=>doSearch().catch(showError),120)});
+  async function showReference(id){const idx=await loadIndex();if(idx.words.some(w=>w.id===id)){await showWord(id);return}const mi=idx.morphemes.find(m=>m.id===id);if(mi){const md=await loadMorphs();const m=md.morphemes.find(x=>x.id===id);morphFocus.innerHTML='<section class="lex-section"><h2>Morfema</h2><div class="table-wrap"><table class="lex-table"><tbody>'+morphemeRow(m,idx)+'</tbody></table></div></section>';morphFocus.scrollIntoView({behavior:'smooth',block:'center'});return}const r=idx.roots.find(x=>x.id===id);if(r){location.href='raiz.html?id='+encodeURIComponent(id)}}
+  async function showWord(id){const idx=await loadIndex();const wi=idx.words.find(x=>x.id===id);if(!wi)return;const data=await loadLetter(wi.key),root=data.entries.find(e=>e.id===wi.root_id),word=root?.words?.find(w=>w.id===id);if(!word||!root)return;search.value='';mode='word';activeKey=wi.key;morphFocus.innerHTML='';history.replaceState(null,'','#'+id);content.innerHTML=wordSectionHTML([{word,root}],'Palabra');applyView();setNav();document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'center'})}
+  document.addEventListener('click',e=>{const rootLink=e.target.closest('a.root-entry-link[data-root-id]');if(rootLink){e.preventDefault();location.assign('raiz.html?id='+encodeURIComponent(rootLink.dataset.rootId));return}const s=e.target.closest('a.semantic-field[data-semantic-field]');if(s){e.preventDefault();location.href='vocablos.html?q='+encodeURIComponent(s.dataset.semanticField||'');return}const a=e.target.closest('a.morph-link[href^="#"],a.word-link[data-word-id]');if(!a)return;e.preventDefault();if(a.dataset.wordId)showWord(a.dataset.wordId).catch(showError);else showReference(a.getAttribute('href').slice(1)).catch(showError)});
+  function showError(err){console.error(err);content.innerHTML='<div class="empty-note">No se pudieron cargar las raíces.</div>'}
+  async function initial(){applyView();const idx=await loadIndex();count.textContent=idx.counts.roots+' raíces · '+idx.counts.words+' vocablos';const params=new URLSearchParams(location.search),initialEtym=norm(params.get('etym'));if(ETYMOLOGY_CLASSES.has(initialEtym)||initialEtym==='sin-tag'){activeEtym=initialEtym;mode='etymology';view='cards';setNav();await renderEtymology(initialEtym);return}const initialQuery=params.get('q');if(initialQuery){search.value=initialQuery;mode='search';await doSearch();return}if(location.hash==='#lex-all'){mode='all';await renderAll();return}const hash=location.hash.slice(1);if(hash){const r=idx.roots.find(x=>x.id===hash),w=idx.words.find(x=>x.id===hash),m=idx.morphemes.find(x=>x.id===hash);if(r){activeKey=r.key;await renderLetter(activeKey);document.getElementById(hash)?.scrollIntoView();return}if(w){await showWord(hash);return}if(m){await renderLetter('a');await showReference(hash);return}const lk=LETTERS.find(x=>'sec-'+x.key===hash);if(lk)activeKey=lk.key}await renderLetter(activeKey)}
+  initial().catch(showError);
+})();
+</script>
+</body></html>
