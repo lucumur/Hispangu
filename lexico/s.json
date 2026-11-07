@@ -57,6 +57,24 @@
           "notes": [
             "Hipocorístico de sor."
           ]
+        },
+        {
+          "id": "lexeme-sorinu",
+          "form": "sôrinu",
+          "gloss": "sobrino",
+          "analysis_html": "SOR",
+          "analysis_text": "SOR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen U"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
         }
       ]
     }
