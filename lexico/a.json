@@ -85,6 +85,26 @@
             "relaciones familiares"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-avunchu",
+          "form": "avunchu",
+          "gloss": "tío materno",
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-av\">AV</a> + UNCL- (diminutivo)",
+          "analysis_text": "AV + UNCL- (diminutivo)",
+          "refs": [
+            {
+              "id": "root-av",
+              "label": "AV"
+            }
+          ],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "ch = [χ]."
+          ]
         }
       ]
     },
@@ -107,28 +127,7 @@
       "etymology": "< Lat. avunculus",
       "notes": [],
       "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-avunchu",
-          "form": "avunchu",
-          "gloss": "tío materno",
-          "analysis_html": "<a class=\"morph-link\" href=\"#root-av\">AV</a> + UNCL- (diminutivo)",
-          "analysis_text": "AV + UNCL- (diminutivo)",
-          "refs": [
-            {
-              "id": "root-av",
-              "label": "AV"
-            }
-          ],
-          "tags": [],
-          "semantic_fields": [
-            "relaciones familiares"
-          ],
-          "notes": [
-            "ch = [χ]."
-          ]
-        }
-      ]
+      "words": []
     }
   ]
 }
