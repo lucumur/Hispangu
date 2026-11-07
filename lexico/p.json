@@ -39,6 +39,51 @@
             "Hipocorístico de avu.",
             "Sin paralelo romance en el sentido de «abuelo» (esp. papá, it. papà son «padre»). Divergente."
           ]
+        },
+        {
+          "id": "lexeme-bispappa",
+          "form": "bispappa",
+          "gloss": "bisabuelo",
+          "analysis_html": "BIS- + PAPP-",
+          "analysis_text": "BIS- + PAPP-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: it. bisnonno, esp. bisabuelo."
+          ]
+        },
+        {
+          "id": "lexeme-terpappa",
+          "form": "terpappa",
+          "gloss": "tatarabuelo",
+          "analysis_html": "TER- + PAPP-",
+          "analysis_text": "TER- + PAPP-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: it. trisnonno, port. trisavô."
+          ]
+        },
+        {
+          "id": "lexeme-caderpappa",
+          "form": "caderpappa",
+          "gloss": "tras-tatarabuelo",
+          "analysis_html": "CADER- + PAPP-",
+          "analysis_text": "CADER- + PAPP-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: it. quadrisavolo."
+          ]
         }
       ]
     },

@@ -39,6 +39,51 @@
             "Hipocorístico de aiva.",
             "Romance: it. nonna."
           ]
+        },
+        {
+          "id": "lexeme-bisnanna",
+          "form": "bisnanna",
+          "gloss": "bisabuela",
+          "analysis_html": "BIS- + NANN-",
+          "analysis_text": "BIS- + NANN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: it. bisnonna, esp. bisabuela."
+          ]
+        },
+        {
+          "id": "lexeme-ternanna",
+          "form": "ternanna",
+          "gloss": "tatarabuela",
+          "analysis_html": "TER- + NANN-",
+          "analysis_text": "TER- + NANN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: it. trisnonna, port. trisavó."
+          ]
+        },
+        {
+          "id": "lexeme-cadernanna",
+          "form": "cadernanna",
+          "gloss": "tras-tatarabuela",
+          "analysis_html": "CADER- + NANN-",
+          "analysis_text": "CADER- + NANN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: it. quadrisavola."
+          ]
         }
       ]
     },
@@ -104,6 +149,51 @@
             "nebdis, nebdes",
             "Lat. neptis era solo «nieta»; la forma en -is, epicena, admite ambos géneros, más aún dada la polisemia sobrino/nieto del término. Sin partículas nuevas.",
             "Romance: it. nipote (epiceno, nieto/nieta y sobrino/sobrina), fr. nièce, rum. nepoată."
+          ]
+        },
+        {
+          "id": "lexeme-bisnebdis",
+          "form": "bisnebdis",
+          "gloss": "bisnieto",
+          "analysis_html": "BIS- + NEP-T",
+          "analysis_text": "BIS- + NEP-T",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: esp. bisnieto, port. bisneto, it. pronipote."
+          ]
+        },
+        {
+          "id": "lexeme-ternebdis",
+          "form": "ternebdis",
+          "gloss": "tataranieto",
+          "analysis_html": "TER- + NEP-T",
+          "analysis_text": "TER- + NEP-T",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: port. trineto, esp. tataranieto."
+          ]
+        },
+        {
+          "id": "lexeme-cadernebdis",
+          "form": "cadernebdis",
+          "gloss": "tras-tataranieto",
+          "analysis_html": "CADER- + NEP-T",
+          "analysis_text": "CADER- + NEP-T",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Sin paralelo romance usual (esp. trastataranieto). Divergente."
           ]
         }
       ]
