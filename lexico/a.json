@@ -74,26 +74,6 @@
           ]
         },
         {
-          "id": "lexeme-papu",
-          "form": "papu",
-          "gloss": "abuelito",
-          "analysis_html": "AV",
-          "analysis_text": "AV",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Hipocorístico"
-            }
-          ],
-          "semantic_fields": [
-            "relaciones familiares"
-          ],
-          "notes": [
-            "Hipocorístico de avu."
-          ]
-        },
-        {
           "id": "lexeme-aiva",
           "form": "aiva",
           "gloss": "abuela",
@@ -105,26 +85,6 @@
             "relaciones familiares"
           ],
           "notes": []
-        },
-        {
-          "id": "lexeme-nanna",
-          "form": "nanna",
-          "gloss": "abuelita",
-          "analysis_html": "AV",
-          "analysis_text": "AV",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Hipocorístico"
-            }
-          ],
-          "semantic_fields": [
-            "relaciones familiares"
-          ],
-          "notes": [
-            "Hipocorístico de aiva."
-          ]
         }
       ]
     },

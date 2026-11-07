@@ -2,5 +2,44 @@
   "schema_version": 1,
   "letter": "N",
   "key": "n",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-nan",
+      "form": "*NAN-",
+      "gloss": "abuelita",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nanna",
+          "form": "nanna",
+          "gloss": "abuelita",
+          "analysis_html": "NAN",
+          "analysis_text": "NAN",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de aiva."
+          ]
+        }
+      ]
+    }
+  ]
 }

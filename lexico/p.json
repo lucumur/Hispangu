@@ -4,6 +4,44 @@
   "key": "p",
   "entries": [
     {
+      "id": "root-pap",
+      "form": "*PAP-",
+      "gloss": "abuelito",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-papu",
+          "form": "papu",
+          "gloss": "abuelito",
+          "analysis_html": "PAP",
+          "analysis_text": "PAP",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de avu."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-mat-r-2",
       "form": "*PAT-R",
       "gloss": "padre",
