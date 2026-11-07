@@ -22,7 +22,78 @@
       "etymology": "< Lat. Pater",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-pair",
+          "form": "pair",
+          "gloss": "padre",
+          "analysis_html": "PAT-R",
+          "analysis_text": "PAT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "pair, paires"
+          ]
+        },
+        {
+          "id": "lexeme-tata",
+          "form": "tata",
+          "gloss": "papá",
+          "analysis_html": "PAT-R",
+          "analysis_text": "PAT-R",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de pair."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-patru",
+      "form": "*PATRU-",
+      "gloss": "tío paterno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. patruus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-padrugu",
+          "form": "padrugu",
+          "gloss": "tío paterno",
+          "analysis_html": "PATRU",
+          "analysis_text": "PATRU",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
+        }
+      ]
     }
   ]
 }

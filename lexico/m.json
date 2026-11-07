@@ -71,6 +71,76 @@
           ],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-mair",
+          "form": "mair",
+          "gloss": "madre",
+          "analysis_html": "MAT-R",
+          "analysis_text": "MAT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "mair, maires"
+          ]
+        },
+        {
+          "id": "lexeme-mama",
+          "form": "mama",
+          "gloss": "mamá",
+          "analysis_html": "MAT-R",
+          "analysis_text": "MAT-R",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de mair."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-matert",
+      "form": "*MATERT-",
+      "gloss": "tía materna",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. mātertera",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-madranta",
+          "form": "madranta",
+          "gloss": "tía materna",
+          "analysis_html": "MATERT + AMT",
+          "analysis_text": "MATERT + AMT",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
         }
       ]
     }

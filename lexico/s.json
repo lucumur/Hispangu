@@ -2,5 +2,63 @@
   "schema_version": 1,
   "letter": "S",
   "key": "s",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-sor",
+      "form": "*SOR-",
+      "gloss": "hermana",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. soror, sorōris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sor",
+          "form": "sor",
+          "gloss": "hermana",
+          "analysis_html": "SOR",
+          "analysis_text": "SOR",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "sor, sores"
+          ]
+        },
+        {
+          "id": "lexeme-sorolla",
+          "form": "sorolla",
+          "gloss": "hermanita",
+          "analysis_html": "SOR",
+          "analysis_text": "SOR",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de sor."
+          ]
+        }
+      ]
+    }
+  ]
 }

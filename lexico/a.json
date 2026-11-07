@@ -2,5 +2,168 @@
   "schema_version": 1,
   "letter": "A",
   "key": "a",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-amt",
+      "form": "*AMT-",
+      "gloss": "tía paterna",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. amita",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-anta",
+          "form": "anta",
+          "gloss": "tía paterna",
+          "analysis_html": "AMT",
+          "analysis_text": "AMT",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "root-av",
+      "form": "*AV-",
+      "gloss": "abuelo, abuela",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. avus, avia",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-avu",
+          "form": "avu",
+          "gloss": "abuelo",
+          "analysis_html": "AV",
+          "analysis_text": "AV",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "avu, avi"
+          ]
+        },
+        {
+          "id": "lexeme-papu",
+          "form": "papu",
+          "gloss": "abuelito",
+          "analysis_html": "AV",
+          "analysis_text": "AV",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de avu."
+          ]
+        },
+        {
+          "id": "lexeme-aiva",
+          "form": "aiva",
+          "gloss": "abuela",
+          "analysis_html": "AV",
+          "analysis_text": "AV",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-nanna",
+          "form": "nanna",
+          "gloss": "abuelita",
+          "analysis_html": "AV",
+          "analysis_text": "AV",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de aiva."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-avuncl",
+      "form": "*AVUNCL-",
+      "gloss": "tío materno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. avunculus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-avunchu",
+          "form": "avunchu",
+          "gloss": "tío materno",
+          "analysis_html": "AVUNCL",
+          "analysis_text": "AVUNCL",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "ch = [χ]."
+          ]
+        }
+      ]
+    }
+  ]
 }

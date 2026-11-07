@@ -2,5 +2,63 @@
   "schema_version": 1,
   "letter": "F",
   "key": "f",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-frat-r",
+      "form": "*FRAT-R",
+      "gloss": "hermano",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": "< Lat. frāter, frātris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-frair",
+          "form": "frair",
+          "gloss": "hermano",
+          "analysis_html": "FRAT-R",
+          "analysis_text": "FRAT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "frair, fraires"
+          ]
+        },
+        {
+          "id": "lexeme-fradellu",
+          "form": "fradellu",
+          "gloss": "hermanito",
+          "analysis_html": "FRAT-R",
+          "analysis_text": "FRAT-R",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de frair."
+          ]
+        }
+      ]
+    }
+  ]
 }
