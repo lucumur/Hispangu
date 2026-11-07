@@ -98,9 +98,14 @@
           "id": "lexeme-madranta",
           "form": "madranta",
           "gloss": "tía materna",
-          "analysis_html": "MAT-R + AMT",
+          "analysis_html": "MAT-R + <a class=\"morph-link\" href=\"#root-amt\">AMT</a>",
           "analysis_text": "MAT-R + AMT",
-          "refs": [],
+          "refs": [
+            {
+              "id": "root-amt",
+              "label": "AMT"
+            }
+          ],
           "tags": [],
           "semantic_fields": [
             "relaciones familiares"
