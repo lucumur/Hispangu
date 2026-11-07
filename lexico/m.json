@@ -4,6 +4,44 @@
   "key": "m",
   "entries": [
     {
+      "id": "root-mamm",
+      "form": "*MAMM-",
+      "gloss": "mamá",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-mama",
+          "form": "mamma",
+          "gloss": "mamá",
+          "analysis_html": "MAMM-",
+          "analysis_text": "MAMM-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de mair."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-mat-r",
       "form": "*MAT-R",
       "gloss": "madre",
@@ -73,26 +111,6 @@
           ],
           "semantic_fields": [],
           "notes": []
-        },
-        {
-          "id": "lexeme-mama",
-          "form": "mama",
-          "gloss": "mamá",
-          "analysis_html": "MAT-R",
-          "analysis_text": "MAT-R",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Hipocorístico"
-            }
-          ],
-          "semantic_fields": [
-            "relaciones familiares"
-          ],
-          "notes": [
-            "Hipocorístico de mair."
-          ]
         },
         {
           "id": "lexeme-madranta",

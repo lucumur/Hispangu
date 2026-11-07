@@ -4,8 +4,8 @@
   "key": "p",
   "entries": [
     {
-      "id": "root-pap",
-      "form": "*PAP-",
+      "id": "root-papp",
+      "form": "*PAPP-",
       "gloss": "abuelito",
       "tags": [
         {
@@ -21,10 +21,10 @@
       "words": [
         {
           "id": "lexeme-papu",
-          "form": "papu",
+          "form": "pappa",
           "gloss": "abuelito",
-          "analysis_html": "PAP",
-          "analysis_text": "PAP",
+          "analysis_html": "PAPP-",
+          "analysis_text": "PAPP-",
           "refs": [],
           "tags": [
             {
@@ -74,26 +74,6 @@
           ],
           "notes": [
             "pair, paires"
-          ]
-        },
-        {
-          "id": "lexeme-tata",
-          "form": "tata",
-          "gloss": "papá",
-          "analysis_html": "TATT-",
-          "analysis_text": "TATT-",
-          "refs": [],
-          "tags": [
-            {
-              "class": "generic",
-              "label": "Hipocorístico"
-            }
-          ],
-          "semantic_fields": [
-            "relaciones familiares"
-          ],
-          "notes": [
-            "Hipocorístico de pair."
           ]
         }
       ]

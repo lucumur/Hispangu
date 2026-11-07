@@ -2,5 +2,44 @@
   "schema_version": 1,
   "letter": "T",
   "key": "t",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-tatt",
+      "form": "*TATT-",
+      "gloss": "papá",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tata",
+          "form": "tatta",
+          "gloss": "papá",
+          "analysis_html": "TATT-",
+          "analysis_text": "TATT-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Hipocorístico"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Hipocorístico de pair."
+          ]
+        }
+      ]
+    }
+  ]
 }

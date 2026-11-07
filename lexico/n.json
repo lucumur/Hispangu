@@ -4,8 +4,8 @@
   "key": "n",
   "entries": [
     {
-      "id": "root-nan",
-      "form": "*NAN-",
+      "id": "root-nann",
+      "form": "*NANN-",
       "gloss": "abuelita",
       "tags": [
         {
@@ -23,8 +23,8 @@
           "id": "lexeme-nanna",
           "form": "nanna",
           "gloss": "abuelita",
-          "analysis_html": "NAN",
-          "analysis_text": "NAN",
+          "analysis_html": "NANN-",
+          "analysis_text": "NANN-",
           "refs": [],
           "tags": [
             {
