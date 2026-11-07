@@ -22,7 +22,30 @@
       "etymology": "< Lat. māter, mātris",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-mar",
+          "form": "mār",
+          "gloss": "madre",
+          "analysis_html": "MAT-R",
+          "analysis_text": "MAT-R",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Nomen RR"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "mār, mārres (nominativo)",
+            "mārre, mārres (acusativo)",
+            "mārri, mārrus (genitivo, dativo, ablativo)"
+          ]
+        }
+      ]
     }
   ]
 }
