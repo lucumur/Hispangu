@@ -2,5 +2,27 @@
   "schema_version": 1,
   "letter": "P",
   "key": "p",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-mat-r-2",
+      "form": "*PAT-R",
+      "gloss": "padre",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. Pater",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    }
+  ]
 }
