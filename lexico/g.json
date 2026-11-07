@@ -2,5 +2,81 @@
   "schema_version": 1,
   "letter": "G",
   "key": "g",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-gen-r",
+      "form": "*GEN-R",
+      "gloss": "yerno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. gener, generī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-gxener",
+          "form": "ĝener",
+          "gloss": "yerno",
+          "analysis_html": "GEN-R",
+          "analysis_text": "GEN-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "ĝener, ĝendri",
+            "Romance: fr. gendre (con la misma epéntesis de d), port. genro, esp. yerno, it. genero."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-glo-r",
+      "form": "*GLO-R",
+      "gloss": "cuñada",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. glōs, glōris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-congloris",
+          "form": "congloris",
+          "gloss": "cuñada (esposa del hermano, hermana del marido)",
+          "analysis_html": "CON + GLO-R",
+          "analysis_text": "CON + GLO-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Sin paralelo romance: glōs no tiene continuadores. Divergente."
+          ]
+        }
+      ]
+    }
+  ]
 }

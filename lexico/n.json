@@ -197,6 +197,44 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-nur",
+      "form": "*NUR-",
+      "gloss": "nuera",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nurus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-noru",
+          "form": "noru",
+          "gloss": "nuera",
+          "analysis_html": "NUR-",
+          "analysis_text": "NUR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "noru, norui",
+            "Romance: port. nora, rum. noră, it. nuora, esp. nuera."
+          ]
+        }
+      ]
     }
   ]
 }

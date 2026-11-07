@@ -4,6 +4,58 @@
   "key": "s",
   "entries": [
     {
+      "id": "root-soc-r",
+      "form": "*SOC-R",
+      "gloss": "suegro, suegra",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. socer, socrus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sogru",
+          "form": "sôgru",
+          "gloss": "suegro",
+          "analysis_html": "SOC-R",
+          "analysis_text": "SOC-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: esp. suegro, port. sogro, it. suocero."
+          ]
+        },
+        {
+          "id": "lexeme-sogra",
+          "form": "sôgra",
+          "gloss": "suegra",
+          "analysis_html": "SOC-R",
+          "analysis_text": "SOC-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: esp. suegra, port. sogra, it. suocera."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-sor",
       "form": "*SOR-",
       "gloss": "hermana",

@@ -2,5 +2,44 @@
   "schema_version": 1,
   "letter": "U",
   "key": "u",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-ux-r",
+      "form": "*UX-R",
+      "gloss": "esposa",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": "< Lat. uxor, uxōris; uxōrāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-uxdrare",
+          "form": "uxdrare",
+          "gloss": "casarse",
+          "analysis_html": "UX-R",
+          "analysis_text": "UX-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Sin paralelo romance: uxor no tiene continuadores. Divergente."
+          ]
+        }
+      ]
+    }
+  ]
 }

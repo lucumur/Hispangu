@@ -2,5 +2,43 @@
   "schema_version": 1,
   "letter": "L",
   "key": "l",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-levir",
+      "form": "*LEVIR-",
+      "gloss": "cuñado",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lēvir",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-collevir",
+          "form": "collevir",
+          "gloss": "cuñado (esposo de la hermana, hermano de la esposa)",
+          "analysis_html": "CON + LEVIR",
+          "analysis_text": "CON + LEVIR",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Sin paralelo romance: lēvir no tiene continuadores. Divergente."
+          ]
+        }
+      ]
+    }
+  ]
 }

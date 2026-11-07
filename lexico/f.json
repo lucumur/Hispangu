@@ -4,6 +4,58 @@
   "key": "f",
   "entries": [
     {
+      "id": "root-fil",
+      "form": "*FIL-",
+      "gloss": "hijo, hija",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": "< Lat. fīlius, fīlia",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-fichu",
+          "form": "fichu",
+          "gloss": "hijo",
+          "analysis_html": "FIL-",
+          "analysis_text": "FIL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: esp. hijo (-li- > /x/), port. filho, it. figlio."
+          ]
+        },
+        {
+          "id": "lexeme-ficha",
+          "form": "ficha",
+          "gloss": "hija",
+          "analysis_html": "FIL-",
+          "analysis_text": "FIL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: esp. hija, port. filha, it. figlia."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-frat-r",
       "form": "*FRAT-R",
       "gloss": "hermano",

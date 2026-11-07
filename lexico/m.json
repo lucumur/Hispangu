@@ -43,6 +43,43 @@
       ]
     },
     {
+      "id": "root-marit",
+      "form": "*MARIT-",
+      "gloss": "marido",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. marītus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-mairidu",
+          "form": "mairidu",
+          "gloss": "esposo",
+          "analysis_html": "MARIT-",
+          "analysis_text": "MARIT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Romance: esp./port. marido, it. marito, fr. mari."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-mat-r",
       "form": "*MAT-R",
       "gloss": "madre",
@@ -136,6 +173,22 @@
           ],
           "notes": [
             "Sin paralelo romance: mātertera no tiene continuadores y el cruce con amita es propio. Divergente."
+          ]
+        },
+        {
+          "id": "lexeme-mairona",
+          "form": "mairona",
+          "gloss": "esposa",
+          "analysis_html": "MAT-R + -ONA",
+          "analysis_text": "MAT-R + -ONA",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": [
+            "Lat. mātrōna «mujer casada».",
+            "Romance: esp./it. matrona (cultismo). Convergente parcial."
           ]
         }
       ]
