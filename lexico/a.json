@@ -34,7 +34,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Romance: fr. ant. ante (> tante)."
+          ]
         },
         {
           "id": "lexeme-antina",
@@ -52,7 +54,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Sin paralelo romance (esp. prima). Divergente."
+          ]
         }
       ]
     },
@@ -88,7 +92,8 @@
             "relaciones familiares"
           ],
           "notes": [
-            "avu, avi"
+            "avu, avi",
+            "Romance: port. avô."
           ]
         },
         {
@@ -102,7 +107,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Romance: port. avó; metátesis de yod como port. raiva < rabia."
+          ]
         },
         {
           "id": "lexeme-avunchu",
@@ -121,7 +128,8 @@
             "relaciones familiares"
           ],
           "notes": [
-            "ch = [χ]."
+            "ch = [χ].",
+            "Romance: fr. oncle, rum. unchi (< avunculus); -cl- > /χ/ como esp. ojo < oculum."
           ]
         },
         {
@@ -140,7 +148,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Sin paralelo romance (esp. primo < consobrinus primus). Divergente."
+          ]
         },
         {
           "id": "lexeme-avunchina",
@@ -158,7 +168,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Sin paralelo romance (esp. prima). Divergente."
+          ]
         }
       ]
     }

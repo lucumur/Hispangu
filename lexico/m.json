@@ -36,7 +36,8 @@
             "relaciones familiares"
           ],
           "notes": [
-            "Hipocorístico de mair."
+            "Hipocorístico de mair.",
+            "Romance: it. mamma, rum. mamă, esp. mamá."
           ]
         }
       ]
@@ -82,7 +83,8 @@
           "notes": [
             "mair, maires (nominativo)",
             "maire, maires (acusativo)",
-            "mairi, mairus (genitivo, dativo, ablativo)"
+            "mairi, mairus (genitivo, dativo, ablativo)",
+            "Romance: occ. maire, cat. mare, fr. mère."
           ]
         },
         {
@@ -94,7 +96,9 @@
           "refs": [],
           "tags": [],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "Romance: esp./it. matrimonio (cultismo); la evolución patrimonial -tr- > -rr- es propia. Convergente parcial."
+          ]
         },
         {
           "id": "lexeme-madernu",
@@ -110,7 +114,9 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [
+            "Romance: esp./it. materno (cultismo); sonorización -t- > -d- como esp. madre."
+          ]
         },
         {
           "id": "lexeme-madranta",
@@ -128,7 +134,9 @@
           "semantic_fields": [
             "relaciones familiares"
           ],
-          "notes": []
+          "notes": [
+            "Sin paralelo romance: mātertera no tiene continuadores y el cruce con amita es propio. Divergente."
+          ]
         }
       ]
     }
