@@ -73,6 +73,27 @@
           "notes": []
         }
       ]
+    },
+    {
+      "id": "root-mat-r-2",
+      "form": "*MAT-R",
+      "gloss": "madre",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. Mater",
+      "notes": [],
+      "row_class": "",
+      "words": []
     }
   ]
 }
