@@ -38,6 +38,24 @@
           "notes": [
             "Hipocorístico de pair."
           ]
+        },
+        {
+          "id": "lexeme-tattinu",
+          "form": "tattinu",
+          "gloss": "primo paterno",
+          "analysis_html": "TATT-",
+          "analysis_text": "TATT-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Innovador consecuente"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
         }
       ]
     }

@@ -35,6 +35,24 @@
             "relaciones familiares"
           ],
           "notes": []
+        },
+        {
+          "id": "lexeme-antina",
+          "form": "antina",
+          "gloss": "prima paterna",
+          "analysis_html": "AMT",
+          "analysis_text": "AMT",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Innovador consecuente"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
         }
       ]
     },
@@ -105,6 +123,42 @@
           "notes": [
             "ch = [χ]."
           ]
+        },
+        {
+          "id": "lexeme-avunchinu",
+          "form": "avunchinu",
+          "gloss": "primo materno",
+          "analysis_html": "AV + UNCL-",
+          "analysis_text": "AV + UNCL-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Innovador consecuente"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
+        },
+        {
+          "id": "lexeme-avunchina",
+          "form": "avunchina",
+          "gloss": "prima materna",
+          "analysis_html": "AV + UNCL-",
+          "analysis_text": "AV + UNCL-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Innovador consecuente"
+            }
+          ],
+          "semantic_fields": [
+            "relaciones familiares"
+          ],
+          "notes": []
         }
       ]
     }
