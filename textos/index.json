@@ -1,4 +1,27 @@
 {
   "schema_version": 1,
-  "textos": []
+  "textos": [
+    {
+      "id": "genesis-3-1",
+      "titulo": "Genesis 3.1",
+      "parrafos": [
+        {
+          "original": "Sed et serpens erat callidior cunctis animantibus terrae quae fecerat Dominus Deus.",
+          "traduccion": "mais serpen issa artairor era so almalius terrestrus que fezera Dombru Deus"
+        },
+        {
+          "original": "Qui dixit ad mulierem: Cur praecepit vobis Deus ut non comederetis de omni ligno paradisi?",
+          "traduccion": "qui dixid muĝeri: nun vois prezepid Deus ne comeredis exde quacun arbri pardisi ?"
+        },
+        {
+          "original": "Cui respondit mulier: De fructu lignorum, quae sunt in paradiso, vescimur:",
+          "traduccion": "qua respossid muĝer: de fruitis arbrus tottis in pardiso, comemus"
+        },
+        {
+          "original": "de fructu vero ligni quod est in medio paradisi, praecepit nobis Deus ne comederemus",
+          "traduccion": "de fruitis maisoc arbri sidi su meitadi pardisi, prezepid Deus nois nolle comedre"
+        }
+      ]
+    }
+  ]
 }
