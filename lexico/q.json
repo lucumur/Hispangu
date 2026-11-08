@@ -2,5 +2,207 @@
   "schema_version": 1,
   "letter": "Q",
   "key": "q",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-qu",
+      "form": "*QU-",
+      "gloss": "quién, qué",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Q",
+      "section": "sec-q",
+      "etymology": "< Lat. quī, quem, cui",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-qui",
+          "form": "qui",
+          "gloss": "quién, qué",
+          "analysis_html": "QU-",
+          "analysis_text": "QU-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "interrogativos"
+          ],
+          "notes": [
+            "qui, quen, cui",
+            "Romance: it. chi, fr. qui, esp. quien (< quem)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-quand",
+      "form": "*QUAND-",
+      "gloss": "cuándo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Q",
+      "section": "sec-q",
+      "etymology": "< Lat. quandō",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-quando",
+          "form": "quando",
+          "gloss": "cuándo",
+          "analysis_html": "QUAND-",
+          "analysis_text": "QUAND-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "interrogativos"
+          ],
+          "notes": [
+            "Romance: it./port. quando."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-quattr",
+      "form": "*QUATT-R",
+      "gloss": "cuatro",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Q",
+      "section": "sec-q",
+      "etymology": "< Lat. quattuor",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-quattur",
+          "form": "quattur",
+          "gloss": "cuatro",
+          "analysis_html": "QUATT-R",
+          "analysis_text": "QUATT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "números"
+          ],
+          "notes": [
+            "Romance: it. quattro, cat. quatre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-quinqu",
+      "form": "*QUINQU-",
+      "gloss": "cinco",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Q",
+      "section": "sec-q",
+      "etymology": "< Lat. quīnque, vulg. cinque",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cinque",
+          "form": "cinque",
+          "gloss": "cinco",
+          "analysis_html": "QUINQU-",
+          "analysis_text": "QUINQU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "números"
+          ],
+          "notes": [
+            "Romance: it. cinque."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-quomod",
+      "form": "*QUOMOD-",
+      "gloss": "cómo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "Q",
+      "section": "sec-q",
+      "etymology": "< Lat. quōmodo",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-quomo",
+          "form": "quomo",
+          "gloss": "cómo",
+          "analysis_html": "QUOMOD-",
+          "analysis_text": "QUOMOD-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "interrogativos"
+          ],
+          "notes": [
+            "Romance: it. come, esp. como."
+          ]
+        }
+      ]
+    }
+  ]
 }

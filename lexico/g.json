@@ -4,6 +4,95 @@
   "key": "g",
   "entries": [
     {
+      "id": "root-gamb",
+      "form": "*GAMB-",
+      "gloss": "pierna",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. tard. gamba",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-gamba",
+          "form": "gamba",
+          "gloss": "pierna",
+          "analysis_html": "GAMB-",
+          "analysis_text": "GAMB-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. gamba, fr. jambe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-gel",
+      "form": "*GEL-",
+      "gloss": "congelarse",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. gelāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-gxelare",
+          "form": "ĝelare",
+          "gloss": "congelarse",
+          "analysis_html": "GEL-",
+          "analysis_text": "GEL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. gelare, fr. geler."
+          ]
+        },
+        {
+          "id": "lexeme-gxelu",
+          "form": "ĝelu",
+          "gloss": "hielo",
+          "analysis_html": "GEL-",
+          "analysis_text": "GEL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. gelo, esp. hielo."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-gen-r",
       "form": "*GEN-R",
       "gloss": "yerno",
@@ -74,6 +163,117 @@
           ],
           "notes": [
             "Sin paralelo romance: glōs no tiene continuadores. Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-grand",
+      "form": "*GRAND-",
+      "gloss": "grande",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. grandis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-grandis",
+          "form": "grandis",
+          "gloss": "grande",
+          "analysis_html": "GRAND-",
+          "analysis_text": "GRAND-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it./esp. grande; conserva -is latino."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-grav",
+      "form": "*GRAV-",
+      "gloss": "pesado",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. gravis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-gravosu",
+          "form": "gravosu",
+          "gloss": "pesado",
+          "analysis_html": "GRAV-",
+          "analysis_text": "GRAV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it./esp. gravoso «oneroso»."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-gross",
+      "form": "*GROSS-",
+      "gloss": "grueso",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "G",
+      "section": "sec-g",
+      "etymology": "< Lat. tard. grossus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-grossu",
+          "form": "grossu",
+          "gloss": "grueso",
+          "analysis_html": "GROSS-",
+          "analysis_text": "GROSS-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it. grosso, esp. grueso."
           ]
         }
       ]

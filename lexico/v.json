@@ -2,5 +2,470 @@
   "schema_version": 1,
   "letter": "V",
   "key": "v",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-ven",
+      "form": "*VEN-",
+      "gloss": "venir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. venīre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-venire",
+          "form": "venire",
+          "gloss": "venir",
+          "analysis_html": "VEN-",
+          "analysis_text": "VEN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: it. venire, esp. venir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vent",
+      "form": "*VENT-",
+      "gloss": "viento",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. ventus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ventu",
+          "form": "ventu",
+          "gloss": "viento",
+          "analysis_html": "VENT-",
+          "analysis_text": "VENT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. vento, esp. viento."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ventr",
+      "form": "*VENT-R",
+      "gloss": "vientre",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. venter, ventris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-venter",
+          "form": "venter",
+          "gloss": "vientre",
+          "analysis_html": "VENT-R",
+          "analysis_text": "VENT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. ventre, esp. vientre."
+          ]
+        },
+        {
+          "id": "lexeme-ventrisca",
+          "form": "ventrisca",
+          "gloss": "tripas",
+          "analysis_html": "VENT-R",
+          "analysis_text": "VENT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. ventresca, esp. ventrecha."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vetl",
+      "form": "*VET-L",
+      "gloss": "viejo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. vetulus, vulg. veclus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-vechu",
+          "form": "vechu",
+          "gloss": "viejo",
+          "analysis_html": "VET-L",
+          "analysis_text": "VET-L",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: esp. viejo, it. vecchio; -cl- > /χ/ como en och."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vid",
+      "form": "*VID-",
+      "gloss": "ver",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. vidēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-viere",
+          "form": "viere",
+          "gloss": "ver",
+          "analysis_html": "VID-",
+          "analysis_text": "VID-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "percepción y mente"
+          ],
+          "notes": [
+            "Romance: esp. ant. veer, fr. voir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vir",
+      "form": "*VIR-",
+      "gloss": "hombre (varón)",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. vir",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-vir",
+          "form": "vir",
+          "gloss": "hombre (varón)",
+          "analysis_html": "VIR-",
+          "analysis_text": "VIR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "personas"
+          ],
+          "notes": [
+            "Sin paralelo romance: vir no tiene continuadores (esp. varón < baro). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-virid",
+      "form": "*VIRID-",
+      "gloss": "verde",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. viridis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-virdis",
+          "form": "virdis",
+          "gloss": "verde",
+          "analysis_html": "VIRID-",
+          "analysis_text": "VIRID-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "colores"
+          ],
+          "notes": [
+            "Romance: it./esp. verde (< virdis)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-viv",
+      "form": "*VIV-",
+      "gloss": "vivir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. vīvere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-vivre",
+          "form": "vivre",
+          "gloss": "vivir",
+          "analysis_html": "VIV-",
+          "analysis_text": "VIV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: fr. vivre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vol",
+      "form": "*VOL-",
+      "gloss": "volar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. volāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-volare",
+          "form": "volare",
+          "gloss": "volar",
+          "analysis_html": "VOL-",
+          "analysis_text": "VOL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: it. volare, esp. volar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-volv",
+      "form": "*VOLV-",
+      "gloss": "girar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. volvere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-volvre",
+          "form": "volvre",
+          "gloss": "girar",
+          "analysis_html": "VOLV-",
+          "analysis_text": "VOLV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: esp. volver, it. volgere."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vom",
+      "form": "*VOM-",
+      "gloss": "vomitar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. vomere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-vombre",
+          "form": "vombre",
+          "gloss": "vomitar",
+          "analysis_html": "VOM-",
+          "analysis_text": "VOM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Sin paralelo romance: vomere se perdió (esp./it. vomitar, cultismo). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vos",
+      "form": "*VOS-",
+      "gloss": "vosotros",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "V",
+      "section": "sec-v",
+      "etymology": "< Lat. vōs",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-vos",
+          "form": "vos",
+          "gloss": "vosotros",
+          "analysis_html": "VOS-",
+          "analysis_text": "VOS-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Romance: port. vós, fr. vous."
+          ]
+        }
+      ]
+    }
+  ]
 }

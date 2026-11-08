@@ -4,6 +4,117 @@
   "key": "m",
   "entries": [
     {
+      "id": "root-macr",
+      "form": "*MAC-R",
+      "gloss": "delgado",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. macer, macrī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-magru",
+          "form": "magru",
+          "gloss": "delgado",
+          "analysis_html": "MAC-R",
+          "analysis_text": "MAC-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it./esp. magro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mact",
+      "form": "*MACT-",
+      "gloss": "matar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. mactāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-maitare",
+          "form": "maitare",
+          "gloss": "matar",
+          "analysis_html": "MACT-",
+          "analysis_text": "MACT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp./port. matar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mal",
+      "form": "*MAL-",
+      "gloss": "malo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. malus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-malu",
+          "form": "malu",
+          "gloss": "malo",
+          "analysis_html": "MAL-",
+          "analysis_text": "MAL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: esp./port. malo, mau."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-mamm",
       "form": "*MAMM-",
       "gloss": "mamá",
@@ -38,6 +149,80 @@
           "notes": [
             "Hipocorístico de mair.",
             "Romance: it. mamma, rum. mamă, esp. mamá."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-man",
+      "form": "*MAN-",
+      "gloss": "mano",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. manus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-manu",
+          "form": "manu",
+          "gloss": "mano",
+          "analysis_html": "MAN-",
+          "analysis_text": "MAN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it./esp. mano."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mar",
+      "form": "*MAR-",
+      "gloss": "mar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. mare",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-mare",
+          "form": "mare",
+          "gloss": "mar",
+          "analysis_html": "MAR-",
+          "analysis_text": "MAR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. mare, rum. mare."
           ]
         }
       ]
@@ -189,6 +374,229 @@
           "notes": [
             "Lat. mātrōna «mujer casada».",
             "Romance: esp./it. matrona (cultismo). Convergente parcial."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-med",
+      "form": "*MED-",
+      "gloss": "pensar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. meditārī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-meidare",
+          "form": "meidare",
+          "gloss": "pensar",
+          "analysis_html": "MED-",
+          "analysis_text": "MED-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "percepción y mente"
+          ],
+          "notes": [
+            "Sin paralelo romance patrimonial (esp./it. meditar, cultismo). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mont",
+      "form": "*MONT-",
+      "gloss": "montaña",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. mōns, montis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-mon",
+          "form": "mon",
+          "gloss": "montaña",
+          "analysis_html": "MONT-",
+          "analysis_text": "MONT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "mon, monti",
+            "Romance: it./esp. monte."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mor",
+      "form": "*MOR-",
+      "gloss": "morir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. morī, vulg. morīre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-morire",
+          "form": "morire",
+          "gloss": "morir",
+          "analysis_html": "MOR-",
+          "analysis_text": "MOR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: it. morire, esp. morir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mord",
+      "form": "*MORD-",
+      "gloss": "morder",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. mordēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-mordere",
+          "form": "mordere",
+          "gloss": "morder",
+          "analysis_html": "MORD-",
+          "analysis_text": "MORD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: it. mordere, esp. morder."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mulier",
+      "form": "*MULIER-",
+      "gloss": "mujer",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. mulier, mulieris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-mugxer",
+          "form": "muĝer",
+          "gloss": "mujer",
+          "analysis_html": "MULIER-",
+          "analysis_text": "MULIER-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "personas"
+          ],
+          "notes": [
+            "Romance: esp. mujer, port. mulher."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-mult",
+      "form": "*MULT-",
+      "gloss": "mucho",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "M",
+      "section": "sec-m",
+      "etymology": "< Lat. multus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-multu",
+          "form": "multu",
+          "gloss": "mucho",
+          "analysis_html": "MULT-",
+          "analysis_text": "MULT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuantificadores"
+          ],
+          "notes": [
+            "Romance: port. muito, it. molto."
           ]
         }
       ]

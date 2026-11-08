@@ -4,6 +4,154 @@
   "key": "l",
   "entries": [
     {
+      "id": "root-lac",
+      "form": "*LAC-",
+      "gloss": "lago",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lacus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-lagu",
+          "form": "lagu",
+          "gloss": "lago",
+          "analysis_html": "LAC-",
+          "analysis_text": "LAC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it./esp. lago."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-laev",
+      "form": "*LAEV-",
+      "gloss": "izquierda",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. laevus, laeva",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-leva",
+          "form": "leva",
+          "gloss": "izquierda",
+          "analysis_html": "LAEV-",
+          "analysis_text": "LAEV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones espaciales"
+          ],
+          "notes": [
+            "Sin paralelo romance: laevus se perdió (esp. izquierda, it. sinistra). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-lanc",
+      "form": "*LANC-",
+      "gloss": "lanzar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lancea",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-lanzare",
+          "form": "lanzare",
+          "gloss": "lanzar",
+          "analysis_html": "LANC-",
+          "analysis_text": "LANC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. lanzar, it. lanciare."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-lav",
+      "form": "*LAV-",
+      "gloss": "lavar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lavāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-loare",
+          "form": "loare",
+          "gloss": "lavar",
+          "analysis_html": "LAV-",
+          "analysis_text": "LAV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. lavar, fr. laver."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-levir",
       "form": "*LEVIR-",
       "gloss": "cuñado",
@@ -36,6 +184,299 @@
           ],
           "notes": [
             "Sin paralelo romance: lēvir no tiene continuadores. Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-limpid",
+      "form": "*LIMPID-",
+      "gloss": "limpiar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. limpidus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-limpiare",
+          "form": "limpiare",
+          "gloss": "limpiar",
+          "analysis_html": "LIMPID-",
+          "analysis_text": "LIMPID-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. limpiar, port. limpar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-lingu",
+      "form": "*LINGU-",
+      "gloss": "lengua",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lingua",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-lingua",
+          "form": "lingua",
+          "gloss": "lengua",
+          "analysis_html": "LINGU-",
+          "analysis_text": "LINGU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. lingua, fr. langue."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-liss",
+      "form": "*LISS-",
+      "gloss": "liso",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-lissu",
+          "form": "lissu",
+          "gloss": "liso",
+          "analysis_html": "LISS-",
+          "analysis_text": "LISS-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. liscio, esp. liso."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-long",
+      "form": "*LONG-",
+      "gloss": "largo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. longus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-longu",
+          "form": "longu",
+          "gloss": "largo",
+          "analysis_html": "LONG-",
+          "analysis_text": "LONG-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it. lungo, fr. long."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-luct",
+      "form": "*LUCT-",
+      "gloss": "luchar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. luctārī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-luitare",
+          "form": "luitare",
+          "gloss": "luchar",
+          "analysis_html": "LUCT-",
+          "analysis_text": "LUCT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: port. lutar, esp. luchar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-lud",
+      "form": "*LUD-",
+      "gloss": "jugar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lūdere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-lure",
+          "form": "lure",
+          "gloss": "jugar",
+          "analysis_html": "LUD-",
+          "analysis_text": "LUD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Sin paralelo romance: lūdere fue sustituido por iocārī (esp. jugar). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-lumbric",
+      "form": "*LUMBRIC-",
+      "gloss": "gusano",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lumbrīcus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-lumbrix",
+          "form": "lumbrix",
+          "gloss": "gusano",
+          "analysis_html": "LUMBRIC-",
+          "analysis_text": "LUMBRIC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Romance: esp. lombriz, it. lombrico."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-lun",
+      "form": "*LUN-",
+      "gloss": "luna",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "L",
+      "section": "sec-l",
+      "etymology": "< Lat. lūna",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-luna",
+          "form": "luna",
+          "gloss": "luna",
+          "analysis_html": "LUN-",
+          "analysis_text": "LUN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it./esp. luna."
           ]
         }
       ]

@@ -2,5 +2,85 @@
   "schema_version": 1,
   "letter": "E",
   "key": "e",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-eg",
+      "form": "*EG-",
+      "gloss": "yo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": "< Lat. ego",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-eu",
+          "form": "eu",
+          "gloss": "yo",
+          "analysis_html": "EG-",
+          "analysis_text": "EG-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Romance: port. eu, rum. eu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-et",
+      "form": "*ET-",
+      "gloss": "y",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": "< Lat. et",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ed",
+          "form": "ed",
+          "gloss": "y",
+          "analysis_html": "ET-",
+          "analysis_text": "ET-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "partículas"
+          ],
+          "notes": [
+            "Romance: it. e, esp. ant. e."
+          ]
+        }
+      ]
+    }
+  ]
 }

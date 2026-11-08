@@ -2,5 +2,267 @@
   "schema_version": 1,
   "letter": "D",
   "key": "d",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-da",
+      "form": "*DA-",
+      "gloss": "dar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. dare",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-dare",
+          "form": "dare",
+          "gloss": "dar",
+          "analysis_html": "DA-",
+          "analysis_text": "DA-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: it. dare, esp. dar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-dent",
+      "form": "*DENT-",
+      "gloss": "diente",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. dēns, dentis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-den",
+          "form": "den",
+          "gloss": "diente",
+          "analysis_html": "DENT-",
+          "analysis_text": "DENT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "den, dentes",
+            "Romance: cat. dent, it. dente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-dextr",
+      "form": "*DEXT-R",
+      "gloss": "derecha",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. dexter, dextra",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-dextra",
+          "form": "dextra",
+          "gloss": "derecha",
+          "analysis_html": "DEXT-R",
+          "analysis_text": "DEXT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "relaciones espaciales"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Romance: it./port. destra."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-di",
+      "form": "*DI-",
+      "gloss": "día",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. diēs",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-dia",
+          "form": "dia",
+          "gloss": "día",
+          "analysis_html": "DI-",
+          "analysis_text": "DI-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "tiempo"
+          ],
+          "notes": [
+            "Romance: port./cat. dia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-dic",
+      "form": "*DIC-",
+      "gloss": "decir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. dīcere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-dizere",
+          "form": "dizere",
+          "gloss": "decir",
+          "analysis_html": "DIC-",
+          "analysis_text": "DIC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: port. dizer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-dorm",
+      "form": "*DORM-",
+      "gloss": "dormir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. dormīre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-dormire",
+          "form": "dormire",
+          "gloss": "dormir",
+          "analysis_html": "DORM-",
+          "analysis_text": "DORM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: it. dormire, esp. dormir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-du",
+      "form": "*DU-",
+      "gloss": "dos",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "D",
+      "section": "sec-d",
+      "etymology": "< Lat. duo, duae",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-dues",
+          "form": "dues",
+          "gloss": "dos",
+          "analysis_html": "DU-",
+          "analysis_text": "DU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "números"
+          ],
+          "notes": [
+            "Romance: cat. dues (fem.)."
+          ]
+        }
+      ]
+    }
+  ]
 }

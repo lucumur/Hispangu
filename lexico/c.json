@@ -2,5 +2,908 @@
   "schema_version": 1,
   "letter": "C",
   "key": "c",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-cad",
+      "form": "*CAD-",
+      "gloss": "caer",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cadere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-caire",
+          "form": "caire",
+          "gloss": "caer",
+          "analysis_html": "CAD-",
+          "analysis_text": "CAD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: esp. caer, cat. caure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cael",
+      "form": "*CAEL-",
+      "gloss": "cielo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. caelum",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-celu",
+          "form": "celu",
+          "gloss": "cielo",
+          "analysis_html": "CAEL-",
+          "analysis_text": "CAEL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it./esp. cielo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-calid",
+      "form": "*CALID-",
+      "gloss": "cálido",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. calidus, vulg. caldus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-caldu",
+          "form": "caldu",
+          "gloss": "cálido",
+          "analysis_html": "CALID-",
+          "analysis_text": "CALID-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. caldo, esp. caldo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-can",
+      "form": "*CAN-",
+      "gloss": "perro",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. canis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-can",
+          "form": "can",
+          "gloss": "perro",
+          "analysis_html": "CAN-",
+          "analysis_text": "CAN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "Romance: esp. can, it. cane."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cand",
+      "form": "*CAND-",
+      "gloss": "blanco",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-candru",
+          "form": "candru",
+          "gloss": "blanco",
+          "analysis_html": "CAND-",
+          "analysis_text": "CAND-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "colores"
+          ],
+          "notes": [
+            "Sin paralelo romance patrimonial (esp. cándido, cultismo). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cant",
+      "form": "*CANT-",
+      "gloss": "cantar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cantāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cantare",
+          "form": "cantare",
+          "gloss": "cantar",
+          "analysis_html": "CANT-",
+          "analysis_text": "CANT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: it. cantare, esp. cantar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-capit",
+      "form": "*CAPIT-",
+      "gloss": "cabeza",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. caput, capita",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cabud",
+          "form": "cabud",
+          "gloss": "cabeza",
+          "analysis_html": "CAPIT-",
+          "analysis_text": "CAPIT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "cabud, cabda",
+            "Romance: cat./occ. cap, rum. cap, esp. cabo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-capt",
+      "form": "*CAPT-",
+      "gloss": "cazar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. captāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cautare",
+          "form": "cautare",
+          "gloss": "cazar",
+          "analysis_html": "CAPT-",
+          "analysis_text": "CAPT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. catar, port. caçar (< captiare)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-carn",
+      "form": "*CARN-",
+      "gloss": "carne",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. carō, carnis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-carne",
+          "form": "carne",
+          "gloss": "carne",
+          "analysis_html": "CARN-",
+          "analysis_text": "CARN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: esp./it./port. carne."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-caud",
+      "form": "*CAUD-",
+      "gloss": "cola",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cauda, vulg. cōda",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-coa",
+          "form": "côa",
+          "gloss": "cola",
+          "analysis_html": "CAUD-",
+          "analysis_text": "CAUD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. coda, fr. queue."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cav",
+      "form": "*CAV-",
+      "gloss": "cavar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cavāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-coare",
+          "form": "coare",
+          "gloss": "cavar",
+          "analysis_html": "CAV-",
+          "analysis_text": "CAV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp./it. cavar(e)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-chord",
+      "form": "*CHORD-",
+      "gloss": "cuerda",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. chorda",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-corda",
+          "form": "côrda",
+          "gloss": "cuerda",
+          "analysis_html": "CHORD-",
+          "analysis_text": "CHORD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "objetos"
+          ],
+          "notes": [
+            "Romance: it. corda, esp. cuerda."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cinr",
+      "form": "*CIN-R",
+      "gloss": "ceniza",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cinis, cineris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ciner",
+          "form": "ciner",
+          "gloss": "ceniza",
+          "analysis_html": "CIN-R",
+          "analysis_text": "CIN-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. cenere, esp. ceniza (< cinisia)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-colap",
+      "form": "*COLAP-",
+      "gloss": "golpear",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. colaphus, vulg. colpus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-culp",
+          "form": "culp",
+          "gloss": "golpear",
+          "analysis_html": "COLAP-",
+          "analysis_text": "COLAP-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: it. colpo, fr. coup, esp. golpe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-coll",
+      "form": "*COLL-",
+      "gloss": "cuello",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. collum",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-collu",
+          "form": "collu",
+          "gloss": "cuello",
+          "analysis_html": "COLL-",
+          "analysis_text": "COLL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. collo, esp. cuello."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-comed",
+      "form": "*COMED-",
+      "gloss": "comer",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. comedere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-comedre",
+          "form": "comedre",
+          "gloss": "comer",
+          "analysis_html": "COMED-",
+          "analysis_text": "COMED-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: esp./port. comer (< comedere)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-comput",
+      "form": "*COMPUT-",
+      "gloss": "contar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. computāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-comptare",
+          "form": "comptare",
+          "gloss": "contar",
+          "analysis_html": "COMPUT-",
+          "analysis_text": "COMPUT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: cat. comptar, esp. contar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cord",
+      "form": "*CORD-",
+      "gloss": "corazón",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cor, cordis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cor",
+          "form": "côr",
+          "gloss": "corazón",
+          "analysis_html": "CORD-",
+          "analysis_text": "CORD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: fr. cœur, it. cuore, esp. ant. cuer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-corn",
+      "form": "*CORN-",
+      "gloss": "cuerno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cornū, cornua",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cornu",
+          "form": "côrnu",
+          "gloss": "cuerno",
+          "analysis_html": "CORN-",
+          "analysis_text": "CORN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "côrnu, côrna",
+            "Romance: it. corno (pl. corna), esp. cuerno."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cortic",
+      "form": "*CORTIC-",
+      "gloss": "corteza",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cortex, corticis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cortix",
+          "form": "cortix",
+          "gloss": "corteza",
+          "analysis_html": "CORTIC-",
+          "analysis_text": "CORTIC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Romance: it. corteccia, esp. corteza (< corticea)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-crass",
+      "form": "*CRASS-",
+      "gloss": "grasa",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. crassus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-crassa",
+          "form": "crassa",
+          "gloss": "grasa",
+          "analysis_html": "CRASS-",
+          "analysis_text": "CRASS-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: esp. grasa, it. grasso."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cultr",
+      "form": "*CULT-R",
+      "gloss": "apuñalar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. culter, cultrī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-accultrare",
+          "form": "accultrare",
+          "gloss": "apuñalar",
+          "analysis_html": "AD + CULT-R",
+          "analysis_text": "AD + CULT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Sin paralelo romance (cf. it. coltello < cultellus). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-cum",
+      "form": "*CUM-",
+      "gloss": "con",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. cum",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cun",
+          "form": "cun",
+          "gloss": "con",
+          "analysis_html": "CUM-",
+          "analysis_text": "CUM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "partículas"
+          ],
+          "notes": [
+            "Romance: esp./it. con."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-curt",
+      "form": "*CURT-",
+      "gloss": "corto",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "C",
+      "section": "sec-c",
+      "etymology": "< Lat. curtus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-curtu",
+          "form": "curtu",
+          "gloss": "corto",
+          "analysis_html": "CURT-",
+          "analysis_text": "CURT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it. corto, esp. corto."
+          ]
+        },
+        {
+          "id": "lexeme-curtare",
+          "form": "curtare",
+          "gloss": "cortar",
+          "analysis_html": "CURT-",
+          "analysis_text": "CURT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. cortar, it. accorciare."
+          ]
+        }
+      ]
+    }
+  ]
 }

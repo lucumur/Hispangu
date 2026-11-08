@@ -2,5 +2,123 @@
   "schema_version": 1,
   "letter": "H",
   "key": "h",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-herb",
+      "form": "*HERB-",
+      "gloss": "hierba",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "H",
+      "section": "sec-h",
+      "etymology": "< Lat. herba",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-herba",
+          "form": "herba",
+          "gloss": "hierba",
+          "analysis_html": "HERB-",
+          "analysis_text": "HERB-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "Romance: cat. herba, it. erba."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-hic",
+      "form": "*HIC-",
+      "gloss": "aquí",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "H",
+      "section": "sec-h",
+      "etymology": "< Lat. hīc",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ich",
+          "form": "ich",
+          "gloss": "aquí",
+          "analysis_html": "HIC-",
+          "analysis_text": "HIC-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "deixis"
+          ],
+          "notes": [
+            "Romance: esp. aquí, it. qui (< eccu hīc, con refuerzo)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-homn",
+      "form": "*HOM-N",
+      "gloss": "hombre (ser humano)",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "H",
+      "section": "sec-h",
+      "etymology": "< Lat. homō, hominem",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-homo",
+          "form": "homo",
+          "gloss": "hombre (ser humano)",
+          "analysis_html": "HOM-N",
+          "analysis_text": "HOM-N",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "personas"
+          ],
+          "notes": [
+            "homo, hombre",
+            "Romance: fr. on / homme, esp. ant. omne > hombre (caso recto / oblicuo)."
+          ]
+        }
+      ]
+    }
+  ]
 }

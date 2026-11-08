@@ -4,6 +4,43 @@
   "key": "p",
   "entries": [
     {
+      "id": "root-pal",
+      "form": "*PAL-",
+      "gloss": "palo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pālus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-palu",
+          "form": "palu",
+          "gloss": "palo",
+          "analysis_html": "PAL-",
+          "analysis_text": "PAL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "Romance: it./esp. palo."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-papp",
       "form": "*PAPP-",
       "gloss": "abuelito",
@@ -88,6 +125,80 @@
       ]
     },
     {
+      "id": "root-part",
+      "form": "*PART-",
+      "gloss": "partir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. partīre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-partire",
+          "form": "partire",
+          "gloss": "partir",
+          "analysis_html": "PART-",
+          "analysis_text": "PART-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: it. partire, esp. partir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-passr",
+      "form": "*PASS-R",
+      "gloss": "pájaro",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. passer",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-passer",
+          "form": "passer",
+          "gloss": "pájaro",
+          "analysis_html": "PASS-R",
+          "analysis_text": "PASS-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "Romance: rum. pasăre, esp. pájaro (< passar)."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-mat-r-2",
       "form": "*PAT-R",
       "gloss": "padre",
@@ -158,6 +269,560 @@
           ],
           "notes": [
             "Sin paralelo romance usual: patruus fue desplazado por thius (esp. tío, it. zio). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pauc",
+      "form": "*PAUC-",
+      "gloss": "poco",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. paucus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-paucu",
+          "form": "paucu",
+          "gloss": "poco",
+          "analysis_html": "PAUC-",
+          "analysis_text": "PAUC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuantificadores"
+          ],
+          "notes": [
+            "Romance: it. poco, port. pouco."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pect",
+      "form": "*PECT-",
+      "gloss": "pecho",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pectus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-peitu",
+          "form": "peitu",
+          "gloss": "pecho",
+          "analysis_html": "PECT-",
+          "analysis_text": "PECT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: port. peito, esp. pecho."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ped",
+      "form": "*PED-",
+      "gloss": "pie",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pēs, pedis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-peis",
+          "form": "peis",
+          "gloss": "pie",
+          "analysis_html": "PED-",
+          "analysis_text": "PED-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "peis, pees",
+            "Romance: cat. peu, esp. pie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pedicul",
+      "form": "*PEDICUL-",
+      "gloss": "piojo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pēdiculus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pechu",
+          "form": "pechu",
+          "gloss": "piojo",
+          "analysis_html": "PEDICUL-",
+          "analysis_text": "PEDICUL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "Romance: esp. piojo, port. piolho; -cl- > /χ/ como en och."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pell",
+      "form": "*PELL-",
+      "gloss": "piel",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pellis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pell",
+          "form": "pell",
+          "gloss": "piel",
+          "analysis_html": "PELL-",
+          "analysis_text": "PELL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: cat. pell, it. pelle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-petr",
+      "form": "*PETR-",
+      "gloss": "piedra",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. petra",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-perra",
+          "form": "perra",
+          "gloss": "piedra",
+          "analysis_html": "PETR-",
+          "analysis_text": "PETR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: port. pedra, it. pietra; -tr- > -rr- como en mair."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pil",
+      "form": "*PIL-",
+      "gloss": "pelo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pilus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pilu",
+          "form": "pilu",
+          "gloss": "pelo",
+          "analysis_html": "PIL-",
+          "analysis_text": "PIL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it./esp. pelo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pisc",
+      "form": "*PISC-",
+      "gloss": "pez",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. piscis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pix",
+          "form": "pix",
+          "gloss": "pez",
+          "analysis_html": "PISC-",
+          "analysis_text": "PISC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Romance: esp. pez, cat. peix."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pitt",
+      "form": "*PITT-",
+      "gloss": "pequeño",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pettinu",
+          "form": "pettinu",
+          "gloss": "pequeño",
+          "analysis_html": "PITT-",
+          "analysis_text": "PITT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: cat. petit, rum. pitic (raíz expresiva *pitt-)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-plen",
+      "form": "*PLEN-",
+      "gloss": "lleno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. plēnus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-plenu",
+          "form": "plenu",
+          "gloss": "lleno",
+          "analysis_html": "PLEN-",
+          "analysis_text": "PLEN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. pieno, esp. lleno."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-plum",
+      "form": "*PLUM-",
+      "gloss": "pluma",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. plūma",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-plumba",
+          "form": "plumba",
+          "gloss": "pluma",
+          "analysis_html": "PLUM-",
+          "analysis_text": "PLUM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: esp. pluma, it. piuma."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-pluv",
+      "form": "*PLUV-",
+      "gloss": "lluvia",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pluvia",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pluja",
+          "form": "pluja",
+          "gloss": "lluvia",
+          "analysis_html": "PLUV-",
+          "analysis_text": "PLUV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: cat. pluja, it. pioggia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-prem",
+      "form": "*PREM-",
+      "gloss": "apretar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. premere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-apprembre",
+          "form": "apprembre",
+          "gloss": "apretar",
+          "analysis_html": "AD + PREM-",
+          "analysis_text": "AD + PREM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. ant. premer, it. premere."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-puls",
+      "form": "*PULS-",
+      "gloss": "empujar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. pulsāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-puxare",
+          "form": "puxare",
+          "gloss": "empujar",
+          "analysis_html": "PULS-",
+          "analysis_text": "PULS-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Romance: port. puxar, esp. pujar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-putr",
+      "form": "*PUTR-",
+      "gloss": "podrido",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. putridus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-purridu",
+          "form": "purridu",
+          "gloss": "podrido",
+          "analysis_html": "PUTR-",
+          "analysis_text": "PUTR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: esp. podrido, it. putrido; -tr- > -rr- como en perra."
           ]
         }
       ]

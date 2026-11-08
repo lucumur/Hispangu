@@ -4,6 +4,224 @@
   "key": "a",
   "entries": [
     {
+      "id": "root-al",
+      "form": "*AL-",
+      "gloss": "ala",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. āla",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ala",
+          "form": "ala",
+          "gloss": "ala",
+          "analysis_html": "AL-",
+          "analysis_text": "AL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it./esp. ala."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-aliqu",
+      "form": "*ALIQU-",
+      "gloss": "algunos",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. aliquis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-alques",
+          "form": "alques",
+          "gloss": "algunos",
+          "analysis_html": "ALIQU-",
+          "analysis_text": "ALIQU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuantificadores"
+          ],
+          "notes": [
+            "Romance: fr. ant. alques, occ. alques."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-altr",
+      "form": "*ALT-R",
+      "gloss": "otro",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. alter, alterī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-altru",
+          "form": "altru",
+          "gloss": "otro",
+          "analysis_html": "ALT-R",
+          "analysis_text": "ALT-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuantificadores"
+          ],
+          "notes": [
+            "Romance: it. altro, rum. altul."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ambr",
+      "form": "*AMBR-",
+      "gloss": "amarillo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ambru",
+          "form": "ambru",
+          "gloss": "amarillo",
+          "analysis_html": "AMBR-",
+          "analysis_text": "AMBR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "colores"
+          ],
+          "notes": [
+            "Sin paralelo romance como color (esp. ámbar, sustantivo). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ambul",
+      "form": "*AMBUL-",
+      "gloss": "caminar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. ambulāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-amblare",
+          "form": "amblare",
+          "gloss": "caminar",
+          "analysis_html": "AMBUL-",
+          "analysis_text": "AMBUL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: fr. ant. ambler, esp. amblar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ampl",
+      "form": "*AMPL-",
+      "gloss": "ancho",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. amplus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ampliu",
+          "form": "ampliu",
+          "gloss": "ancho",
+          "analysis_html": "AMPL-",
+          "analysis_text": "AMPL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: it. ampio, esp. amplio (cultismo)."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-amt",
       "form": "*AMT-",
       "gloss": "tía paterna",
@@ -56,6 +274,303 @@
           ],
           "notes": [
             "Sin paralelo romance (esp. prima). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-anim",
+      "form": "*ANIM-",
+      "gloss": "animal",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. animal, animālis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-almale",
+          "form": "almale",
+          "gloss": "animal",
+          "analysis_html": "ANIM-",
+          "analysis_text": "ANIM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "Romance: esp. ant. alimaña, port. alimária (disimilación n-m > l)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ann",
+      "form": "*ANN-",
+      "gloss": "año",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. annus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-annu",
+          "form": "annu",
+          "gloss": "año",
+          "analysis_html": "ANN-",
+          "analysis_text": "ANN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "tiempo"
+          ],
+          "notes": [
+            "Romance: it. anno, esp. año."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-apt",
+      "form": "*APT-",
+      "gloss": "atar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. aptāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-attare",
+          "form": "attare",
+          "gloss": "atar",
+          "analysis_html": "APT-",
+          "analysis_text": "APT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. atar (< aptare)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-aqu",
+      "form": "*AQU-",
+      "gloss": "agua",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. aqua",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-agua",
+          "form": "agua",
+          "gloss": "agua",
+          "analysis_html": "AQU-",
+          "analysis_text": "AQU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: esp. agua, port. água."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-arbr",
+      "form": "*ARB-R",
+      "gloss": "árbol",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. arbor, arboris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-arbor",
+          "form": "arbor",
+          "gloss": "árbol",
+          "analysis_html": "ARB-R",
+          "analysis_text": "ARB-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "Romance: rum. arbore, esp. árbol."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-aren",
+      "form": "*AREN-",
+      "gloss": "arena",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. harēna",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-arena",
+          "form": "arena",
+          "gloss": "arena",
+          "analysis_html": "AREN-",
+          "analysis_text": "AREN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: esp. arena, it. rena."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-aud",
+      "form": "*AUD-",
+      "gloss": "oír",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. audīre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-aure",
+          "form": "aure",
+          "gloss": "oír",
+          "analysis_html": "AUD-",
+          "analysis_text": "AUD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "percepción y mente"
+          ],
+          "notes": [
+            "Romance: esp. oír, port. ouvir, it. udire."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-aur",
+      "form": "*AUR-",
+      "gloss": "oreja",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. auris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-aur",
+          "form": "aur",
+          "gloss": "oreja",
+          "analysis_html": "AUR-",
+          "analysis_text": "AUR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "aur, aures",
+            "Sin paralelo romance directo: el romance usa auricula (esp. oreja, it. orecchio). Divergente."
           ]
         }
       ]

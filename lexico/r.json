@@ -2,5 +2,351 @@
   "schema_version": 1,
   "letter": "R",
   "key": "r",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-rad",
+      "form": "*RAD-",
+      "gloss": "rascar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rādere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-raire",
+          "form": "raire",
+          "gloss": "rascar",
+          "analysis_html": "RAD-",
+          "analysis_text": "RAD-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. raer, cat. raure."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-radic",
+      "form": "*RADIC-",
+      "gloss": "raíz",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rādīx, rādīcis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-raix",
+          "form": "raix",
+          "gloss": "raíz",
+          "analysis_html": "RADIC-",
+          "analysis_text": "RADIC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "x = /ʃ/.",
+            "Romance: esp. raíz, it. radice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-rect",
+      "form": "*RECT-",
+      "gloss": "recto",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rēctus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-reitu",
+          "form": "reitu",
+          "gloss": "recto",
+          "analysis_html": "RECT-",
+          "analysis_text": "RECT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. retto, port. reto."
+          ]
+        },
+        {
+          "id": "lexeme-correitu",
+          "form": "correitu",
+          "gloss": "correcto",
+          "analysis_html": "CON + RECT-",
+          "analysis_text": "CON + RECT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. corretto (< correctus)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-rid",
+      "form": "*RID-",
+      "gloss": "reír",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rīdēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-rire",
+          "form": "rire",
+          "gloss": "reír",
+          "analysis_html": "RID-",
+          "analysis_text": "RID-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: fr. rire, esp. reír."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-riv",
+      "form": "*RIV-",
+      "gloss": "río",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rīvus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-riu",
+          "form": "riu",
+          "gloss": "río",
+          "analysis_html": "RIV-",
+          "analysis_text": "RIV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: cat. riu, esp. río."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-rot",
+      "form": "*ROT-",
+      "gloss": "rodilla",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rotula, rotella",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-rolla",
+          "form": "rolla",
+          "gloss": "rodilla",
+          "analysis_html": "ROT-",
+          "analysis_text": "ROT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: esp. rodilla (< rotella), port. rótula."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-rotund",
+      "form": "*ROTUND-",
+      "gloss": "redondo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rotundus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-rodundu",
+          "form": "rodundu",
+          "gloss": "redondo",
+          "analysis_html": "ROTUND-",
+          "analysis_text": "ROTUND-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: esp. redondo, it. rotondo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ruf",
+      "form": "*RUF-",
+      "gloss": "rojo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": "< Lat. rūfus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ruffu",
+          "form": "ruffu",
+          "gloss": "rojo",
+          "analysis_html": "RUF-",
+          "analysis_text": "RUF-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "colores"
+          ],
+          "notes": [
+            "Sin paralelo romance directo de rūfus (esp. rojo < russeus). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-rumb",
+      "form": "*RUMB-",
+      "gloss": "romo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "R",
+      "section": "sec-r",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-rumbu",
+          "form": "rumbu",
+          "gloss": "romo",
+          "analysis_html": "RUMB-",
+          "analysis_text": "RUMB-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: esp. romo."
+          ]
+        }
+      ]
+    }
+  ]
 }

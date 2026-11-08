@@ -2,5 +2,114 @@
   "schema_version": 1,
   "letter": "B",
   "key": "b",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-bib",
+      "form": "*BIB-",
+      "gloss": "beber",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": "< Lat. bibere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-bibre",
+          "form": "bibre",
+          "gloss": "beber",
+          "analysis_html": "BIB-",
+          "analysis_text": "BIB-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: fr. boire, it. bere, esp. beber."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-bon",
+      "form": "*BON-",
+      "gloss": "bueno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": "< Lat. bonus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-bonu",
+          "form": "bonu",
+          "gloss": "bueno",
+          "analysis_html": "BON-",
+          "analysis_text": "BON-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. buono, port. bom."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-bosc",
+      "form": "*BOSC-",
+      "gloss": "bosque",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "B",
+      "section": "sec-b",
+      "etymology": "< Germ. *busk-",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-bosc",
+          "form": "bosc",
+          "gloss": "bosque",
+          "analysis_html": "BOSC-",
+          "analysis_text": "BOSC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "bosc, boschi",
+            "Romance: cat. bosc, it. bosco, fr. bois."
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -88,6 +88,118 @@
       ]
     },
     {
+      "id": "root-nar",
+      "form": "*NAR-",
+      "gloss": "nariz",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nāris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nar",
+          "form": "nar",
+          "gloss": "nariz",
+          "analysis_html": "NAR-",
+          "analysis_text": "NAR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "nar, nares",
+            "Romance: rum. nară «fosa nasal»; esp. nariz (< *naricae)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nat",
+      "form": "*NAT-",
+      "gloss": "nadar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. natāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nadare",
+          "form": "nadare",
+          "gloss": "nadar",
+          "analysis_html": "NAT-",
+          "analysis_text": "NAT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: esp. nadar, port. nadar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nebul",
+      "form": "*NEBUL-",
+      "gloss": "niebla",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nebula",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nebla",
+          "form": "nebla",
+          "gloss": "niebla",
+          "analysis_html": "NEBUL-",
+          "analysis_text": "NEBUL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: esp. niebla, it. nebbia."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-nep-t",
       "form": "*NEP-T",
       "gloss": "sobrino, nieto",
@@ -194,6 +306,380 @@
           ],
           "notes": [
             "Sin paralelo romance usual (esp. trastataranieto). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nigr",
+      "form": "*NIG-R",
+      "gloss": "negro",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. niger, nigrī",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nir",
+          "form": "nir",
+          "gloss": "negro",
+          "analysis_html": "NIG-R",
+          "analysis_text": "NIG-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "colores"
+          ],
+          "notes": [
+            "Romance: fr. noir, esp. negro."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ninn",
+      "form": "*NINN-",
+      "gloss": "niño",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ninnu",
+          "form": "ninnu",
+          "gloss": "niño",
+          "analysis_html": "NINN-",
+          "analysis_text": "NINN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "personas"
+          ],
+          "notes": [
+            "Romance: esp. niño, it. ninno (voz expresiva)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-niv",
+      "form": "*NIV-",
+      "gloss": "nieve",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nix, nivis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nivis",
+          "form": "nivis",
+          "gloss": "nieve",
+          "analysis_html": "NIV-",
+          "analysis_text": "NIV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: esp. nieve, it. neve."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-noct",
+      "form": "*NOCT-",
+      "gloss": "noche",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nox, noctem",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nox",
+          "form": "nox",
+          "gloss": "noche",
+          "analysis_html": "NOCT-",
+          "analysis_text": "NOCT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "tiempo"
+          ],
+          "notes": [
+            "nox, noite",
+            "x = /ʃ/.",
+            "Romance: port. noite, fr. nuit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nomn",
+      "form": "*NOM-N",
+      "gloss": "nombre",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nōmen, nōmina",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nomen",
+          "form": "nomen",
+          "gloss": "nombre",
+          "analysis_html": "NOM-N",
+          "analysis_text": "NOM-N",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "lenguaje"
+          ],
+          "notes": [
+            "nomen, nombri",
+            "Romance: it. nome, esp. nombre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-non",
+      "form": "*NON-",
+      "gloss": "no",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nōn",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-non",
+          "form": "non",
+          "gloss": "no",
+          "analysis_html": "NON-",
+          "analysis_text": "NON-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "partículas"
+          ],
+          "notes": [
+            "Romance: it. non, fr. non."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nos",
+      "form": "*NOS-",
+      "gloss": "nosotros",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nōs",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nos",
+          "form": "nos",
+          "gloss": "nosotros",
+          "analysis_html": "NOS-",
+          "analysis_text": "NOS-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Romance: port. nós, fr. nous."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nosc",
+      "form": "*NOSC-",
+      "gloss": "saber",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nōscere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-noscere",
+          "form": "noscere",
+          "gloss": "saber",
+          "analysis_html": "NOSC-",
+          "analysis_text": "NOSC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "percepción y mente"
+          ],
+          "notes": [
+            "Sin paralelo romance: el simple nōscere se perdió (esp. conocer < cognoscere). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nov",
+      "form": "*NOV-",
+      "gloss": "nuevo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. novus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-novu",
+          "form": "novu",
+          "gloss": "nuevo",
+          "analysis_html": "NOV-",
+          "analysis_text": "NOV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. nuovo, port. novo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-nub",
+      "form": "*NUB-",
+      "gloss": "nube",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "N",
+      "section": "sec-n",
+      "etymology": "< Lat. nūbēs",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-nubis",
+          "form": "nubis",
+          "gloss": "nube",
+          "analysis_html": "NUB-",
+          "analysis_text": "NUB-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: esp./it. nube."
           ]
         }
       ]

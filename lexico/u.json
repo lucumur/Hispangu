@@ -4,6 +4,155 @@
   "key": "u",
   "entries": [
     {
+      "id": "root-ub",
+      "form": "*UB-",
+      "gloss": "dónde",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": "< Lat. dē ubi",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-du",
+          "form": "du",
+          "gloss": "dónde",
+          "analysis_html": "UB-",
+          "analysis_text": "UB-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "interrogativos"
+          ],
+          "notes": [
+            "Romance: esp. ant. do, port. ant. u."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-un",
+      "form": "*UN-",
+      "gloss": "uno",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": "< Lat. ūnus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-unu",
+          "form": "unu",
+          "gloss": "uno",
+          "analysis_html": "UN-",
+          "analysis_text": "UN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "números"
+          ],
+          "notes": [
+            "Romance: it. uno, rum. unu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-und",
+      "form": "*UND-",
+      "gloss": "mojado",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-undu",
+          "form": "undu",
+          "gloss": "mojado",
+          "analysis_html": "UND-",
+          "analysis_text": "UND-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Sin paralelo romance. Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ungul",
+      "form": "*UNGUL-",
+      "gloss": "uña",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": "< Lat. ungula",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ungla",
+          "form": "ungla",
+          "gloss": "uña",
+          "analysis_html": "UNGUL-",
+          "analysis_text": "UNGUL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: cat. ungla, it. unghia."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-ux-r",
       "form": "*UX-R",
       "gloss": "esposa",

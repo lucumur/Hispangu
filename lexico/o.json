@@ -2,5 +2,195 @@
   "schema_version": 1,
   "letter": "O",
   "key": "o",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-ocul",
+      "form": "*OCUL-",
+      "gloss": "ojo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": "< Lat. oculus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-och",
+          "form": "och",
+          "gloss": "ojo",
+          "analysis_html": "OCUL-",
+          "analysis_text": "OCUL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "och, ochi",
+            "Romance: esp. ojo, port. olho, it. occhio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ol",
+      "form": "*OL-",
+      "gloss": "oler",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": "< Lat. olēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-olere",
+          "form": "olere",
+          "gloss": "oler",
+          "analysis_html": "OL-",
+          "analysis_text": "OL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "percepción y mente"
+          ],
+          "notes": [
+            "Romance: esp. oler."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-or",
+      "form": "*OR-",
+      "gloss": "boca",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": "< Lat. ōs, ōris",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-or",
+          "form": "or",
+          "gloss": "boca",
+          "analysis_html": "OR-",
+          "analysis_text": "OR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "or, ores",
+            "Sin paralelo romance: ōs fue sustituido por bucca (esp. boca). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-oss",
+      "form": "*OSS-",
+      "gloss": "hueso",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": "< Lat. os, ossis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-os",
+          "form": "ôs",
+          "gloss": "hueso",
+          "analysis_html": "OSS-",
+          "analysis_text": "OSS-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "ôs, ôssi",
+            "Romance: fr. os, it. osso."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ov",
+      "form": "*OV-",
+      "gloss": "huevo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "O",
+      "section": "sec-o",
+      "etymology": "< Lat. ōvum, ōva",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-o",
+          "form": "ô",
+          "gloss": "huevo",
+          "analysis_html": "OV-",
+          "analysis_text": "OV-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "ô, ôa",
+            "Romance: fr. œuf, it. uovo; plural neutro en -a como it. le uova."
+          ]
+        }
+      ]
+    }
+  ]
 }

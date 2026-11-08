@@ -61,6 +61,266 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-ten",
+      "form": "*TEN-",
+      "gloss": "sostener",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "< Lat. tenēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tendre",
+          "form": "tendre",
+          "gloss": "sostener",
+          "analysis_html": "TEN-",
+          "analysis_text": "TEN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. tener, cat. tenir; epéntesis -nr- > -ndr- como esp. tendré."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-terr",
+      "form": "*TERR-",
+      "gloss": "tierra",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "< Lat. terra",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-terra",
+          "form": "terra",
+          "gloss": "tierra",
+          "analysis_html": "TERR-",
+          "analysis_text": "TERR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it./cat./port. terra."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-tim",
+      "form": "*TIM-",
+      "gloss": "temer",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "< Lat. timēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-timbre",
+          "form": "timbre",
+          "gloss": "temer",
+          "analysis_html": "TIM-",
+          "analysis_text": "TIM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "percepción y mente"
+          ],
+          "notes": [
+            "Romance: esp. temer, it. temere; epéntesis -mr- > -mbr- como esp. hombre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-tir",
+      "form": "*TIR-",
+      "gloss": "jalar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tirare",
+          "form": "tirare",
+          "gloss": "jalar",
+          "analysis_html": "TIR-",
+          "analysis_text": "TIR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: it. tirare, esp. tirar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-tot",
+      "form": "*TOT-",
+      "gloss": "todo",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "< Lat. tōtus, vulg. tottus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tottu",
+          "form": "tottu",
+          "gloss": "todo",
+          "analysis_html": "TOT-",
+          "analysis_text": "TOT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuantificadores"
+          ],
+          "notes": [
+            "Romance: it. tutto, fr. tout."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-tr",
+      "form": "*TR-",
+      "gloss": "tres",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "< Lat. trēs",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tres",
+          "form": "tres",
+          "gloss": "tres",
+          "analysis_html": "TR-",
+          "analysis_text": "TR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "números"
+          ],
+          "notes": [
+            "Romance: esp./port./cat. tres."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-tu",
+      "form": "*TU-",
+      "gloss": "tú",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "T",
+      "section": "sec-t",
+      "etymology": "< Lat. tū",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tu",
+          "form": "tu",
+          "gloss": "tú",
+          "analysis_html": "TU-",
+          "analysis_text": "TU-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Romance: it./port./cat. tu."
+          ]
+        }
+      ]
     }
   ]
 }

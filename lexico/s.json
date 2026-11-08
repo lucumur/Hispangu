@@ -4,6 +4,300 @@
   "key": "s",
   "entries": [
     {
+      "id": "root-sal",
+      "form": "*SAL-",
+      "gloss": "sal",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sāl",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sale",
+          "form": "sale",
+          "gloss": "sal",
+          "analysis_html": "SAL-",
+          "analysis_text": "SAL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. sale, rum. sare."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sanguin",
+      "form": "*SANGUIN-",
+      "gloss": "sangre",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sanguis, sanguinem",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sanguen",
+          "form": "sanguen",
+          "gloss": "sangre",
+          "analysis_html": "SANGUIN-",
+          "analysis_text": "SANGUIN-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "sanguen, sangri",
+            "Romance: it. sangue, rum. sânge, esp. sangre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-scup",
+      "form": "*SCUP-",
+      "gloss": "escupir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-scuppere",
+          "form": "scuppere",
+          "gloss": "escupir",
+          "analysis_html": "SCUP-",
+          "analysis_text": "SCUP-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: esp. escupir, cat. escopir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sed",
+      "form": "*SED-",
+      "gloss": "sentarse",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sedēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-seire",
+          "form": "seire",
+          "gloss": "sentarse",
+          "analysis_html": "SED-",
+          "analysis_text": "SED-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: esp. ant. seer «estar sentado»."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-semn",
+      "form": "*SEM-N",
+      "gloss": "semilla",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sēmen, sēminis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-semella",
+          "form": "semella",
+          "gloss": "semilla",
+          "analysis_html": "SEM-N",
+          "analysis_text": "SEM-N",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "plantas"
+          ],
+          "notes": [
+            "Romance: esp. semilla, port. semente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-serpent",
+      "form": "*SERPENT-",
+      "gloss": "serpiente",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. serpēns, serpentis",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-serpenz",
+          "form": "serpenz",
+          "gloss": "serpiente",
+          "analysis_html": "SERPENT-",
+          "analysis_text": "SERPENT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "animales"
+          ],
+          "notes": [
+            "serpenz, serpenti",
+            "Romance: it. serpente, fr. serpent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sic",
+      "form": "*SIC-",
+      "gloss": "si",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sīc",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sich",
+          "form": "sich",
+          "gloss": "si",
+          "analysis_html": "SIC-",
+          "analysis_text": "SIC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "partículas"
+          ],
+          "notes": [
+            "Romance: it. sì, esp. sí (afirmación, < sic)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sicc",
+      "form": "*SICC-",
+      "gloss": "seco",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. siccus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-siccu",
+          "form": "siccu",
+          "gloss": "seco",
+          "analysis_html": "SICC-",
+          "analysis_text": "SICC-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. secco, esp. seco."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-soc-r",
       "form": "*SOC-R",
       "gloss": "suegro, suegra",
@@ -51,6 +345,43 @@
           ],
           "notes": [
             "Romance: esp. suegra, port. sogra, it. suocera."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sol",
+      "form": "*SOL-",
+      "gloss": "sol",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sōl",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sol",
+          "form": "sol",
+          "gloss": "sol",
+          "analysis_html": "SOL-",
+          "analysis_text": "SOL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: esp./port./cat. sol."
           ]
         }
       ]
@@ -131,6 +462,265 @@
           "notes": [
             "Femenino: sôrina.",
             "Romance: esp. sobrino, port. sobrinho (< consobrinus, derivado de soror)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sorb",
+      "form": "*SORB-",
+      "gloss": "chupar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. sorbēre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-sorbere",
+          "form": "sorbere",
+          "gloss": "chupar",
+          "analysis_html": "SORB-",
+          "analysis_text": "SORB-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: esp. sorber, it. sorbire."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-spatul",
+      "form": "*SPATUL-",
+      "gloss": "espalda",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. spatula",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-spallar",
+          "form": "spallar",
+          "gloss": "espalda",
+          "analysis_html": "SPATUL-",
+          "analysis_text": "SPATUL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "Romance: it. spalla, esp. espalda."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-spir",
+      "form": "*SPIR-",
+      "gloss": "respirar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. respīrāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-respirare",
+          "form": "respirare",
+          "gloss": "respirar",
+          "analysis_html": "SPIR-",
+          "analysis_text": "SPIR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: it. respirare, esp. respirar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-sta",
+      "form": "*STA-",
+      "gloss": "estar de pie",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. stāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-stare",
+          "form": "stare",
+          "gloss": "estar de pie",
+          "analysis_html": "STA-",
+          "analysis_text": "STA-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: it. stare, esp. estar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-stell",
+      "form": "*STELL-",
+      "gloss": "estrella",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. stēlla",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-stella",
+          "form": "stella",
+          "gloss": "estrella",
+          "analysis_html": "STELL-",
+          "analysis_text": "STELL-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "naturaleza"
+          ],
+          "notes": [
+            "Romance: it. stella."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-strict",
+      "form": "*STRICT-",
+      "gloss": "estrecho",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. strictus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-streitu",
+          "form": "streitu",
+          "gloss": "estrecho",
+          "analysis_html": "STRICT-",
+          "analysis_text": "STRICT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: port. estreito, fr. étroit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-su",
+      "form": "*SU-",
+      "gloss": "coser",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. cōnsuere",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cossuere",
+          "form": "cossuere",
+          "gloss": "coser",
+          "analysis_html": "CON + SU-",
+          "analysis_text": "CON + SU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: esp. coser, it. cucire."
           ]
         }
       ]

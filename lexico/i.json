@@ -2,5 +2,226 @@
   "schema_version": 1,
   "letter": "I",
   "key": "i",
-  "entries": []
+  "entries": [
+    {
+      "id": "root-iact",
+      "form": "*IACT-",
+      "gloss": "tumbarse",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "< Lat. iactāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jeitare",
+          "form": "jeitare",
+          "gloss": "tumbarse",
+          "analysis_html": "IACT-",
+          "analysis_text": "IACT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: port. deitar «acostarse», esp. echar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-iecr",
+      "form": "*IEC-R",
+      "gloss": "hígado",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "< Lat. iecur",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-jegur",
+          "form": "jegur",
+          "gloss": "hígado",
+          "analysis_html": "IEC-R",
+          "analysis_text": "IEC-R",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cuerpo"
+          ],
+          "notes": [
+            "jegur, jegri",
+            "Sin paralelo romance: iecur fue sustituido por ficatum (esp. hígado, it. fegato). Divergente."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ill",
+      "form": "*ILL-",
+      "gloss": "él, ella",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "< Lat. ille, illa",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-ill",
+          "form": "ill",
+          "gloss": "él, ella",
+          "analysis_html": "ILL-",
+          "analysis_text": "ILL-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "ill, illa",
+            "Romance: cat. ell, ella; esp. él, ella."
+          ]
+        },
+        {
+          "id": "lexeme-illes",
+          "form": "illes",
+          "gloss": "ellos",
+          "analysis_html": "ILL-",
+          "analysis_text": "ILL-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Pronombre"
+            }
+          ],
+          "semantic_fields": [
+            "pronombres"
+          ],
+          "notes": [
+            "Romance: esp. ellos, cat. ells."
+          ]
+        },
+        {
+          "id": "lexeme-illich",
+          "form": "illich",
+          "gloss": "allí",
+          "analysis_html": "ILL-",
+          "analysis_text": "ILL-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "deixis"
+          ],
+          "notes": [
+            "Romance: esp. allí, it. lì (< illic)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-ips",
+      "form": "*IPS-",
+      "gloss": "este",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "I",
+      "section": "sec-i",
+      "etymology": "< Lat. ipse",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-isse",
+          "form": "isse",
+          "gloss": "este",
+          "analysis_html": "IPS-",
+          "analysis_text": "IPS-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "deixis"
+          ],
+          "notes": [
+            "Romance: esp. ese, it. esso (< ipse)."
+          ]
+        },
+        {
+          "id": "lexeme-eccisse",
+          "form": "eccisse",
+          "gloss": "ese",
+          "analysis_html": "IPS-",
+          "analysis_text": "IPS-",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "Correlativo"
+            }
+          ],
+          "semantic_fields": [
+            "deixis"
+          ],
+          "notes": [
+            "Romance: esp. ant. aquese (< eccu ipse)."
+          ]
+        }
+      ]
+    }
+  ]
 }
