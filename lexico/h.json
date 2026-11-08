@@ -119,6 +119,39 @@
           ]
         }
       ]
+    },
+    {
+      "id": "root-hrap",
+      "form": "*HRAP-",
+      "gloss": "frotar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "H",
+      "section": "sec-h",
+      "etymology": "< Franco *hrapp-",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-frappere",
+          "form": "frappere",
+          "gloss": "frotar",
+          "analysis_html": "HRAP-",
+          "analysis_text": "HRAP-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: fr. frapper «golpear»."
+          ]
+        }
+      ]
     }
   ]
 }

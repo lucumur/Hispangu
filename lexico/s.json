@@ -79,39 +79,6 @@
       ]
     },
     {
-      "id": "root-scup",
-      "form": "*SCUP-",
-      "gloss": "escupir",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        }
-      ],
-      "letter": "S",
-      "section": "sec-s",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-scuppere",
-          "form": "scuppere",
-          "gloss": "escupir",
-          "analysis_html": "SCUP-",
-          "analysis_text": "SCUP-",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "acciones corporales"
-          ],
-          "notes": [
-            "Romance: esp. escupir, cat. escopir."
-          ]
-        }
-      ]
-    },
-    {
       "id": "root-sed",
       "form": "*SED-",
       "gloss": "sentarse",
@@ -578,6 +545,43 @@
       ]
     },
     {
+      "id": "root-spu",
+      "form": "*SPU-",
+      "gloss": "escupir",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": "< Lat. cōnspūtāre",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-cosputtare",
+          "form": "cosputtare",
+          "gloss": "escupir",
+          "analysis_html": "CON + SPU-",
+          "analysis_text": "CON + SPU-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones corporales"
+          ],
+          "notes": [
+            "Romance: port. cuspir (< conspuere), esp. escupir (< *exconspuere)."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-sta",
       "form": "*STA-",
       "gloss": "estar de pie",
@@ -647,6 +651,39 @@
           ],
           "notes": [
             "Romance: it. stella."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-stir",
+      "form": "*STIR-",
+      "gloss": "jalar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "S",
+      "section": "sec-s",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-tirare",
+          "form": "tirare",
+          "gloss": "jalar",
+          "analysis_html": "STIR-",
+          "analysis_text": "STIR-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "acciones"
+          ],
+          "notes": [
+            "Romance: it. tirare, esp. tirar."
           ]
         }
       ]

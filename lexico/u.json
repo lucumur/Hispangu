@@ -46,6 +46,43 @@
       ]
     },
     {
+      "id": "root-um",
+      "form": "*UM-",
+      "gloss": "mojado",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "U",
+      "section": "sec-u",
+      "etymology": "< Lat. ūmidus",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-undu",
+          "form": "undu",
+          "gloss": "mojado",
+          "analysis_html": "UM-",
+          "analysis_text": "UM-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "cualidades"
+          ],
+          "notes": [
+            "Romance: it. umido, esp. húmedo."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-un",
       "form": "*UN-",
       "gloss": "uno",
@@ -78,39 +115,6 @@
           ],
           "notes": [
             "Romance: it. uno, rum. unu."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "root-und",
-      "form": "*UND-",
-      "gloss": "mojado",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        }
-      ],
-      "letter": "U",
-      "section": "sec-u",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-undu",
-          "form": "undu",
-          "gloss": "mojado",
-          "analysis_html": "UND-",
-          "analysis_text": "UND-",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "cualidades"
-          ],
-          "notes": [
-            "Sin paralelo romance. Divergente."
           ]
         }
       ]

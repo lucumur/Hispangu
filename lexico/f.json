@@ -167,6 +167,39 @@
       ]
     },
     {
+      "id": "root-flot",
+      "form": "*FLOT-",
+      "gloss": "flotar",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        }
+      ],
+      "letter": "F",
+      "section": "sec-f",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-fjodare",
+          "form": "fjodare",
+          "gloss": "flotar",
+          "analysis_html": "FLOT-",
+          "analysis_text": "FLOT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "movimiento"
+          ],
+          "notes": [
+            "Romance: fr. flotter, esp. flotar."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-flu",
       "form": "*FLU-",
       "gloss": "fluir",
@@ -204,39 +237,6 @@
       ]
     },
     {
-      "id": "root-fluct",
-      "form": "*FLUCT-",
-      "gloss": "flotar",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        }
-      ],
-      "letter": "F",
-      "section": "sec-f",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-fjodare",
-          "form": "fjodare",
-          "gloss": "flotar",
-          "analysis_html": "FLUCT-",
-          "analysis_text": "FLUCT-",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "movimiento"
-          ],
-          "notes": [
-            "Sin paralelo romance claro (esp. flotar < fr. flotter). Divergente."
-          ]
-        }
-      ]
-    },
-    {
       "id": "root-fol",
       "form": "*FOL-",
       "gloss": "hoja",
@@ -269,39 +269,6 @@
           ],
           "notes": [
             "Romance: port. folha, it. foglia, cat. fulla."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "root-frapp",
-      "form": "*FRAPP-",
-      "gloss": "frotar",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        }
-      ],
-      "letter": "F",
-      "section": "sec-f",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-frappere",
-          "form": "frappere",
-          "gloss": "frotar",
-          "analysis_html": "FRAPP-",
-          "analysis_text": "FRAPP-",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "acciones"
-          ],
-          "notes": [
-            "Romance: fr. frapper «golpear»."
           ]
         }
       ]

@@ -159,11 +159,15 @@
         {
           "class": "nat-plen",
           "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
         }
       ],
       "letter": "C",
       "section": "sec-c",
-      "etymology": null,
+      "etymology": "< Lat. candidus",
       "notes": [],
       "row_class": "",
       "words": [

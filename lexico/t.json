@@ -174,39 +174,6 @@
       ]
     },
     {
-      "id": "root-tir",
-      "form": "*TIR-",
-      "gloss": "jalar",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        }
-      ],
-      "letter": "T",
-      "section": "sec-t",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-tirare",
-          "form": "tirare",
-          "gloss": "jalar",
-          "analysis_html": "TIR-",
-          "analysis_text": "TIR-",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "acciones"
-          ],
-          "notes": [
-            "Romance: it. tirare, esp. tirar."
-          ]
-        }
-      ]
-    },
-    {
       "id": "root-tot",
       "form": "*TOT-",
       "gloss": "todo",

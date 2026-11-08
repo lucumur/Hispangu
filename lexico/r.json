@@ -316,8 +316,8 @@
       ]
     },
     {
-      "id": "root-rumb",
-      "form": "*RUMB-",
+      "id": "root-rum",
+      "form": "*RUM-",
       "gloss": "romo",
       "tags": [
         {
@@ -335,8 +335,8 @@
           "id": "lexeme-rumbu",
           "form": "rumbu",
           "gloss": "romo",
-          "analysis_html": "RUMB-",
-          "analysis_text": "RUMB-",
+          "analysis_html": "RUM-",
+          "analysis_text": "RUM-",
           "refs": [],
           "tags": [],
           "semantic_fields": [
