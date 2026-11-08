@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=h1">
+  <title>Swadesh · Hispangu</title>
+  <meta name="description" content="Lista Swadesh de 207 conceptos y su traducción al hispangu">
+  <link rel="stylesheet" href="styles.css?v=20261031indigena">
+  <script src="refresh.js?v=20261103cache"></script>
+  <script src="editor.js?v=20261103cache"></script>
+</head>
+<body>
+<header class="page-header">
+  <div class="wrap">
+    <div class="brand"><a href="index.html">HISPANGU</a></div>
+    <nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="lexico.html">Raíces</a>
+  <a href="vocablos.html">Vocablos</a>
+  <a href="textos.html">Textos</a>
+  <a href="morfemas.html">Morfemas</a>
+  <a href="semantica.html">Semántica</a>
+  <a href="swadesh.html">Swadesh</a>
+  <a href="pronombres.html">Pronombres</a>
+  <a href="gramatica.html">Gramática</a>
+  <a href="fonologia.html">Fonología</a>
+  <a href="historia.html">Historia</a>
+</nav>
+  </div>
+</header>
+<main class="wrap">
+<section class="hero compact"><p class="eyebrow">Vocabulario básico</p><h1>Lista Swadesh</h1><p>Los 207 conceptos de la lista de Swadesh con su vocablo en hispangu. Los que aún no tienen traducción quedan en blanco.</p></section>
+<div class="sw-tools" style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 18px">
+<input id="sw-search" type="search" placeholder="Buscar concepto o vocablo" style="flex:1;min-width:200px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);font:inherit">
+<select id="sw-filter" style="padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);font:inherit"><option value="all">Todos</option><option value="done">Traducidos</option><option value="pend">Pendientes</option></select>
+<span id="sw-count" class="meta-extra"></span></div>
+<div class="table-wrap"><table class="lex-table"><thead><tr><th style="width:60px">N.º</th><th>Concepto</th><th>Hispangu</th><th>Raíz</th></tr></thead><tbody id="sw-body"><tr><td colspan="4" class="loading-note">Cargando…</td></tr></tbody></table></div>
+</main>
+<footer class="page-footer"><div class="wrap">Datos en swadesh/index.json y lexico/index.json</div></footer>
+<script>
+(()=>{
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+  const body=document.getElementById('sw-body'),search=document.getElementById('sw-search'),filter=document.getElementById('sw-filter'),count=document.getElementById('sw-count');
+  let rows=[];
+  Promise.all([fetch('swadesh/index.json').then(r=>r.json()),fetch('lexico/index.json').then(r=>r.json())]).then(([sw,idx])=>{
+    const byId=new Map(idx.words.map(w=>[w.id,w]));
+    const byGloss=new Map();
+    idx.words.forEach(w=>String(w.gloss||'').split(',').forEach(g=>{const k=norm(g);if(!k)return;if(!byGloss.has(k))byGloss.set(k,[]);byGloss.get(k).push(w)}));
+    rows=sw.items.map(it=>{let ws=[];if(it.vocablo_id&&byId.has(it.vocablo_id))ws=[byId.get(it.vocablo_id)];else ws=byGloss.get(norm(it.concepto))||[];return{...it,ws}});
+    draw();
+  }).catch(()=>{body.innerHTML='<tr><td colspan="4">No se pudo cargar la lista.</td></tr>'});
+  function draw(){
+    const q=norm(search.value),f=filter.value;
+    const vis=rows.filter(r=>{if(f==='done'&&!r.ws.length)return false;if(f==='pend'&&r.ws.length)return false;return !q||norm(r.concepto).includes(q)||String(r.n)===q||r.ws.some(w=>norm(w.form).includes(q))});
+    count.textContent=rows.filter(r=>r.ws.length).length+' de 207 traducidos';
+    body.innerHTML=vis.map(r=>'<tr><td class="meta-extra">'+r.n+'</td><td>'+esc(r.concepto)+'</td><td>'+r.ws.map(w=>'<a href="vocablo.html?id='+encodeURIComponent(w.id)+'"><code>'+esc(w.form)+'</code></a>').join(', ')+'</td><td>'+r.ws.map(w=>'<a href="raiz.html?id='+encodeURIComponent(w.root_id)+'"><code>'+esc(w.root_form)+'</code></a>').join(', ')+'</td></tr>').join('')||'<tr><td colspan="4" class="meta-extra">Sin resultados.</td></tr>';
+  }
+  search.addEventListener('input',draw);filter.addEventListener('change',draw);
+})();
+</script>
+</body>
+</html>

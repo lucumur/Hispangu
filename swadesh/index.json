@@ -1,0 +1,1041 @@
+{
+ "schema_version": 1,
+ "_nota": "Lista Swadesh de 207 conceptos. vocablo_id enlaza con lexico/index.json; null = sin traducir (la página también busca vocablos cuya glosa coincida exactamente con el concepto).",
+ "items": [
+  {
+   "n": 1,
+   "concepto": "yo",
+   "vocablo_id": null
+  },
+  {
+   "n": 2,
+   "concepto": "tú",
+   "vocablo_id": null
+  },
+  {
+   "n": 3,
+   "concepto": "él, ella",
+   "vocablo_id": null
+  },
+  {
+   "n": 4,
+   "concepto": "nosotros",
+   "vocablo_id": null
+  },
+  {
+   "n": 5,
+   "concepto": "vosotros",
+   "vocablo_id": null
+  },
+  {
+   "n": 6,
+   "concepto": "ellos",
+   "vocablo_id": null
+  },
+  {
+   "n": 7,
+   "concepto": "este",
+   "vocablo_id": null
+  },
+  {
+   "n": 8,
+   "concepto": "ese",
+   "vocablo_id": null
+  },
+  {
+   "n": 9,
+   "concepto": "aquí",
+   "vocablo_id": null
+  },
+  {
+   "n": 10,
+   "concepto": "allí",
+   "vocablo_id": null
+  },
+  {
+   "n": 11,
+   "concepto": "quién",
+   "vocablo_id": null
+  },
+  {
+   "n": 12,
+   "concepto": "qué",
+   "vocablo_id": null
+  },
+  {
+   "n": 13,
+   "concepto": "dónde",
+   "vocablo_id": null
+  },
+  {
+   "n": 14,
+   "concepto": "cuándo",
+   "vocablo_id": null
+  },
+  {
+   "n": 15,
+   "concepto": "cómo",
+   "vocablo_id": null
+  },
+  {
+   "n": 16,
+   "concepto": "no",
+   "vocablo_id": null
+  },
+  {
+   "n": 17,
+   "concepto": "todo",
+   "vocablo_id": null
+  },
+  {
+   "n": 18,
+   "concepto": "mucho",
+   "vocablo_id": null
+  },
+  {
+   "n": 19,
+   "concepto": "algunos",
+   "vocablo_id": null
+  },
+  {
+   "n": 20,
+   "concepto": "poco",
+   "vocablo_id": null
+  },
+  {
+   "n": 21,
+   "concepto": "otro",
+   "vocablo_id": null
+  },
+  {
+   "n": 22,
+   "concepto": "uno",
+   "vocablo_id": null
+  },
+  {
+   "n": 23,
+   "concepto": "dos",
+   "vocablo_id": null
+  },
+  {
+   "n": 24,
+   "concepto": "tres",
+   "vocablo_id": null
+  },
+  {
+   "n": 25,
+   "concepto": "cuatro",
+   "vocablo_id": null
+  },
+  {
+   "n": 26,
+   "concepto": "cinco",
+   "vocablo_id": null
+  },
+  {
+   "n": 27,
+   "concepto": "grande",
+   "vocablo_id": null
+  },
+  {
+   "n": 28,
+   "concepto": "largo",
+   "vocablo_id": null
+  },
+  {
+   "n": 29,
+   "concepto": "ancho",
+   "vocablo_id": null
+  },
+  {
+   "n": 30,
+   "concepto": "grueso",
+   "vocablo_id": null
+  },
+  {
+   "n": 31,
+   "concepto": "pesado",
+   "vocablo_id": null
+  },
+  {
+   "n": 32,
+   "concepto": "pequeño",
+   "vocablo_id": null
+  },
+  {
+   "n": 33,
+   "concepto": "corto",
+   "vocablo_id": null
+  },
+  {
+   "n": 34,
+   "concepto": "estrecho",
+   "vocablo_id": null
+  },
+  {
+   "n": 35,
+   "concepto": "delgado",
+   "vocablo_id": null
+  },
+  {
+   "n": 36,
+   "concepto": "mujer",
+   "vocablo_id": null
+  },
+  {
+   "n": 37,
+   "concepto": "hombre (varón)",
+   "vocablo_id": null
+  },
+  {
+   "n": 38,
+   "concepto": "hombre (ser humano)",
+   "vocablo_id": null
+  },
+  {
+   "n": 39,
+   "concepto": "niño",
+   "vocablo_id": null
+  },
+  {
+   "n": 40,
+   "concepto": "esposa",
+   "vocablo_id": "lexeme-mairona"
+  },
+  {
+   "n": 41,
+   "concepto": "esposo",
+   "vocablo_id": "lexeme-mairidu"
+  },
+  {
+   "n": 42,
+   "concepto": "madre",
+   "vocablo_id": "lexeme-mar"
+  },
+  {
+   "n": 43,
+   "concepto": "padre",
+   "vocablo_id": "lexeme-pair"
+  },
+  {
+   "n": 44,
+   "concepto": "animal",
+   "vocablo_id": null
+  },
+  {
+   "n": 45,
+   "concepto": "pez",
+   "vocablo_id": null
+  },
+  {
+   "n": 46,
+   "concepto": "pájaro",
+   "vocablo_id": null
+  },
+  {
+   "n": 47,
+   "concepto": "perro",
+   "vocablo_id": null
+  },
+  {
+   "n": 48,
+   "concepto": "piojo",
+   "vocablo_id": null
+  },
+  {
+   "n": 49,
+   "concepto": "serpiente",
+   "vocablo_id": null
+  },
+  {
+   "n": 50,
+   "concepto": "gusano",
+   "vocablo_id": null
+  },
+  {
+   "n": 51,
+   "concepto": "árbol",
+   "vocablo_id": null
+  },
+  {
+   "n": 52,
+   "concepto": "bosque",
+   "vocablo_id": null
+  },
+  {
+   "n": 53,
+   "concepto": "palo",
+   "vocablo_id": null
+  },
+  {
+   "n": 54,
+   "concepto": "fruta",
+   "vocablo_id": null
+  },
+  {
+   "n": 55,
+   "concepto": "semilla",
+   "vocablo_id": null
+  },
+  {
+   "n": 56,
+   "concepto": "hoja",
+   "vocablo_id": null
+  },
+  {
+   "n": 57,
+   "concepto": "raíz",
+   "vocablo_id": null
+  },
+  {
+   "n": 58,
+   "concepto": "corteza",
+   "vocablo_id": null
+  },
+  {
+   "n": 59,
+   "concepto": "flor",
+   "vocablo_id": null
+  },
+  {
+   "n": 60,
+   "concepto": "hierba",
+   "vocablo_id": null
+  },
+  {
+   "n": 61,
+   "concepto": "cuerda",
+   "vocablo_id": null
+  },
+  {
+   "n": 62,
+   "concepto": "piel",
+   "vocablo_id": null
+  },
+  {
+   "n": 63,
+   "concepto": "carne",
+   "vocablo_id": null
+  },
+  {
+   "n": 64,
+   "concepto": "sangre",
+   "vocablo_id": null
+  },
+  {
+   "n": 65,
+   "concepto": "hueso",
+   "vocablo_id": null
+  },
+  {
+   "n": 66,
+   "concepto": "grasa",
+   "vocablo_id": null
+  },
+  {
+   "n": 67,
+   "concepto": "huevo",
+   "vocablo_id": null
+  },
+  {
+   "n": 68,
+   "concepto": "cuerno",
+   "vocablo_id": null
+  },
+  {
+   "n": 69,
+   "concepto": "cola",
+   "vocablo_id": null
+  },
+  {
+   "n": 70,
+   "concepto": "pluma",
+   "vocablo_id": null
+  },
+  {
+   "n": 71,
+   "concepto": "pelo",
+   "vocablo_id": null
+  },
+  {
+   "n": 72,
+   "concepto": "cabeza",
+   "vocablo_id": null
+  },
+  {
+   "n": 73,
+   "concepto": "oreja",
+   "vocablo_id": null
+  },
+  {
+   "n": 74,
+   "concepto": "ojo",
+   "vocablo_id": null
+  },
+  {
+   "n": 75,
+   "concepto": "nariz",
+   "vocablo_id": null
+  },
+  {
+   "n": 76,
+   "concepto": "boca",
+   "vocablo_id": null
+  },
+  {
+   "n": 77,
+   "concepto": "diente",
+   "vocablo_id": null
+  },
+  {
+   "n": 78,
+   "concepto": "lengua",
+   "vocablo_id": null
+  },
+  {
+   "n": 79,
+   "concepto": "uña",
+   "vocablo_id": null
+  },
+  {
+   "n": 80,
+   "concepto": "pie",
+   "vocablo_id": null
+  },
+  {
+   "n": 81,
+   "concepto": "pierna",
+   "vocablo_id": null
+  },
+  {
+   "n": 82,
+   "concepto": "rodilla",
+   "vocablo_id": null
+  },
+  {
+   "n": 83,
+   "concepto": "mano",
+   "vocablo_id": null
+  },
+  {
+   "n": 84,
+   "concepto": "ala",
+   "vocablo_id": null
+  },
+  {
+   "n": 85,
+   "concepto": "vientre",
+   "vocablo_id": null
+  },
+  {
+   "n": 86,
+   "concepto": "tripas",
+   "vocablo_id": null
+  },
+  {
+   "n": 87,
+   "concepto": "cuello",
+   "vocablo_id": null
+  },
+  {
+   "n": 88,
+   "concepto": "espalda",
+   "vocablo_id": null
+  },
+  {
+   "n": 89,
+   "concepto": "pecho",
+   "vocablo_id": null
+  },
+  {
+   "n": 90,
+   "concepto": "corazón",
+   "vocablo_id": null
+  },
+  {
+   "n": 91,
+   "concepto": "hígado",
+   "vocablo_id": null
+  },
+  {
+   "n": 92,
+   "concepto": "beber",
+   "vocablo_id": null
+  },
+  {
+   "n": 93,
+   "concepto": "comer",
+   "vocablo_id": null
+  },
+  {
+   "n": 94,
+   "concepto": "morder",
+   "vocablo_id": null
+  },
+  {
+   "n": 95,
+   "concepto": "chupar",
+   "vocablo_id": null
+  },
+  {
+   "n": 96,
+   "concepto": "escupir",
+   "vocablo_id": null
+  },
+  {
+   "n": 97,
+   "concepto": "vomitar",
+   "vocablo_id": null
+  },
+  {
+   "n": 98,
+   "concepto": "soplar",
+   "vocablo_id": null
+  },
+  {
+   "n": 99,
+   "concepto": "respirar",
+   "vocablo_id": null
+  },
+  {
+   "n": 100,
+   "concepto": "reír",
+   "vocablo_id": null
+  },
+  {
+   "n": 101,
+   "concepto": "ver",
+   "vocablo_id": null
+  },
+  {
+   "n": 102,
+   "concepto": "oír",
+   "vocablo_id": null
+  },
+  {
+   "n": 103,
+   "concepto": "saber",
+   "vocablo_id": null
+  },
+  {
+   "n": 104,
+   "concepto": "pensar",
+   "vocablo_id": null
+  },
+  {
+   "n": 105,
+   "concepto": "oler",
+   "vocablo_id": null
+  },
+  {
+   "n": 106,
+   "concepto": "temer",
+   "vocablo_id": null
+  },
+  {
+   "n": 107,
+   "concepto": "dormir",
+   "vocablo_id": null
+  },
+  {
+   "n": 108,
+   "concepto": "vivir",
+   "vocablo_id": null
+  },
+  {
+   "n": 109,
+   "concepto": "morir",
+   "vocablo_id": null
+  },
+  {
+   "n": 110,
+   "concepto": "matar",
+   "vocablo_id": null
+  },
+  {
+   "n": 111,
+   "concepto": "luchar",
+   "vocablo_id": null
+  },
+  {
+   "n": 112,
+   "concepto": "cazar",
+   "vocablo_id": null
+  },
+  {
+   "n": 113,
+   "concepto": "golpear",
+   "vocablo_id": null
+  },
+  {
+   "n": 114,
+   "concepto": "cortar",
+   "vocablo_id": null
+  },
+  {
+   "n": 115,
+   "concepto": "partir",
+   "vocablo_id": null
+  },
+  {
+   "n": 116,
+   "concepto": "apuñalar",
+   "vocablo_id": null
+  },
+  {
+   "n": 117,
+   "concepto": "rascar",
+   "vocablo_id": null
+  },
+  {
+   "n": 118,
+   "concepto": "cavar",
+   "vocablo_id": null
+  },
+  {
+   "n": 119,
+   "concepto": "nadar",
+   "vocablo_id": null
+  },
+  {
+   "n": 120,
+   "concepto": "volar",
+   "vocablo_id": null
+  },
+  {
+   "n": 121,
+   "concepto": "caminar",
+   "vocablo_id": null
+  },
+  {
+   "n": 122,
+   "concepto": "venir",
+   "vocablo_id": null
+  },
+  {
+   "n": 123,
+   "concepto": "tumbarse",
+   "vocablo_id": null
+  },
+  {
+   "n": 124,
+   "concepto": "sentarse",
+   "vocablo_id": null
+  },
+  {
+   "n": 125,
+   "concepto": "estar de pie",
+   "vocablo_id": null
+  },
+  {
+   "n": 126,
+   "concepto": "girar",
+   "vocablo_id": null
+  },
+  {
+   "n": 127,
+   "concepto": "caer",
+   "vocablo_id": null
+  },
+  {
+   "n": 128,
+   "concepto": "dar",
+   "vocablo_id": null
+  },
+  {
+   "n": 129,
+   "concepto": "sostener",
+   "vocablo_id": null
+  },
+  {
+   "n": 130,
+   "concepto": "apretar",
+   "vocablo_id": null
+  },
+  {
+   "n": 131,
+   "concepto": "frotar",
+   "vocablo_id": null
+  },
+  {
+   "n": 132,
+   "concepto": "lavar",
+   "vocablo_id": null
+  },
+  {
+   "n": 133,
+   "concepto": "limpiar",
+   "vocablo_id": null
+  },
+  {
+   "n": 134,
+   "concepto": "jalar",
+   "vocablo_id": null
+  },
+  {
+   "n": 135,
+   "concepto": "empujar",
+   "vocablo_id": null
+  },
+  {
+   "n": 136,
+   "concepto": "lanzar",
+   "vocablo_id": null
+  },
+  {
+   "n": 137,
+   "concepto": "atar",
+   "vocablo_id": null
+  },
+  {
+   "n": 138,
+   "concepto": "coser",
+   "vocablo_id": null
+  },
+  {
+   "n": 139,
+   "concepto": "contar",
+   "vocablo_id": null
+  },
+  {
+   "n": 140,
+   "concepto": "decir",
+   "vocablo_id": null
+  },
+  {
+   "n": 141,
+   "concepto": "cantar",
+   "vocablo_id": null
+  },
+  {
+   "n": 142,
+   "concepto": "jugar",
+   "vocablo_id": null
+  },
+  {
+   "n": 143,
+   "concepto": "flotar",
+   "vocablo_id": null
+  },
+  {
+   "n": 144,
+   "concepto": "fluir",
+   "vocablo_id": null
+  },
+  {
+   "n": 145,
+   "concepto": "congelarse",
+   "vocablo_id": null
+  },
+  {
+   "n": 146,
+   "concepto": "hincharse",
+   "vocablo_id": null
+  },
+  {
+   "n": 147,
+   "concepto": "sol",
+   "vocablo_id": null
+  },
+  {
+   "n": 148,
+   "concepto": "luna",
+   "vocablo_id": null
+  },
+  {
+   "n": 149,
+   "concepto": "estrella",
+   "vocablo_id": null
+  },
+  {
+   "n": 150,
+   "concepto": "agua",
+   "vocablo_id": null
+  },
+  {
+   "n": 151,
+   "concepto": "lluvia",
+   "vocablo_id": null
+  },
+  {
+   "n": 152,
+   "concepto": "río",
+   "vocablo_id": null
+  },
+  {
+   "n": 153,
+   "concepto": "lago",
+   "vocablo_id": null
+  },
+  {
+   "n": 154,
+   "concepto": "mar",
+   "vocablo_id": null
+  },
+  {
+   "n": 155,
+   "concepto": "sal",
+   "vocablo_id": null
+  },
+  {
+   "n": 156,
+   "concepto": "piedra",
+   "vocablo_id": null
+  },
+  {
+   "n": 157,
+   "concepto": "arena",
+   "vocablo_id": null
+  },
+  {
+   "n": 158,
+   "concepto": "polvo",
+   "vocablo_id": null
+  },
+  {
+   "n": 159,
+   "concepto": "tierra",
+   "vocablo_id": null
+  },
+  {
+   "n": 160,
+   "concepto": "nube",
+   "vocablo_id": null
+  },
+  {
+   "n": 161,
+   "concepto": "niebla",
+   "vocablo_id": null
+  },
+  {
+   "n": 162,
+   "concepto": "cielo",
+   "vocablo_id": null
+  },
+  {
+   "n": 163,
+   "concepto": "viento",
+   "vocablo_id": null
+  },
+  {
+   "n": 164,
+   "concepto": "nieve",
+   "vocablo_id": null
+  },
+  {
+   "n": 165,
+   "concepto": "hielo",
+   "vocablo_id": null
+  },
+  {
+   "n": 166,
+   "concepto": "humo",
+   "vocablo_id": null
+  },
+  {
+   "n": 167,
+   "concepto": "fuego",
+   "vocablo_id": null
+  },
+  {
+   "n": 168,
+   "concepto": "ceniza",
+   "vocablo_id": null
+  },
+  {
+   "n": 169,
+   "concepto": "quemar",
+   "vocablo_id": null
+  },
+  {
+   "n": 170,
+   "concepto": "camino",
+   "vocablo_id": null
+  },
+  {
+   "n": 171,
+   "concepto": "montaña",
+   "vocablo_id": null
+  },
+  {
+   "n": 172,
+   "concepto": "rojo",
+   "vocablo_id": null
+  },
+  {
+   "n": 173,
+   "concepto": "verde",
+   "vocablo_id": null
+  },
+  {
+   "n": 174,
+   "concepto": "amarillo",
+   "vocablo_id": null
+  },
+  {
+   "n": 175,
+   "concepto": "blanco",
+   "vocablo_id": null
+  },
+  {
+   "n": 176,
+   "concepto": "negro",
+   "vocablo_id": null
+  },
+  {
+   "n": 177,
+   "concepto": "noche",
+   "vocablo_id": null
+  },
+  {
+   "n": 178,
+   "concepto": "día",
+   "vocablo_id": null
+  },
+  {
+   "n": 179,
+   "concepto": "año",
+   "vocablo_id": null
+  },
+  {
+   "n": 180,
+   "concepto": "cálido",
+   "vocablo_id": null
+  },
+  {
+   "n": 181,
+   "concepto": "frío",
+   "vocablo_id": null
+  },
+  {
+   "n": 182,
+   "concepto": "lleno",
+   "vocablo_id": null
+  },
+  {
+   "n": 183,
+   "concepto": "nuevo",
+   "vocablo_id": null
+  },
+  {
+   "n": 184,
+   "concepto": "viejo",
+   "vocablo_id": null
+  },
+  {
+   "n": 185,
+   "concepto": "bueno",
+   "vocablo_id": null
+  },
+  {
+   "n": 186,
+   "concepto": "malo",
+   "vocablo_id": null
+  },
+  {
+   "n": 187,
+   "concepto": "podrido",
+   "vocablo_id": null
+  },
+  {
+   "n": 188,
+   "concepto": "sucio",
+   "vocablo_id": null
+  },
+  {
+   "n": 189,
+   "concepto": "recto",
+   "vocablo_id": null
+  },
+  {
+   "n": 190,
+   "concepto": "redondo",
+   "vocablo_id": null
+  },
+  {
+   "n": 191,
+   "concepto": "afilado",
+   "vocablo_id": null
+  },
+  {
+   "n": 192,
+   "concepto": "romo",
+   "vocablo_id": null
+  },
+  {
+   "n": 193,
+   "concepto": "liso",
+   "vocablo_id": null
+  },
+  {
+   "n": 194,
+   "concepto": "mojado",
+   "vocablo_id": null
+  },
+  {
+   "n": 195,
+   "concepto": "seco",
+   "vocablo_id": null
+  },
+  {
+   "n": 196,
+   "concepto": "correcto",
+   "vocablo_id": null
+  },
+  {
+   "n": 197,
+   "concepto": "cerca",
+   "vocablo_id": null
+  },
+  {
+   "n": 198,
+   "concepto": "lejos",
+   "vocablo_id": null
+  },
+  {
+   "n": 199,
+   "concepto": "derecha",
+   "vocablo_id": null
+  },
+  {
+   "n": 200,
+   "concepto": "izquierda",
+   "vocablo_id": null
+  },
+  {
+   "n": 201,
+   "concepto": "en",
+   "vocablo_id": null
+  },
+  {
+   "n": 202,
+   "concepto": "dentro",
+   "vocablo_id": null
+  },
+  {
+   "n": 203,
+   "concepto": "con",
+   "vocablo_id": null
+  },
+  {
+   "n": 204,
+   "concepto": "y",
+   "vocablo_id": null
+  },
+  {
+   "n": 205,
+   "concepto": "si",
+   "vocablo_id": null
+  },
+  {
+   "n": 206,
+   "concepto": "porque",
+   "vocablo_id": null
+  },
+  {
+   "n": 207,
+   "concepto": "nombre",
+   "vocablo_id": null
+  }
+ ]
+}
