@@ -497,6 +497,43 @@
       ]
     },
     {
+      "id": "root-pett",
+      "form": "*PETT-",
+      "gloss": "pequeño",
+      "tags": [
+        {
+          "class": "nat-plen",
+          "label": "Original"
+        },
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "P",
+      "section": "sec-p",
+      "etymology": "< Lat. vulg. *pett- / *pecc- (raíz expresiva)",
+      "notes": [],
+      "row_class": "",
+      "words": [
+        {
+          "id": "lexeme-pettinu",
+          "form": "pettinu",
+          "gloss": "pequeño",
+          "analysis_html": "PETT-",
+          "analysis_text": "PETT-",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [
+            "dimensiones"
+          ],
+          "notes": [
+            "Romance: fr. petit, cat. petit, it. piccolo, esp. pequeño (variantes *pett- / *pecc-)."
+          ]
+        }
+      ]
+    },
+    {
       "id": "root-pil",
       "form": "*PIL-",
       "gloss": "pelo",
@@ -567,39 +604,6 @@
           "notes": [
             "x = /ʃ/.",
             "Romance: esp. pez, cat. peix."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "root-pitt",
-      "form": "*PITT-",
-      "gloss": "pequeño",
-      "tags": [
-        {
-          "class": "nat-plen",
-          "label": "Original"
-        }
-      ],
-      "letter": "P",
-      "section": "sec-p",
-      "etymology": null,
-      "notes": [],
-      "row_class": "",
-      "words": [
-        {
-          "id": "lexeme-pettinu",
-          "form": "pettinu",
-          "gloss": "pequeño",
-          "analysis_html": "PITT-",
-          "analysis_text": "PITT-",
-          "refs": [],
-          "tags": [],
-          "semantic_fields": [
-            "dimensiones"
-          ],
-          "notes": [
-            "Romance: cat. petit, rum. pitic (raíz expresiva *pitt-)."
           ]
         }
       ]
