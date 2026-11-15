@@ -46,6 +46,23 @@
       ]
     },
     {
+      "id": "root-es",
+      "form": "*ES-",
+      "gloss": "ser",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "E",
+      "section": "sec-e",
+      "etymology": "< Lat. esse",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-et",
       "form": "*ET-",
       "gloss": "y",
