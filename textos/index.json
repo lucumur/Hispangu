@@ -60,6 +60,40 @@
           "traduccion": "foras pluevaʔ multo, seʔ intro case fievaʔ calor eʔ pax"
         }
       ]
+    },
+    {
+      "id": "verbos",
+      "titulo": "Verbos",
+      "parrafos": [
+        {
+          "original": "yo soy, doy, estoy, digo, veo, hago",
+          "traduccion": "eu su, dou, ŝtou, digo, vijo, faigo"
+        },
+        {
+          "original": "tu eres, das, estas, dices, ves, haces",
+          "traduccion": "tu es, das, ŝtas, dix, vies, faix"
+        },
+        {
+          "original": "el es, da, esta, dice, ve, hace",
+          "traduccion": "ille est, dad, ŝtad, dit, vied, faid"
+        },
+        {
+          "original": "nosotros somos, damos, estamos, decimos, vemos, hacemos",
+          "traduccion": "nos somes, dames, stames, dimes, viemes, faimes"
+        },
+        {
+          "original": "vosotros sois, dais, estais, decis, veis, haceis",
+          "traduccion": "vos estes, dades, ŝtades, dites, viedes, faites"
+        },
+        {
+          "original": "ellos son, dan, estan, dicen, ven, hacen",
+          "traduccion": "illes son, dan, ŝtan, digon, vien, faigon"
+        },
+        {
+          "original": "eso se es, se da, se esta, se dice, se ve, se hace",
+          "traduccion": "och ester, dader, ŝtader, diter, vieder, faider"
+        }
+      ]
     }
   ]
 }
