@@ -135,6 +135,17 @@
           "tags": [],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-ambladoiro",
+          "form": "ambladoiro",
+          "gloss": "andador",
+          "analysis_html": "AMBL",
+          "analysis_text": "AMBL",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
