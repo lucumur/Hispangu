@@ -427,6 +427,23 @@
       ]
     },
     {
+      "id": "root-aqu-2",
+      "form": "*AQU-",
+      "gloss": "agua",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. aqua",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-arbr",
       "form": "*ARB-R",
       "gloss": "árbol",
