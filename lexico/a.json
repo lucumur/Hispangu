@@ -335,9 +335,14 @@
           "id": "lexeme-ajmma",
           "form": "ajmma",
           "gloss": "alma",
-          "analysis_html": "ANM",
-          "analysis_text": "ANM",
-          "refs": [],
+          "analysis_html": "<a class=\"morph-link\" href=\"#root-anm\">AJMM</a>",
+          "analysis_text": "AJMM",
+          "refs": [
+            {
+              "id": "root-anm",
+              "label": "AJMM"
+            }
+          ],
           "tags": [],
           "semantic_fields": [],
           "notes": []
