@@ -60,7 +60,24 @@
       "etymology": "< Lat. esse",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-esdre",
+          "form": "esdre",
+          "gloss": "ser",
+          "analysis_html": "ES",
+          "analysis_text": "ES",
+          "refs": [],
+          "tags": [
+            {
+              "class": "generic",
+              "label": "verbo atematico"
+            }
+          ],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-et",
