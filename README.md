@@ -32,6 +32,9 @@ Crea los `lexico/<clave>.json` que falten y actualiza `editor.js`, `lexico.html`
 ## Estructura
 
 - `lexico/<letra>.json` — raíces por letra, cada una con sus vocablos.
+  Un vocablo puede llevar `paradigmas`: tablas opcionales de conjugación o declinación
+  (`tipo`, `titulo`, `columnas`, `filas` con `etiqueta` y `celdas`). Se editan en la ficha
+  del vocablo y no se guardan si la tabla queda vacía. Las formas de la tabla entran en la búsqueda.
 - `lexico/morphemes.json` — morfemas.
 - `lexico/index.json`, `history*.json` — generados por los workflows; no editar a mano.
 - `textos/index.json` — textos y traducciones (ver `textos/README.md`).

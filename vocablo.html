@@ -9,7 +9,7 @@
   <meta name="description" content="Ficha individual de un vocablo del hispangu">
   <link rel="stylesheet" href="styles.css?v=20261031indigena">
   <script src="refresh.js?v=20261103cache"></script>
-  <script src="editor.js?v=20261103cache"></script>
+  <script src="editor.js?v=20261116flex"></script>
   <style>
     .root-back{display:inline-flex;align-items:center;gap:6px;margin:0 0 22px;color:var(--muted);text-decoration:none;font-weight:700}.root-back:hover{color:var(--accent)}
     .root-sheet{border:1px solid var(--line);border-left:7px solid var(--relation-accent,#b9b3a9);border-radius:22px;background:var(--etym-bg,var(--paper));padding:clamp(22px,5vw,48px);box-shadow:0 12px 38px rgba(47,42,35,.05)}
@@ -32,6 +32,7 @@
     .root-gloss .word-emoji{font-size:1em}.root-form .form-emoji{font-size:.7em;margin-right:.15em;vertical-align:.08em;letter-spacing:0}
     .use-filter{width:100%;max-width:420px;margin:0 0 12px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font:inherit}
     .use-table td,.use-table th{padding:9px 12px}.use-table td.form{white-space:nowrap}.use-table a{text-decoration:none}.use-table a:hover{color:var(--accent)}
+    .paradigm-list{display:grid;gap:16px}.paradigm-sheet{margin:0}.paradigm-sheet figcaption{margin:0 0 8px}.paradigm-kind{font-weight:800;text-transform:lowercase}.paradigm-sub{margin-left:6px;color:var(--muted);font-weight:600}.paradigm-empty{color:var(--muted)}.paradigm-grid th,.paradigm-grid td{white-space:nowrap}.paradigm-grid th:first-child{width:1%}
 
   </style>
 </head>
@@ -84,6 +85,18 @@
     return '<article class="word-card"><div class="word-form">'+(w.emoji?'<span class="word-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'')+'<a href="'+wordHref(w.id)+'"><code>'+esc(w.form)+'</code></a></div><div class="word-gloss">'+esc(w.gloss)+'</div><div class="word-analysis">Raíz: <a href="'+rootHref(w.root_id)+'"><code>'+esc(w.root_form)+'</code></a></div>'+(w.analysis_html?'<div class="word-analysis">'+w.analysis_html+'</div>':'')+notes+((w.semantic_fields||[]).length?'<div class="word-fields">'+fieldHTML(w.semantic_fields)+'</div>':'')+((w.tags||[]).length?'<div class="word-tags">'+labelTags(w.tags)+'</div>':'')+'</article>';
   }
   const section=(title,n,inner)=>'<section class="detail-section"><h2>'+title+(n!=null?' <span class="detail-section-count">('+n+')</span>':'')+'</h2>'+inner+'</section>';
+  function paradigmSection(list){
+    if(!list||!list.length) return '';
+    const cell=c=>{const t=String(c??'').trim();return t?'<code>'+esc(t)+'</code>':'<span class="paradigm-empty">—</span>'};
+    const tables=list.map(p=>{
+      const cols=p.columnas||[];
+      const head='<tr><th scope="col"></th>'+cols.map(c=>'<th scope="col">'+esc(c)+'</th>').join('')+'</tr>';
+      const body=(p.filas||[]).map(f=>'<tr><th scope="row">'+esc(f.etiqueta||'')+'</th>'+(f.celdas||[]).map(c=>'<td>'+cell(c)+'</td>').join('')+'</tr>').join('');
+      const cap='<figcaption><span class="paradigm-kind">'+esc(p.tipo||'Paradigma')+'</span>'+(p.titulo?'<span class="paradigm-sub">'+esc(p.titulo)+'</span>':'')+'</figcaption>';
+      return '<figure class="paradigm-sheet">'+cap+'<div class="table-wrap"><table class="lex-table paradigm-grid"><thead>'+head+'</thead><tbody>'+body+'</tbody></table></div></figure>';
+    }).join('');
+    return section('Paradigma', list.length, '<div class="paradigm-list">'+tables+'</div>');
+  }
   const getJSON=(url,fallback)=>fetch(url).then(r=>{if(!r.ok){if(fallback!==undefined)return fallback;throw Error(url)}return r.json()}).catch(e=>{if(fallback!==undefined)return fallback;throw e});
   function wireLinks(getIndex){
     document.addEventListener('click',e=>{
@@ -149,6 +162,7 @@
 
     box.innerHTML='<article class="root-sheet word-sheet" data-root-id="'+esc(w.root_id)+'" data-word-id="'+esc(w.id)+'"><div class="root-head"><div><p class="eyebrow">Vocablo</p><h1 class="root-form">'+(w.emoji?'<span class="form-emoji" aria-hidden="true">'+esc(w.emoji)+'</span>':'')+esc(w.form)+'</h1><p class="root-gloss">'+esc(w.gloss)+'</p></div><div class="root-tags">'+labelTags(w.tags)+'</div></div>'+
       '<div class="root-meta">'+meta+'</div>'+notes+olds+
+      paradigmSection(w.paradigmas)+
       ((from.length||derived.length)?section('Procedencia',null,(from.length?'<h3 class="lineage-label">Proviene de</h3><div class="word-grid">'+from.map(wordCard).join('')+'</div>':'')+(derived.length?'<h3 class="lineage-label" style="margin-top:16px">Derivados <span class="detail-section-count">('+derived.length+')</span></h3><div class="word-grid">'+derived.map(wordCard).join('')+'</div>':'')):'')+
       (usedIn.length?section('Usado en otros vocablos',usedIn.length,'<div class="word-grid">'+usedIn.map(wordCard).join('')+'</div>'):'')+
       (homos.length?section('Homógrafos',homos.length,'<div class="word-grid">'+homos.map(wordCard).join('')+'</div>'):'')+

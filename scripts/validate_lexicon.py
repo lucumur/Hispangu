@@ -77,6 +77,47 @@ for name, w in words:
         elif pid not in word_ids:
             errors.append(f'{name} vocablo {w.get("form")}: proviene_de «{pid}», que no es un vocablo existente')
 
+def check_paradigmas(name, w):
+    ps = w.get('paradigmas')
+    if ps is None:
+        return
+    where = f'{name} vocablo {w.get("form")}'
+    if not isinstance(ps, list) or not ps:
+        errors.append(f'{where}: paradigmas debe ser una lista no vacía, o no estar')
+        return
+    for i, p in enumerate(ps, 1):
+        loc = f'{where} paradigma {i}'
+        if not isinstance(p, dict):
+            errors.append(f'{loc}: no es un objeto')
+            continue
+        if not isinstance(p.get('tipo'), str) or not p['tipo'].strip():
+            errors.append(f'{loc}: falta tipo (conjugación, declinación u otro)')
+        if 'titulo' in p and (not isinstance(p['titulo'], str) or not p['titulo'].strip()):
+            errors.append(f'{loc}: titulo vacío; omítelo si no hace falta')
+        cols = p.get('columnas')
+        if not isinstance(cols, list) or not cols or not all(isinstance(c, str) and c.strip() for c in cols):
+            errors.append(f'{loc}: columnas inválidas')
+            cols = []
+        filas = p.get('filas')
+        if not isinstance(filas, list) or not filas:
+            errors.append(f'{loc}: sin filas')
+            continue
+        extra = set(p) - {'tipo', 'titulo', 'columnas', 'filas'}
+        if extra:
+            errors.append(f'{loc}: campos no previstos: {", ".join(sorted(extra))}')
+        for j, f in enumerate(filas, 1):
+            if not isinstance(f, dict) or set(f) - {'etiqueta', 'celdas'}:
+                errors.append(f'{loc} fila {j}: se esperaba etiqueta y celdas')
+                continue
+            if not isinstance(f.get('etiqueta', ''), str):
+                errors.append(f'{loc} fila {j}: etiqueta no es texto')
+            cells = f.get('celdas')
+            if not isinstance(cells, list) or len(cells) != len(cols) or not all(isinstance(c, str) for c in cells):
+                errors.append(f'{loc} fila {j}: las celdas no coinciden con las columnas')
+
+for name, w in words:
+    check_paradigmas(name, w)
+
 # index.json debe ser idéntico al que genera el script oficial
 with tempfile.TemporaryDirectory() as tmp:
     tmp = Path(tmp)

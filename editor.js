@@ -14,13 +14,25 @@
   function has(o, k) { return o != null && Object.prototype.hasOwnProperty.call(o, k); }
   function get(o, k, d) { return has(o, k) ? o[k] : d; }
   function labels(tags) { return (tags || []).map(function (t) { return get(t, 'label', ''); }); }
+  function paradigmSearch(ps) {
+    var out = [];
+    (ps || []).forEach(function (p) {
+      out.push(get(p, 'tipo', ''), get(p, 'titulo', ''));
+      (get(p, 'columnas', []) || []).forEach(function (c) { out.push(c); });
+      (get(p, 'filas', []) || []).forEach(function (f) {
+        out.push(get(f, 'etiqueta', ''));
+        (get(f, 'celdas', []) || []).forEach(function (c) { out.push(c); });
+      });
+    });
+    return out.filter(Boolean);
+  }
   function letterPart(letter, key, data) {
     var roots = [], words = [];
     get(data, 'entries', []).forEach(function (e) {
       if (get(e, 'kind', null) === 'other') return;
       var parts = [get(e, 'form', ''), get(e, 'gloss', ''), get(e, 'etymology', null) || ''].concat(labels(get(e, 'tags', null)));
       get(e, 'words', []).forEach(function (w) {
-        var sf = get(w, 'semantic_fields', []) || [], notes = get(w, 'notes', []) || [], antiguas = get(w, 'formas_antiguas', []) || [];
+        var sf = get(w, 'semantic_fields', []) || [], notes = get(w, 'notes', []) || [], antiguas = get(w, 'formas_antiguas', []) || [], paradigmas = get(w, 'paradigmas', []) || [];
         words.push({
           id: w.id, root_id: e.id, root_form: get(e, 'form', ''), root_gloss: get(e, 'gloss', ''),
           letter: letter, key: key,
@@ -32,8 +44,9 @@
           semantic_fields: sf, notes: notes,
           ...(antiguas.length ? { formas_antiguas: antiguas } : {}),
           ...((get(w, 'proviene_de', null) || []).length ? { proviene_de: get(w, 'proviene_de', []).map(function (p) { return get(p, 'id', null); }).filter(Boolean) } : {}),
+          ...(paradigmas.length ? { paradigmas: paradigmas } : {}),
           search: [get(w, 'form', ''), get(w, 'gloss', ''), get(e, 'form', ''), get(e, 'gloss', ''), get(w, 'analysis_text', '')]
-            .concat(labels(get(w, 'tags', null)), sf, notes, antiguas.map(function (a) { return get(a, 'form', ''); })).join(' ')
+            .concat(labels(get(w, 'tags', null)), sf, notes, antiguas.map(function (a) { return get(a, 'form', ''); }), paradigmSearch(paradigmas)).join(' ')
         });
       });
       roots.push({ id: e.id, letter: letter, key: key, form: get(e, 'form', ''), gloss: get(e, 'gloss', ''),
@@ -339,6 +352,19 @@
     '.ce-linkrow button{border:0;background:none;padding:0;color:var(--accent);cursor:pointer;font:inherit;font-weight:600}',
     '.ce-error{padding:9px 12px;border-radius:9px;background:#fdecea;color:#912018;font-size:.88rem}',
     '.ce-help{color:var(--muted);font-size:.88rem;margin:0}.ce-help ol{margin:6px 0 0;padding-left:20px}',
+    'dialog.ce-dialog:has(.ce-paradigms){width:min(960px,calc(100% - 24px))}',
+    '.ce-paradigms{display:grid;gap:12px}',
+    '.ce-paradigm-block{display:grid;gap:8px;padding:10px;border:1px solid var(--line);border-radius:12px;background:#fff}',
+    '.ce-paradigm-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center}',
+    '.ce-dialog .ce-paradigm-head select,.ce-dialog .ce-paradigm-custom,.ce-dialog .ce-paradigm-title{width:auto;flex:1 1 150px;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink)}',
+    '.ce-paradigm-scroll{overflow:auto}',
+    'table.ce-paradigm{border-collapse:collapse;width:100%}',
+    '.ce-paradigm th,.ce-paradigm td{border:1px solid var(--line);padding:0;vertical-align:middle;background:#fff}',
+    '.ce-paradigm thead th,.ce-paradigm tbody th{background:#f6f4ef}',
+    '.ce-paradigm-h{display:flex;align-items:center}',
+    '.ce-dialog .ce-paradigm-h input,.ce-dialog .ce-paradigm td input{width:auto;min-width:84px;flex:1;border:0;border-radius:0;background:transparent;padding:7px 8px;box-shadow:none}',
+    '.ce-dialog .ce-paradigm td input{display:block;width:100%}',
+    '.ce-paradigm .ce-ico{flex:0 0 auto;border:0;background:transparent;width:26px;height:26px}',
     '.ce-toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:9999;padding:10px 16px;border-radius:12px;background:#25231f;color:#fff;font-size:.9rem;box-shadow:0 10px 30px rgba(0,0,0,.25)}',
     '.ce-card-actions{display:flex;gap:6px;margin-top:10px}',
     '.bt-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}.bt-tools input,.bt-tools select{padding:5px 9px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.86rem;background:#fff;color:var(--ink)}.bt-tools .bt-filter{flex:1 1 200px;min-width:0}.bt-tools .bt-sep{width:1px;align-self:stretch;background:var(--line);margin:0 4px}.bt-tools .bt-selcount{font-size:.8rem;color:var(--muted)}',
@@ -832,6 +858,122 @@
     });
   }
 
+  /* ---------- Paradigma (conjugación / declinación) ---------- */
+  function paradigmEditor(existing) {
+    var TIPOS = ['conjugación', 'declinación'];
+    function blankRow(n) { var c = []; while (c.length < n) c.push(''); return { etiqueta: '', celdas: c }; }
+    function preset(tipo) {
+      if (tipo === 'declinación') return { tipo: 'declinación', titulo: '', columnas: ['singular', 'plural'], filas: [blankRow(2)] };
+      return { tipo: 'conjugación', titulo: '', columnas: ['singular', 'plural'], filas: [
+        { etiqueta: '1', celdas: ['', ''] }, { etiqueta: '2', celdas: ['', ''] }, { etiqueta: '3', celdas: ['', ''] }
+      ] };
+    }
+    var tables = (existing || []).map(function (p) {
+      var cols = (p.columnas || []).map(String);
+      if (!cols.length) cols = ['', ''];
+      var filas = (p.filas || []).map(function (f) {
+        var cells = (f.celdas || []).map(String);
+        while (cells.length < cols.length) cells.push('');
+        return { etiqueta: String(f.etiqueta || ''), celdas: cells.slice(0, cols.length) };
+      });
+      if (!filas.length) filas = [blankRow(cols.length)];
+      return { tipo: String(p.tipo || 'conjugación'), titulo: String(p.titulo || ''), columnas: cols, filas: filas };
+    });
+    var box = el('div', { class: 'ce-paradigms' });
+    function paint() {
+      box.innerHTML = '';
+      tables.forEach(function (t, ti) {
+        var tipoSel = el('select', { 'aria-label': 'Tipo de paradigma' });
+        TIPOS.forEach(function (name) { tipoSel.appendChild(el('option', { value: name, text: name })); });
+        tipoSel.appendChild(el('option', { value: '__otro', text: 'otro…' }));
+        var known = TIPOS.indexOf(t.tipo) >= 0;
+        tipoSel.value = known ? t.tipo : '__otro';
+        var tipoCustom = textInput(known ? '' : t.tipo, { class: 'ce-paradigm-custom', placeholder: 'tipo' });
+        tipoCustom.hidden = known;
+        tipoSel.addEventListener('change', function () {
+          if (tipoSel.value !== '__otro') { t.tipo = tipoSel.value; tipoCustom.hidden = true; }
+          else { tipoCustom.hidden = false; if (!tipoCustom.value) tipoCustom.value = t.tipo && !known ? t.tipo : ''; t.tipo = tipoCustom.value.trim(); tipoCustom.focus(); }
+        });
+        tipoCustom.addEventListener('input', function () { t.tipo = tipoCustom.value; });
+        var titulo = textInput(t.titulo, { class: 'ce-paradigm-title', placeholder: 'Título opcional (presente, casos…)' });
+        titulo.addEventListener('input', function () { t.titulo = titulo.value; });
+        var table = el('table', { class: 'ce-paradigm' });
+        var hr = el('tr', {}, [el('th')]);
+        t.columnas.forEach(function (c, ci) {
+          var inp = textInput(c, { placeholder: 'columna', 'aria-label': 'Encabezado de columna' });
+          inp.addEventListener('input', function () { t.columnas[ci] = inp.value; });
+          var rm = el('button', { type: 'button', class: 'ce-ico', title: 'Quitar columna', text: '×', onclick: function () {
+            if (t.columnas.length < 2) return;
+            t.columnas.splice(ci, 1);
+            t.filas.forEach(function (f) { f.celdas.splice(ci, 1); });
+            paint();
+          } });
+          hr.appendChild(el('th', {}, [el('div', { class: 'ce-paradigm-h' }, [inp, rm])]));
+        });
+        table.appendChild(el('thead', {}, [hr]));
+        var tb = el('tbody');
+        t.filas.forEach(function (f, fi) {
+          var lab = textInput(f.etiqueta, { placeholder: 'fila', 'aria-label': 'Etiqueta de fila' });
+          lab.addEventListener('input', function () { f.etiqueta = lab.value; });
+          var rmRow = el('button', { type: 'button', class: 'ce-ico', title: 'Quitar fila', text: '×', onclick: function () {
+            if (t.filas.length < 2) return;
+            t.filas.splice(fi, 1);
+            paint();
+          } });
+          var tr = el('tr', {}, [el('th', {}, [el('div', { class: 'ce-paradigm-h' }, [lab, rmRow])])]);
+          f.celdas.forEach(function (cell, ci) {
+            var inp = textInput(cell, { class: 'ce-mono', 'aria-label': 'Forma flexionada' });
+            inp.addEventListener('input', function () { f.celdas[ci] = inp.value; });
+            tr.appendChild(el('td', {}, [inp]));
+          });
+          tb.appendChild(tr);
+        });
+        table.appendChild(tb);
+        box.appendChild(el('div', { class: 'ce-paradigm-block' }, [
+          el('div', { class: 'ce-paradigm-head' }, [tipoSel, tipoCustom, titulo]),
+          el('div', { class: 'ce-paradigm-scroll' }, [table]),
+          el('div', { class: 'ce-linkrow' }, [
+            el('button', { type: 'button', text: '+ fila', onclick: function () { t.filas.push(blankRow(t.columnas.length)); paint(); } }),
+            el('button', { type: 'button', text: '+ columna', onclick: function () { t.columnas.push(''); t.filas.forEach(function (f) { f.celdas.push(''); }); paint(); } }),
+            el('button', { type: 'button', text: 'Quitar tabla', onclick: function () { tables.splice(ti, 1); paint(); } })
+          ])
+        ]));
+      });
+      if (!tables.length) box.appendChild(el('p', { class: 'ce-help', text: 'Sin tabla. Añádela solo si este vocablo necesita conjugación o declinación.' }));
+      box.appendChild(el('div', { class: 'ce-linkrow' }, [
+        el('button', { type: 'button', text: '+ Conjugación', onclick: function () { tables.push(preset('conjugación')); paint(); } }),
+        el('button', { type: 'button', text: '+ Declinación', onclick: function () { tables.push(preset('declinación')); paint(); } })
+      ]));
+    }
+    function get() {
+      var out = [];
+      tables.forEach(function (t, ti) {
+        var n = ti + 1;
+        var columnas = t.columnas.map(function (c) { return String(c).trim(); });
+        var filas = t.filas.map(function (f) {
+          return { etiqueta: String(f.etiqueta || '').trim(), celdas: f.celdas.map(function (c) { return String(c || '').trim(); }).slice(0, columnas.length) };
+        });
+        var keep = columnas.map(function (c, i) { return !!(c || filas.some(function (f) { return f.celdas[i]; })); });
+        if (keep.some(function (k, i) { return k && !columnas[i]; })) fail('Paradigma ' + n + ': hay una columna con formas pero sin encabezado.');
+        columnas = columnas.filter(function (_, i) { return keep[i]; });
+        filas = filas.map(function (f) {
+          return { etiqueta: f.etiqueta, celdas: f.celdas.filter(function (_, i) { return keep[i]; }) };
+        }).filter(function (f) { return f.etiqueta || f.celdas.some(Boolean); });
+        if (!columnas.length && !filas.length) return;
+        if (!columnas.length || !filas.length) fail('Paradigma ' + n + ': la tabla está a medias. Completa al menos una fila y una columna, o quítala.');
+        var tipo = String(t.tipo || '').trim();
+        if (!tipo) fail('Paradigma ' + n + ': indica el tipo (conjugación, declinación u otro).');
+        var item = { tipo: tipo, columnas: columnas, filas: filas };
+        var titulo = String(t.titulo || '').trim();
+        if (titulo) item.titulo = titulo;
+        out.push(item);
+      });
+      return out;
+    }
+    paint();
+    return { el: box, get: get };
+  }
+
   /* ---------- Vocablos ---------- */
   /* opts.prefill: { form }   valores iniciales para un vocablo nuevo
      opts.onSaved(id): en lugar de recargar la página, se llama con el id del vocablo creado
@@ -858,6 +1000,7 @@
         var fTags = chipInput(w ? labels(w.tags) : [], Object.keys(wtags).sort(coll.compare), 'Etiqueta (Nominal A, Verbal OS…)');
         var fNotes = textArea(w ? (w.notes || []).join('\n') : '', { rows: 2, placeholder: 'Una nota por línea (p. ej. Pendiente: …)' });
         var fOld = textArea(w ? (w.formas_antiguas || []).map(function (a) { return a.form + (a.analysis_text ? ' = ' + a.analysis_text : ''); }).join('\n') : '', { rows: 2, class: 'ce-mono', placeholder: 'Una por línea: forma = análisis (p. ej. imorbos = I + MORB + -OS)' });
+        var paradigms = paradigmEditor(w ? w.paradigmas : []);
         var wordOpt = function (x) { return x.form + '  ·  ' + x.gloss + '  [' + x.id + ']'; };
         var wordById = new Map(idx.words.map(function (x) { return [x.id, x]; }));
         var fFrom = chipInput(w ? (w.proviene_de || []).map(function (p) { return wordById.has(p.id) ? wordOpt(wordById.get(p.id)) : p.id; }) : [],
@@ -896,7 +1039,8 @@
         }
         body.push(el('div', { class: 'ce-row' }, [field('Forma', el('div', { class: 'ce-word-form-row' }, [fEmoji.el, fForm]), 'Pulsa el icono para elegir, pegar o quitar un emoji.'), field('Glosa', fGloss)]), anSlot,
           field('Campos semánticos', fSem.el), field('Etiquetas', fTags.el), field('Notas', fNotes), field('Formas antiguas', fOld, 'Variantes desplazadas por la forma actual.'),
-          field('Proviene de', fFrom.el, 'Vocablo(s) del que deriva (p. ej. el verbo de un participio), aunque no figure en los segmentos. Aparecerá también en la ficha del origen como derivado.'));
+          field('Proviene de', fFrom.el, 'Vocablo(s) del que deriva (p. ej. el verbo de un participio), aunque no figure en los segmentos. Aparecerá también en la ficha del origen como derivado.'),
+          el('div', { class: 'ce-field' }, [el('span', { text: 'Paradigma' }), paradigms.el, el('small', { text: 'Opcional. Una o varias tablas de conjugación o declinación. Una tabla vacía no se guarda.' })]));
         if (derived.length) body.push(el('small', { class: 'ce-help', text: 'Derivados que declaran provenir de este vocablo: ' + derived.map(function (x) { return x.form; }).join(', ') + '.' }));
         dialog(isNew ? 'Nuevo vocablo' + (root ? ' en ' + root.form : '') : 'Editar vocablo ' + w.form, body, {
           onDelete: isNew ? null : function () {
@@ -922,7 +1066,7 @@
             if (!gloss) fail('Escribe la glosa.');
             var emoji = fEmoji.get();
             if (!validEmoji(emoji)) fail('El icono debe ser un único emoji Unicode.');
-            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms(), from = fromRefs();
+            var a = an.get(), sem = fSem.get(), tagLabels = fTags.get(), notes = lines(fNotes.value), olds = oldForms(), from = fromRefs(), pars = paradigms.get();
             var rid = (an.principal && an.principal()) || chosenRoot.id, srcId = isNew ? null : rootId, moving = !isNew && rid !== srcId;
             return transact(function (ctx) {
               return ctx.read('lexico/index.json').then(function (cidx) {
@@ -945,6 +1089,7 @@
                     if (emoji) nw.emoji = emoji;
                     if (olds.length) nw.formas_antiguas = olds;
                     if (from.length) nw.proviene_de = from;
+                    if (pars.length) nw.paradigmas = pars;
                     e.words.push(nw);
                     if (opts.onSaved) return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: function () { opts.onSaved(nw.id); } };
                     return { files: files, message: 'Vocablo: añadir ' + form + ' «' + gloss + '» (' + e.form + ')', after: page === 'vocablo' ? function () { location.assign('vocablo.html?id=' + encodeURIComponent(nw.id)); } : rootId && rid === rootId ? reload : goRoot(rid) };
@@ -961,6 +1106,7 @@
                   if (emoji) x.emoji = emoji; else delete x.emoji;
                   if (olds.length) x.formas_antiguas = olds; else delete x.formas_antiguas;
                   if (from.length) x.proviene_de = from; else delete x.proviene_de;
+                  if (pars.length) x.paradigmas = pars; else delete x.paradigmas;
                   if (moving) {
                     se.words.splice(xi, 1); e.words.push(x);
                     return { files: files, message: 'Vocablo: ' + form + ' pasa de ' + se.form + ' a ' + e.form + ' (raíz principal)', after: page === 'vocablo' ? reload : goRoot(rid) };

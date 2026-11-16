@@ -9,6 +9,16 @@ LETTER_FILES = [tuple(x) for x in json.loads((ROOT / 'alfabeto.json').read_text(
 def labels(tags):
     return [t.get('label','') for t in tags or []]
 
+def paradigm_search(ps):
+    out = []
+    for p in ps or []:
+        out += [p.get('tipo', ''), p.get('titulo', '')]
+        out += list(p.get('columnas') or [])
+        for f in p.get('filas') or []:
+            out.append(f.get('etiqueta', ''))
+            out += list(f.get('celdas') or [])
+    return [x for x in out if x]
+
 roots=[]
 words=[]
 for letter,key in LETTER_FILES:
@@ -21,6 +31,7 @@ for letter,key in LETTER_FILES:
             semantic_fields=w.get('semantic_fields',[]) or []
             notes=w.get('notes',[]) or []
             antiguas=w.get('formas_antiguas',[]) or []
+            paradigmas=w.get('paradigmas') or []
             words.append({
                 'id':w['id'],'root_id':e['id'],'root_form':e.get('form',''),'root_gloss':e.get('gloss',''),
                 'letter':letter,'key':key,
@@ -32,7 +43,8 @@ for letter,key in LETTER_FILES:
                 'semantic_fields':semantic_fields,'notes':notes,
                 **({'formas_antiguas':antiguas} if antiguas else {}),
                 **({'proviene_de':[p.get('id') for p in w.get('proviene_de',[]) if p.get('id')]} if w.get('proviene_de') else {}),
-                'search':' '.join([w.get('form',''),w.get('gloss',''),e.get('form',''),e.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes+[a.get('form','') for a in antiguas])
+                **({'paradigmas':paradigmas} if paradigmas else {}),
+                'search':' '.join([w.get('form',''),w.get('gloss',''),e.get('form',''),e.get('gloss',''),w.get('analysis_text','')]+labels(w.get('tags'))+semantic_fields+notes+[a.get('form','') for a in antiguas]+paradigm_search(paradigmas))
             })
         roots.append({
             'id':e['id'],'letter':letter,'key':key,'form':e.get('form',''),'gloss':e.get('gloss',''),
