@@ -115,6 +115,18 @@
       ]
     },
     {
+      "id": "root-ambl",
+      "form": "*AMBL-",
+      "gloss": "caminar",
+      "tags": [],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-ambr",
       "form": "*AMBR-",
       "gloss": "amarillo",
