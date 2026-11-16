@@ -75,7 +75,133 @@
             }
           ],
           "semantic_fields": [],
-          "notes": []
+          "notes": [],
+          "paradigmas": [
+            {
+              "tipo": "conjugación",
+              "columnas": [
+                "singular",
+                "plural"
+              ],
+              "filas": [
+                {
+                  "etiqueta": "1",
+                  "celdas": [
+                    "so",
+                    "somes"
+                  ]
+                },
+                {
+                  "etiqueta": "2",
+                  "celdas": [
+                    "es",
+                    "estes"
+                  ]
+                },
+                {
+                  "etiqueta": "3",
+                  "celdas": [
+                    "est",
+                    "sont"
+                  ]
+                }
+              ],
+              "titulo": "Presente"
+            },
+            {
+              "tipo": "conjugación",
+              "columnas": [
+                "singular",
+                "plural"
+              ],
+              "filas": [
+                {
+                  "etiqueta": "1",
+                  "celdas": [
+                    "fui",
+                    "fuimes"
+                  ]
+                },
+                {
+                  "etiqueta": "2",
+                  "celdas": [
+                    "fuisti",
+                    "fuistes"
+                  ]
+                },
+                {
+                  "etiqueta": "3",
+                  "celdas": [
+                    "fuith",
+                    "fuer"
+                  ]
+                }
+              ],
+              "titulo": "Preterito"
+            },
+            {
+              "tipo": "conjugación",
+              "columnas": [
+                "singular",
+                "plural"
+              ],
+              "filas": [
+                {
+                  "etiqueta": "1",
+                  "celdas": [
+                    "era",
+                    "erames"
+                  ]
+                },
+                {
+                  "etiqueta": "2",
+                  "celdas": [
+                    "eras",
+                    "erades"
+                  ]
+                },
+                {
+                  "etiqueta": "3",
+                  "celdas": [
+                    "erath",
+                    "eran"
+                  ]
+                }
+              ],
+              "titulo": "imperfecto"
+            },
+            {
+              "tipo": "conjugación",
+              "columnas": [
+                "singular",
+                "plural"
+              ],
+              "filas": [
+                {
+                  "etiqueta": "1",
+                  "celdas": [
+                    "ero",
+                    "ermes"
+                  ]
+                },
+                {
+                  "etiqueta": "2",
+                  "celdas": [
+                    "eris",
+                    "erides"
+                  ]
+                },
+                {
+                  "etiqueta": "3",
+                  "celdas": [
+                    "erth",
+                    "eron"
+                  ]
+                }
+              ],
+              "titulo": "irrealis"
+            }
+          ]
         }
       ]
     },
