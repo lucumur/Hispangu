@@ -381,6 +381,17 @@
           "tags": [],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-ajmmal",
+          "form": "ajmmal",
+          "gloss": "animal",
+          "analysis_html": "AJMM",
+          "analysis_text": "AJMM",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
