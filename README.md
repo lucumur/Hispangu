@@ -1,5 +1,10 @@
 # Hispangu
 
+> **Paracronía / lengua construida (conlang).**  
+> No es una reconstrucción filológica de una lengua paleohispánica real.  
+> Explora estadios antiguos y poco atestiguados de la evolución romance, con vías que *no* ocurrieron históricamente, en un marco ibérico conservador.  
+> Ver [PARACRONIA.md](PARACRONIA.md) para la aclaración completa.
+
 🌐 **Página web:** <https://lucumur.github.io/Hispangu/>
 
 - [Raíces](https://lucumur.github.io/Hispangu/lexico.html)
