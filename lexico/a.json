@@ -441,7 +441,19 @@
       "etymology": "< Lat. aqua",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-a-ua",
+          "form": "aɢua",
+          "gloss": "agua",
+          "analysis_html": "AQU",
+          "analysis_text": "AQU",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-arbr",
