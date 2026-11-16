@@ -185,6 +185,18 @@
       ]
     },
     {
+      "id": "root-amm",
+      "form": "*AMM-",
+      "gloss": "ama, señora",
+      "tags": [],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-ampl",
       "form": "*AMPL-",
       "gloss": "ancho",
