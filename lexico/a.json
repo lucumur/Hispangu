@@ -645,6 +645,18 @@
       ]
     },
     {
+      "id": "root-art",
+      "form": "*ART-",
+      "gloss": "arte",
+      "tags": [],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": null,
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-aud",
       "form": "*AUD-",
       "gloss": "oír",
