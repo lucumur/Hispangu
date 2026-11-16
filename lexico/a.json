@@ -316,6 +316,23 @@
       ]
     },
     {
+      "id": "root-anm",
+      "form": "*ANM-",
+      "gloss": "animo",
+      "tags": [
+        {
+          "class": "latin",
+          "label": "Latin"
+        }
+      ],
+      "letter": "A",
+      "section": "sec-a",
+      "etymology": "< Lat. animus",
+      "notes": [],
+      "row_class": "",
+      "words": []
+    },
+    {
       "id": "root-ann",
       "form": "*ANN-",
       "gloss": "año",
