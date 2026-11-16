@@ -124,7 +124,19 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-amblare-2",
+          "form": "amblare",
+          "gloss": "caminar",
+          "analysis_html": "AMBL",
+          "analysis_text": "AMBL",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ambr",
