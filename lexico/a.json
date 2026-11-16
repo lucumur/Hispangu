@@ -330,7 +330,19 @@
       "etymology": "< Lat. animus",
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-ajmma",
+          "form": "ajmma",
+          "gloss": "alma",
+          "analysis_html": "ANM",
+          "analysis_text": "ANM",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
+        }
+      ]
     },
     {
       "id": "root-ann",
