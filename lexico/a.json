@@ -654,7 +654,51 @@
       "etymology": null,
       "notes": [],
       "row_class": "",
-      "words": []
+      "words": [
+        {
+          "id": "lexeme-art",
+          "form": "art",
+          "gloss": "arte",
+          "analysis_html": "ART",
+          "analysis_text": "ART",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": [],
+          "paradigmas": [
+            {
+              "tipo": "declinación",
+              "columnas": [
+                "singular",
+                "plural"
+              ],
+              "filas": [
+                {
+                  "etiqueta": "nom",
+                  "celdas": [
+                    "art",
+                    "artes"
+                  ]
+                },
+                {
+                  "etiqueta": "acc",
+                  "celdas": [
+                    "arte",
+                    "artes"
+                  ]
+                },
+                {
+                  "etiqueta": "gen",
+                  "celdas": [
+                    "arti",
+                    "artus"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "root-aud",
