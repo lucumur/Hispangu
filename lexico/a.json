@@ -346,6 +346,17 @@
           "tags": [],
           "semantic_fields": [],
           "notes": []
+        },
+        {
+          "id": "lexeme-ajmmu",
+          "form": "ajmmu",
+          "gloss": "animo, buen humor",
+          "analysis_html": "AJMM",
+          "analysis_text": "AJMM",
+          "refs": [],
+          "tags": [],
+          "semantic_fields": [],
+          "notes": []
         }
       ]
     },
